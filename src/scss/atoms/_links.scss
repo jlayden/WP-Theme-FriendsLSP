@@ -1,0 +1,20 @@
+:root {
+    --color: $darkbrown;
+    --hover-brightness: 1.2;
+}
+a {
+    color: var(--color);
+}
+a:hover,
+a:focus,
+a:active {
+    /* Darken on click/hover */
+    filter: brightness(var(--hover-brightness));
+}
+a.link,
+a.link:hover,
+a.link:focus,
+a.link:active  {
+    text-transform: uppercase;
+    text-decoration: none;
+}

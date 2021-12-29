@@ -1,9 +1,5 @@
 // Utility Variables
-@import "../variables/colors";
-
-// Base Rules
-// @import "../base/normalize";
-@import "../base/global";
+@import "../atoms/colors";
 
 .btn {
     display: inline-block;
@@ -22,10 +18,35 @@
     font-weight: 700;
     text-align: center;
     padding: 16px 14px 18px;
-    color: #fff;
-    background-color: $lime;
+    color: $white;
+    background-color: $gray;
     height: 48px;
     &:hover{
+        background-color: $gray;
+        opacity: 0.75;
+    }
+}
+
+.btn-primary {
+    color: $white;
+    background-color: $lime;
+    &:hover{
         background-color: $lime;
+    }
+}
+
+.btn-secondary {
+    color: $white;
+    background-color: $blue;
+    &:hover{
+        background-color: $blue;
+    }
+}
+
+.btn-green {
+    color: $white;
+    background-color: $green;
+    &:hover{
+        background-color: $green;
     }
 }

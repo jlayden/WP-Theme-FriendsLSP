@@ -1,6 +1,17 @@
 // Utility Variables
-@import "../variables/colors";
+@import "../atoms/colors";
 
-// Base Rules
-// @import "../base/normalize";
-@import "../base/global";
+.site-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $green;
+    margin: 0 auto;
+    padding: 1.25rem 0;
+    .site-info {
+        color: $white;        
+        a {
+            color: $white;
+        }
+    }
+}

@@ -59,26 +59,30 @@
  */
 
 /*
- * Import BASE rules
+ * Import VARIABLES rules
  */
-//  @import '../base/normalize';
- @import 'base/global';
+@import 'atoms/helpers';
+@import 'atoms/mixins';
+@import 'atoms/colors';
+@import 'atoms/fonts';
+@import 'atoms/variables';
 
 /*
- * Import VARIABLE styles
+ * Import VARIABLES rules
  */
- @import 'variables/typography';
- @import 'variables/colors';
+@import 'atoms/base';
+@import 'atoms/typography';
+@import 'atoms/links';
+@import 'atoms/buttons';
 
 /*
  * Import MODULE styles
  */
- @import 'modules/buttons';
- @import 'modules/header';
- @import 'modules/footer';
+@import 'modules/header';
+@import 'modules/footer';
 
 /*
- * Import MODULE styles
+ * Import PAGE styles
  */
- @import 'pages/home'; 
- @import 'pages/blog'; 
+@import 'pages/home'; 
+@import 'pages/blog'; 

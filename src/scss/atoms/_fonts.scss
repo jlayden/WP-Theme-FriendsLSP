@@ -1,4 +1,10 @@
-// BebasNeueBold - HEADLINE font family
+$font-heading: "BebasNeue";
+$font-copy: "Avenir";
+// $font-avenir-light: "Avenir Light";
+// $font-avenir-med: "Avenir Med";
+// $font-avenir-bold: "Avenir Bold";
+
+/* BebasNeue */
 @font-face {
     font-family: "BebasNeue";
     src: url("/fonts/BebasNeueBold.eot"), // IE9
@@ -8,7 +14,7 @@
         url("/fonts/BebasNeueBold.ttf") format("truetype"), 
         url("/fonts/BebasNeueBold.svg#BebasNeueBold") format("svg");
 }
-// Avenir - COPY font family
+/* Avenir */
 @font-face {
     font-family: "Avenir";
     src: url("/fonts/Avenir Next LT W02 Regular.eot"), // IE9
@@ -19,11 +25,14 @@
         url("/fonts/Avenir Next LT W02 Regular.svg#Avenir Next LT W02 Regular") format("svg");
 }
 
-/* EXAMPLE ONLY 
+/* DNU - Avenir Light 
 @font-face {
-    font-family: "Open Sans";
-    src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
-         url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+    font-family: "Avenir Light";
+    src: url("/fonts/Avenir Next LT W02 Regular.eot"), // IE9
+        url("/fonts/Avenir Next LT W02 Regular.eot?#iefix") format("embedded-opentype"), 
+        url("/fonts/Avenir Next LT W02 Regular.woff2") format("woff2"), 
+        url("/fonts/Avenir Next LT W02 Regular.woff") format("woff"), 
+        url("/fonts/Avenir Next LT W02 Regular.ttf") format("truetype"), 
+        url("/fonts/Avenir Next LT W02 Regular.svg#Avenir Next LT W02 Regular") format("svg");
 }
 */
-  
