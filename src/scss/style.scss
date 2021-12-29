@@ -1,0 +1,78 @@
+// Configuration
+@import "../../node_modules/bootstrap/scss/functions";
+@import "variables/bootstrap";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/utilities";
+
+// Layout & components
+@import "../../node_modules/bootstrap/scss/root";
+@import "../../node_modules/bootstrap/scss/reboot";
+@import "../../node_modules/bootstrap/scss/type";
+@import "../../node_modules/bootstrap/scss/images";
+@import "../../node_modules/bootstrap/scss/containers";
+@import "../../node_modules/bootstrap/scss/grid";
+
+/* 
+ * Add additional Bootstrap styling as needed
+ *
+@import "tables";
+@import "forms";
+@import "buttons";
+@import "transitions";
+@import "dropdown";
+@import "button-group";
+@import "nav";
+@import "navbar";
+@import "card";
+@import "accordion";
+@import "breadcrumb";
+@import "pagination";
+@import "badge";
+@import "alert";
+@import "progress";
+@import "list-group";
+@import "close";
+@import "toasts";
+@import "modal";
+@import "tooltip";
+@import "popover";
+@import "carousel";
+@import "spinners";
+@import "offcanvas";
+@import "placeholders";
+
+// Helpers
+@import "helpers";
+
+// Utilities
+@import "utilities/api";
+// scss-docs-end import-stack
+*/
+
+/*
+ * Import custom styles
+ *
+ * Table of Contents
+ * 1. Variables
+ * 2. Modules
+ * 3. Pages
+ */
+
+/*
+ * Import VARIABLE styles
+ */
+ @import '../variables/typography';
+ @import '../variables/colors';
+
+/*
+ * Import MODULE styles
+ */
+ @import '../modules/buttons';
+ @import '../modules/header';
+ @import '../modules/footer';
+
+/*
+ * Import MODULE styles
+ */
+ @import '../pages/home'; 
+ @import '../pages/blog'; 

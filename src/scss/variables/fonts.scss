@@ -1,0 +1,29 @@
+// BebasNeueBold - HEADLINE font family
+@font-face {
+    font-family: "BebasNeue";
+    src: url("/fonts/BebasNeueBold.eot"), // IE9
+        url("/fonts/BebasNeueBold.eot?#iefix") format("embedded-opentype"), 
+        url("/fonts/BebasNeueBold.woff2") format("woff2"), 
+        url("/fonts/BebasNeueBold.woff") format("woff"), 
+        url("/fonts/BebasNeueBold.ttf") format("truetype"), 
+        url("/fonts/BebasNeueBold.svg#BebasNeueBold") format("svg");
+}
+// Avenir - COPY font family
+@font-face {
+    font-family: "Avenir";
+    src: url("/fonts/Avenir Next LT W02 Regular.eot"), // IE9
+        url("/fonts/Avenir Next LT W02 Regular.eot?#iefix") format("embedded-opentype"), 
+        url("/fonts/Avenir Next LT W02 Regular.woff2") format("woff2"), 
+        url("/fonts/Avenir Next LT W02 Regular.woff") format("woff"), 
+        url("/fonts/Avenir Next LT W02 Regular.ttf") format("truetype"), 
+        url("/fonts/Avenir Next LT W02 Regular.svg#Avenir Next LT W02 Regular") format("svg");
+}
+
+/* EXAMPLE ONLY 
+@font-face {
+    font-family: "Open Sans";
+    src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
+         url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+}
+*/
+  
