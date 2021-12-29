@@ -1,0 +1,25 @@
+// Utility Variables
+@import "../variables/colors";
+
+// Base Rules
+// @import "../base/normalize";
+@import "../base/global";
+
+.site-header {
+    // border: 1px solid $gray;
+    // background: $white;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+    // margin: 0 auto;
+    // position: relative;
+    // z-index: 1000;
+
+    .site-branding {
+        margin-right: auto;
+    }
+    .main-navigation {
+        margin-left: auto;
+    }
+}

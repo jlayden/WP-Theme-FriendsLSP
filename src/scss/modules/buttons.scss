@@ -1,3 +1,10 @@
+// Utility Variables
+@import "../variables/colors";
+
+// Base Rules
+// @import "../base/normalize";
+@import "../base/global";
+
 .btn {
     display: inline-block;
     outline: none;
@@ -16,9 +23,9 @@
     text-align: center;
     padding: 16px 14px 18px;
     color: #fff;
-    background-color: #15883e;
+    background-color: $lime;
     height: 48px;
     &:hover{
-        background-color: #1db954;
+        background-color: $lime;
     }
 }
