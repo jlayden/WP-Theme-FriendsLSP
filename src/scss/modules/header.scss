@@ -6,15 +6,18 @@
 @import "../base/global";
 
 .site-header {
-    // border: 1px solid $gray;
-    // background: $white;
+    border: 1px solid $gray;
+    background: transparent;
     display: flex;
     flex-direction: row;
     align-items: center; 
     justify-content: center;
-    // margin: 0 auto;
-    // position: relative;
-    // z-index: 1000;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1000;
+    &.sticky {
+        background: $white;
+    }
 
     .site-branding {
         margin-right: auto;

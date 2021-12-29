@@ -62,23 +62,23 @@
  * Import BASE rules
  */
 //  @import '../base/normalize';
- @import '../base/global'; 
+ @import 'base/global';
 
 /*
  * Import VARIABLE styles
  */
- @import '../variables/typography';
- @import '../variables/colors';
+ @import 'variables/typography';
+ @import 'variables/colors';
 
 /*
  * Import MODULE styles
  */
- @import '../modules/buttons';
- @import '../modules/header';
- @import '../modules/footer';
+ @import 'modules/buttons';
+ @import 'modules/header';
+ @import 'modules/footer';
 
 /*
  * Import MODULE styles
  */
- @import '../pages/home'; 
- @import '../pages/blog'; 
+ @import 'pages/home'; 
+ @import 'pages/blog'; 
