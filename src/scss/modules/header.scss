@@ -4,20 +4,21 @@
 @import "../atoms/mixins";
 
 .site-header {
-    background: $lime;
+    background: transparent;
     display: flex;
     flex-direction: row;
     align-items: center; 
     justify-content: center;
     margin: 0 auto;
-    position: relative;
+    position: fixed;
+    top: 0;
     z-index: 1000;
     &.sticky {
         border-bottom: 1px solid $gray;
-        background: $white;
-        color: $lime;
-        position: fixed;
-        top: 0;
+        background: $lime;
+        color: $white;
+        // position: fixed;
+        // top: 0;
         width: 100%
     }
     .sticky + .site-main {

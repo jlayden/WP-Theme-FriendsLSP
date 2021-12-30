@@ -1,2 +1,17 @@
 // Utility Variables
 @import "../atoms/colors";
+
+.homepage {
+    .banner {
+        background: linear-gradient(125deg,  rgba(0,148,158, .9), rgba(0,148,158, .8), rgba(0,148,158, .5), rgba(129,196,84,.3));
+        .cta {
+            display: flex;
+            justify-content: center;
+        }
+    }
+    .intro {
+        p {
+            color: $darkgray;
+        }
+    }
+}

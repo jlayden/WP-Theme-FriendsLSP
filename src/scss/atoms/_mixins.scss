@@ -4,15 +4,17 @@
 
 
 @mixin heading($size) {
+    color: $darkbrown;
     font-family: $font-heading;
     font-size: 4rem;
-    line-height: 1;
+    line-height: 1.5;
     font-weight: 700;
     &.reversed {
         color: $white;
     }
     @include mobile {
         font-size: 2rem;
+        line-height: 1.2;
     }
     @if $size == 2 {
         font-size: 3rem;

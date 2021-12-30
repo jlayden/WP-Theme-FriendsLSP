@@ -179,6 +179,14 @@
       "oAP" : "\/dist\/footer.php",
       "oF" : 0
     },
+    "\/front-page.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/front-page.php",
+      "oF" : 0
+    },
     "\/functions.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1775,7 +1783,7 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dist\/scss\/modules\/banners.css",
       "oF" : 0,
       "oS" : 3,
@@ -1881,6 +1889,14 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/template-parts\/atoms\/social-bookmarks.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/template-parts\/atoms\/social-bookmarks.php",
+      "oF" : 0
+    },
     "\/template-parts\/content-none.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1911,6 +1927,22 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/template-parts\/content.php",
+      "oF" : 0
+    },
+    "\/template-parts\/home\/home-banner.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/template-parts\/home\/home-banner.php",
+      "oF" : 0
+    },
+    "\/template-parts\/modules\/section-banner.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/template-parts\/modules\/section-banner.php",
       "oF" : 0
     }
   },
