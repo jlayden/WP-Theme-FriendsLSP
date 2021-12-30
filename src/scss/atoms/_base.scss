@@ -5,47 +5,27 @@ $container-max-widths: (
     xl: 1340px 
 );
 
+/* 
+ * Bootstrap includes six default breakpoints, sometimes referred to as grid tiers, for building responsively. 
+ * These breakpoints can be customized if you’re using our source Sass files.
+ */
 $grid-breakpoints: (
-    xs: 0,
-    sm: 576px,
-    md: 768px,
-    lg: 992px,
-    xl: 1400px
+    xs: 0, // <576px
+    sm: 576px, // ≥576px
+    md: 768px, // ≥768px
+    lg: 992px, // ≥992px
+    xl: 1200px, // ≥1200px
+    xxl: 1400px // ≥1400px
 );
 
-// Bootstrap
-@import "../node_modules/bootstrap/scss/functions";
-@import "../node_modules/bootstrap/scss/variables";
-@import "../node_modules/bootstrap/scss/mixins";
-@import "../node_modules/bootstrap/scss/reboot";
-@import "../node_modules/bootstrap/scss/grid";
-// Modal
-@import "../node_modules/bootstrap/scss/modal";
-
-// Partials
+/* Partials */
 @import 'fonts';
 @import 'mixins';
 @import 'helpers';
 @import 'typography';
 
-// $grid-breakpoints: ( // *TODO Investigate variables load order issue
-//     xs: 0,
-//     sm: 576px,
-//     md: 768px,
-//     lg: 992px,
-//     xl: 1400px
-// );
-
 @include _assert-ascending($grid-breakpoints, "$grid-breakpoints");
 @include _assert-starts-at-zero($grid-breakpoints);
-
-// $container-max-widths: (
-//     sm: 540px,
-//     md: 720px,
-//     lg: 960px,
-//     xl: 1340px 
-// );
-
 @include _assert-ascending($container-max-widths, "$container-max-widths");
 
 $grid-columns:                12;
@@ -55,7 +35,7 @@ $enable-grid-classes:       true;
 
 * {
     box-sizing: border-box;
-    font-size: 16px;
+    font-size: 16px; // rem size equivalent to 1rem to 16px
     font-family: $font-copy;
     @include mobile {
         font-size: 14px;
@@ -63,9 +43,9 @@ $enable-grid-classes:       true;
 }
 
 body {
-    padding-top: 96px;
+    padding-top: 0;
     @include tablet {
-        padding-top: 65px;
+        padding-top: 0;
     }
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;

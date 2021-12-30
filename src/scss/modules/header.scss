@@ -2,7 +2,6 @@
 @import "../atoms/colors";
 
 .site-header {
-    border: 1px solid $gray;
     background: $lime;
     display: flex;
     flex-direction: row;
@@ -12,7 +11,15 @@
     position: relative;
     z-index: 1000;
     &.sticky {
+        border: 1px solid $gray;
         background: $white;
+        color: $lime;
+        position: fixed;
+        top: 0;
+        width: 100%
+    }
+    .sticky + .site-main {
+        padding-top: 4rem;
     }
     .site-branding {
         margin-right: auto;
