@@ -2,6 +2,61 @@
 @import './colors';
 @import './fonts';
 
+
+@mixin heading($size) {
+    font-family: $font-heading;
+    font-size: 4rem;
+    line-height: 1;
+    font-weight: 700;
+    &.reversed {
+        color: $white;
+    }
+    @include mobile {
+        font-size: 2rem;
+    }
+    @if $size == 2 {
+        font-size: 3rem;
+        font-weight: 700;
+        @include mobile {
+            font-size: 1.5rem;
+        }
+    } @else if $size == 3 {
+        font-size: 1.75rem;
+        font-weight: 500;
+        @include mobile {
+            font-size: 1.25rem;
+        }
+    } @else if $size == 4 {
+        font-size: 1.5rem;
+        line-height: 1.2;
+        font-weight: 700;
+        @include mobile {
+            font-size: 1.125rem;
+        }
+    } @else if $size == 5 {
+        font-size: 1.25rem;
+        line-height: 1.2;
+        font-weight: 400;
+        letter-spacing: 1.25px;
+        color: $lightbrown;
+        text-transform: uppercase;
+        @include mobile {
+            font-size: 1rem;
+            line-height: 1.125rem;
+        }
+    } @else if $size == 6 {
+        font-size: 1.125rem;
+        line-height: 1.5;
+        font-weight: 700;
+        &.light {
+            font-weight: 300;
+        }
+        @include mobile {
+            font-size: 1rem;
+        }
+    }
+}
+
 @mixin gradient($direction, $list) { 
     background: -webkit-linear-gradient($direction, $list);
     background: -moz-linear-gradient($direction, $list);
@@ -107,65 +162,4 @@
 	@media (max-width: #{$desktop-large-width}) and (orientation: portrait) {
 		@content;
 	}
-}
-
-@mixin heading($size) {
-    font-family: $font-heading;
-    font-size: 70px;
-    line-height: 84px;
-    font-weight: 700;
-    &.reversed {
-        color: $white;
-    }
-    @include mobile {
-        font-size: 35px;
-        line-height: 40px;
-    }
-    @if $size == 2 {
-        font-size: 36px;
-        line-height: 46px;
-        font-weight: 700;
-        @include mobile {
-            font-size: 30px;
-            line-height: 38px;
-        }
-    } @else if $size == 3 {
-        font-size: 32px;
-        line-height: 42px;
-        font-weight: 500;
-        @include mobile {
-            font-size: 24px;
-            line-height: 32px;
-        }
-    } @else if $size == 4 {
-        font-size: 24px;
-        line-height: 32px;
-        font-weight: 700;
-        @include mobile {
-            font-size: 18px;
-            line-height: 26px;
-        }
-    } @else if $size == 5 {
-        font-size: 20px;
-        line-height: 16px;
-        font-weight: 400;
-        letter-spacing: 1.25px;
-        color: $color-gray-subtitle;
-        text-transform: uppercase;
-        @include mobile {
-            font-size: 15px;
-            line-height: 18px;
-        }
-    } @else if $size == 6 {
-        font-size: 18px;
-        line-height: 28px;
-        font-weight: 700;
-        &.light {
-            font-weight: 300;
-        }
-        @include mobile {
-            font-size: 18px;
-            line-height: 22px;
-        }
-    }
 }

@@ -1767,6 +1767,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/src\/scss\/modules\/banners.scss" : {
+      "aP" : 1,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 1,
+      "oA" : 0,
+      "oAP" : "\/dist\/scss\/modules\/banners.css",
+      "oF" : 0,
+      "oS" : 3,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/src\/scss\/modules\/footer.scss" : {
       "aP" : 1,
       "bl" : 0,

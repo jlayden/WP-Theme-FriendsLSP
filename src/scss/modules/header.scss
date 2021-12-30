@@ -1,5 +1,7 @@
 // Utility Variables
 @import "../atoms/colors";
+@import "../atoms/fonts";
+@import "../atoms/mixins";
 
 .site-header {
     background: $lime;
@@ -11,7 +13,7 @@
     position: relative;
     z-index: 1000;
     &.sticky {
-        border: 1px solid $gray;
+        border-bottom: 1px solid $gray;
         background: $white;
         color: $lime;
         position: fixed;
