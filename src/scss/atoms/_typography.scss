@@ -69,9 +69,10 @@ p {
         font-size: 0.875rem;
     }
     &.large {
-        font-size: 1.125rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
         @include mobile {
-            font-size: 1rem;
+            font-size: 1.125rem;
         }
     }
     &.x-small {

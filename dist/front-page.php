@@ -17,12 +17,12 @@ get_header();
 
 	<main id="primary" class="site-main homepage">
 
-        <?php get_template_part('template-parts/home/home-banner', get_post_format() ) ?>
+        <?php get_template_part('template-parts/home/hero-banner', get_post_format() ) ?>
 
         <section class="intro text-center">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 offset-lg-3">
+                    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12">
                         <?php
                         while ( have_posts() ) :
                             the_post();
@@ -36,7 +36,7 @@ get_header();
 
         <?php //get_template_part('template-parts/modules/testimonial', get_post_format() ) ?>
 
-        <?php //get_template_part('template-parts/home/calloutbar', get_post_format() ) ?>
+        <?php get_template_part('template-parts/home/calloutbar-footer', get_post_format() ) ?>
 
 
 	</main><!-- #main -->

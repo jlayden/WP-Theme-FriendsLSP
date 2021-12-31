@@ -7,13 +7,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: $green;
+    border-top: 1px solid $gray;
+    background-color: $white;
     margin: 0 auto;
     padding: 1.25rem 0;
     .site-info {
-        color: $white;        
+        color: $gray;        
         a {
-            color: $white;
+            color: $gray;
         }
     }
 }

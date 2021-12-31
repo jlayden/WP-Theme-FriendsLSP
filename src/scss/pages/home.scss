@@ -4,9 +4,29 @@
 .homepage {
     .banner {
         background: linear-gradient(125deg,  rgba(0,148,158, .9), rgba(0,148,158, .8), rgba(0,148,158, .5), rgba(129,196,84,.3));
+        height: 110vh;
         .cta {
             display: flex;
             justify-content: center;
+        }
+    }
+    .wave-divider {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        transform: rotate(180deg);
+        svg {
+            position: relative;
+            display: block;
+            width: calc(100% + 1.3px);
+            height: 150px;
+            transform: rotateY(180deg);
+            .shape-fill {
+                fill: #FFFFFF;
+            }
         }
     }
     .intro {

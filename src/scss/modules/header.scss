@@ -4,25 +4,24 @@
 @import "../atoms/mixins";
 
 .site-header {
-    background: transparent;
+    background: $teal;
+    border-bottom: 5px solid $lime;
     display: flex;
     flex-direction: row;
     align-items: center; 
     justify-content: center;
     margin: 0 auto;
-    position: fixed;
-    top: 0;
+    padding: 1% 2%;
+    position: relative;
     z-index: 1000;
     &.sticky {
-        border-bottom: 1px solid $gray;
-        background: $lime;
-        color: $white;
-        // position: fixed;
-        // top: 0;
-        width: 100%
+        position: fixed;
+        top: 0;
+        width: 100%;
+        padding: 0.5% 2%;
     }
-    .sticky + .site-main {
-        padding-top: 4rem;
+    &.sticky + .site-main {
+        padding-top: 5%;
     }
     .site-branding {
         margin-right: auto;
@@ -40,14 +39,77 @@
         display: flex;
         justify-content: flex-end;
         width: 100%;
-        .menu {
-            display: inline-flex;
-            justify-content: space-between;
-            list-style-type: none;
-            margin: 0 auto;
-            padding: 0;
-            li {
-                padding: 0 2rem;
+        .menu-toggle {
+            display: none;
+            @include tablet {
+                display: block;
+            }
+        }
+        .menu-main-navigation-container {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            .menu {
+                display: inline-flex;
+                justify-content: space-between;
+                list-style-type: none;
+                margin: 0 auto;
+                padding: 0;
+                @include tablet {
+                    display: none;
+                    position: absolute;
+                    top: 70px;
+                    bottom: 0;
+                    right: 0;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    align-items: center;
+                    background: $white;
+                    width: 80vw;
+                    height: 100vh;
+                    z-index: 1001;
+                    transition: all .2s ease-in;
+                }
+                li {
+                    padding: 0 2rem;
+                    a {
+                        display: inline-block;
+                        position: relative;
+                        color: $white;
+                        font-weight: 700;
+                        font-size: 1.125rem;
+                        letter-spacing: 1.25px;
+                        margin: 0;
+                        padding: 0;
+                        text-decoration: none;
+                        text-transform: uppercase;
+                        transition-property: color,background-color,border-color;
+                        transition-duration: .2s;
+                        transition-timing-function: linear;
+                        @include tablet {
+                            color: $teal;
+                        }
+                        &:after {
+                            content: " ";
+                            position: absolute;
+                            top: calc(50% + 1.15rem);
+                            left: 0;
+                            width: 100%;
+                            border-top-style: solid;
+                            transform: scaleX(0);
+                            transition: transform .2s ease-in-out;
+                        }
+                        &:hover:after {
+                            transform: scaleX(1);
+                        }
+                        &:hover {
+                            color: $lime;
+                        }
+                        &.active {
+                            color: $lime;
+                        }
+                    }
+                }
             }
         }
     }
