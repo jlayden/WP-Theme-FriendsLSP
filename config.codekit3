@@ -1549,12 +1549,12 @@
       "oO" : 1,
       "oS" : 1
     },
-    "\/page-post.php" : {
+    "\/page-listing.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/page-post.php",
+      "oAP" : "\/dist\/page-listing.php",
       "oF" : 0
     },
     "\/page.php" : {

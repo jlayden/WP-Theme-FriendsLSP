@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Post
+ * Template Name: Blog Listing
  * 
  * The template for displaying a single blog post
  *
