@@ -1999,6 +1999,22 @@
       "oA" : 0,
       "oAP" : "\/dist\/template-parts\/modules\/section-calloutbar.php",
       "oF" : 0
+    },
+    "\/template-parts\/modules\/section-cardblock.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/template-parts\/modules\/section-cardblock.php",
+      "oF" : 0
+    },
+    "\/template-parts\/modules\/section-testimonial.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/template-parts\/modules\/section-testimonial.php",
+      "oF" : 0
     }
   },
   "hooks" : [
