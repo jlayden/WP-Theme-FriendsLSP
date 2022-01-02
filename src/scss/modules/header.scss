@@ -5,29 +5,36 @@
 
 .site-header {
     background: $teal;
-    border-bottom: 5px solid $lime;
+    border-bottom: 0.5rem solid $lime;
     display: flex;
     flex-direction: row;
     align-items: center; 
     justify-content: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
     margin: 0 auto;
-    padding: 1% 2%;
-    position: relative;
-    z-index: 1000;
-    &.sticky {
-        position: fixed;
-        top: 0;
-        width: 100%;
-        padding: 0.5% 2%;
+    padding: 0 2rem;
+    width: 100%;
+    min-height: 7rem;
+    overflow: visible!important;
+    z-index: 999999;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: height, background-color .25s ease-in-out;
+    &.slim {
+        // min-height: 5rem;
     }
-    &.sticky + .site-main {
-        padding-top: 5%;
+    &.slim + .site-main {
+        // padding-top: 5rem;
     }
     .site-branding {
         margin-right: auto;
         .custom-logo-link {
             display: inline-flex;
             max-width: 420px;
+            margin: 1rem 0;
                 img {
                 max-width: 100%;
                 width: 100%;

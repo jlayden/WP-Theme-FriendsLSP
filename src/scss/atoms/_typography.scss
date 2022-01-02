@@ -16,6 +16,7 @@ h1 {
     }
 }
 h2 {
+    color: $darkgreen;
     font-size: 3rem;
     font-weight: 700;
     @include mobile {

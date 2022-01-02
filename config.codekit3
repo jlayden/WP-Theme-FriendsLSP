@@ -1944,6 +1944,30 @@
       "oAP" : "\/dist\/template-parts\/content.php",
       "oF" : 0
     },
+    "\/template-parts\/footer\/donate.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/template-parts\/footer\/donate.php",
+      "oF" : 0
+    },
+    "\/template-parts\/footer\/mission.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/template-parts\/footer\/mission.php",
+      "oF" : 0
+    },
+    "\/template-parts\/footer\/newsletter.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/template-parts\/footer\/newsletter.php",
+      "oF" : 0
+    },
     "\/template-parts\/home\/calloutbar-footer.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1966,6 +1990,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/template-parts\/modules\/section-banner.php",
+      "oF" : 0
+    },
+    "\/template-parts\/modules\/section-calloutbar.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/template-parts\/modules\/section-calloutbar.php",
       "oF" : 0
     }
   },

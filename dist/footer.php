@@ -12,11 +12,24 @@
 ?>
 
 	<footer id="colophon" class="site-footer">
-		<div class="site-info">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <?php get_template_part('template-parts/footer/mission' ) ?>
+                </div>
+                <div class="col-lg-4">
+                    <?php get_template_part('template-parts/footer/donate' ) ?>
+                </div>
+                <div class="col-lg-4">
+                    <?php get_template_part('template-parts/footer/newsletter' ) ?>
+                </div>
+            </div>
+        </div>
+        <div class="site-info">
             ©<span id="year"></span>
-			<a href="<?php echo get_home_url(); ?>">
+            <a href="<?php echo get_home_url(); ?>">
                 <?php echo get_bloginfo(); ?>
-			</a>
+            </a>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

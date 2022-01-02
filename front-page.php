@@ -17,7 +17,7 @@ get_header();
 
 	<main id="primary" class="site-main homepage">
 
-        <?php get_template_part('template-parts/home/hero-banner', get_post_format() ) ?>
+        <?php get_template_part('template-parts/home/hero-banner' ) ?>
 
         <section class="intro text-center">
             <div class="container">

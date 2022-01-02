@@ -7,21 +7,21 @@ function getCopyrightYear() {
 getCopyrightYear();
 
 /**
- * Sticky header
- * Add the sticky class to the header when you reach its scroll position. 
- * Remove "sticky" when you leave the scroll position
+ * Slim header
+ * Add the slim class to the header when you reach its scroll position. 
+ * Remove "slim" when you leave the scroll position
  */
 let header = document.getElementById('masthead'); // Get the header
 let sticky = header.offsetTop; // Get the offset position of the navbar
-function stickyHeader() {
+function slimHeader() {
     if (window.pageYOffset > sticky) {
-        header.classList.add('sticky');
+        header.classList.add('slim');
     } else {
-        header.classList.remove('sticky');
+        header.classList.remove('slim');
     }
 }
 // When the user scrolls the page, add sticky header
-window.onscroll = function() {stickyHeader()()};
+window.onscroll = function() {slimHeader()()};
 
 /**
  * Navigation - highlight current page
