@@ -26,6 +26,7 @@
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'flsp_custom' ); ?></a>
 
 	<header id="masthead" class="site-header">
+        <div class="nav-overlay"></div>
 		<div class="site-branding">
 			<?php
 			the_custom_logo();
@@ -58,6 +59,7 @@
 				array(
 					'theme_location' => 'menu-1',
 					'menu_id'        => 'primary-menu',
+                    //'container_class' => 'menu-wrapper', // changes outer <div> class
 				)
 			);
 			?>
