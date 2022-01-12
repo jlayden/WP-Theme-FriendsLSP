@@ -15,13 +15,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4">
-                    <?php get_template_part('template-parts/footer/mission' ) ?>
+                    <?php //get_template_part('template-parts/footer/mission' ) ?>
                 </div>
                 <div class="col-lg-4">
-                    <?php get_template_part('template-parts/footer/donate' ) ?>
+                    <?php //get_template_part('template-parts/footer/donate' ) ?>
                 </div>
                 <div class="col-lg-4">
-                    <?php get_template_part('template-parts/footer/newsletter' ) ?>
+                    <?php get_template_part('template-parts/atoms/footer-newsletter' ) ?>
                 </div>
             </div>
         </div>

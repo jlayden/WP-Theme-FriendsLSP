@@ -18,7 +18,7 @@
 <?php if ($header_image) { ?>	
 	<?php if ($overlay_graphic) { ?>	
 		<div class="logoOverlayAbove container">
-			<div class="logoOverlayAbove twelve columns">
+			<div class="logoOverlayAbove col-lg-12">
 				<img src="<?php echo $overlay_img[0]; ?>" alt="" width="600" height="300" />
 			</div>
 		</div>
@@ -26,7 +26,7 @@
 <div class="fullWidthImage" style="background-image: url('<?php echo $header_img[0]; ?>');">
 	<?php if ($overlay_graphic) { ?>
 		<div class="container">
-			<div class="logoOverlay <?php echo $overlay_align; ?> twelve columns">
+			<div class="logoOverlay <?php echo $overlay_align; ?> col-lg-12">
 				<img src="<?php echo $overlay_img[0]; ?>" alt="" width="600" height="300" />
 			</div>
 		</div>

@@ -17,7 +17,7 @@ get_header();
 
 	<main id="primary" class="site-main homepage">
 
-        <?php get_template_part('template-parts/home/hero-banner' ) ?>
+        <?php get_template_part('template-parts/sections/frontpage-banner' ) ?>
 
         <section class="intro text-center">
             <div class="container">
@@ -34,9 +34,9 @@ get_header();
             </div>
         </section>
 
-        <?php //get_template_part('template-parts/modules/testimonial', get_post_format() ) ?>
+        <?php //get_template_part('template-parts/sections/section-testimonial', get_post_format() ) ?>
 
-        <?php get_template_part('template-parts/home/calloutbar-footer', get_post_format() ) ?>
+        <?php get_template_part('template-parts/sections/footer-calloutbar', get_post_format() ) ?>
 
 
 	</main><!-- #main -->

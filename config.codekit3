@@ -1608,6 +1608,19 @@
       "oAP" : "\/dist\/readme.txt",
       "oF" : 0
     },
+    "\/screenshot.png" : {
+      "ft" : 32768,
+      "iS" : 33636,
+      "oA" : 0,
+      "oAP" : "\/dist\/screenshot.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/search.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1808,51 +1821,6 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/scss\/modules\/banners.scss" : {
-      "aP" : 1,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 1,
-      "oA" : 1,
-      "oAP" : "\/dist\/scss\/modules\/banners.css",
-      "oF" : 0,
-      "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/src\/scss\/modules\/footer.scss" : {
-      "aP" : 1,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 1,
-      "oA" : 1,
-      "oAP" : "\/dist\/scss\/modules\/footer.css",
-      "oF" : 0,
-      "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/src\/scss\/modules\/header.scss" : {
-      "aP" : 1,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 1,
-      "oA" : 1,
-      "oAP" : "\/dist\/scss\/modules\/header.css",
-      "oF" : 0,
-      "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
-    },
     "\/src\/scss\/pages\/blog.scss" : {
       "aP" : 1,
       "bl" : 0,
@@ -1878,6 +1846,51 @@
       "ma" : 1,
       "oA" : 1,
       "oAP" : "\/dist\/scss\/pages\/home.css",
+      "oF" : 0,
+      "oS" : 3,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/src\/scss\/sections\/banners.scss" : {
+      "aP" : 1,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 1,
+      "oA" : 0,
+      "oAP" : "\/dist\/scss\/sections\/banners.css",
+      "oF" : 0,
+      "oS" : 3,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/src\/scss\/sections\/footer.scss" : {
+      "aP" : 1,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 1,
+      "oA" : 0,
+      "oAP" : "\/dist\/scss\/sections\/footer.css",
+      "oF" : 0,
+      "oS" : 3,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/src\/scss\/sections\/header.scss" : {
+      "aP" : 1,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 1,
+      "oA" : 0,
+      "oAP" : "\/dist\/scss\/sections\/header.css",
       "oF" : 0,
       "oS" : 3,
       "pg" : 0,
@@ -1922,6 +1935,14 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/template-parts\/atoms\/footer-newsletter.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/template-parts\/atoms\/footer-newsletter.php",
+      "oF" : 0
+    },
     "\/template-parts\/atoms\/social-bookmarks.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1962,76 +1983,52 @@
       "oAP" : "\/dist\/template-parts\/content.php",
       "oF" : 0
     },
-    "\/template-parts\/footer\/donate.php" : {
+    "\/template-parts\/sections\/footer-calloutbar.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/template-parts\/footer\/donate.php",
+      "oAP" : "\/dist\/template-parts\/sections\/footer-calloutbar.php",
       "oF" : 0
     },
-    "\/template-parts\/footer\/mission.php" : {
+    "\/template-parts\/sections\/frontpage-banner.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/template-parts\/footer\/mission.php",
+      "oAP" : "\/dist\/template-parts\/sections\/frontpage-banner.php",
       "oF" : 0
     },
-    "\/template-parts\/footer\/newsletter.php" : {
+    "\/template-parts\/sections\/section-banner.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/template-parts\/footer\/newsletter.php",
+      "oAP" : "\/dist\/template-parts\/sections\/section-banner.php",
       "oF" : 0
     },
-    "\/template-parts\/home\/calloutbar-footer.php" : {
+    "\/template-parts\/sections\/section-calloutbar.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/template-parts\/home\/calloutbar-footer.php",
+      "oAP" : "\/dist\/template-parts\/sections\/section-calloutbar.php",
       "oF" : 0
     },
-    "\/template-parts\/home\/hero-banner.php" : {
+    "\/template-parts\/sections\/section-cardblock.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/template-parts\/home\/hero-banner.php",
+      "oAP" : "\/dist\/template-parts\/sections\/section-cardblock.php",
       "oF" : 0
     },
-    "\/template-parts\/modules\/section-banner.php" : {
+    "\/template-parts\/sections\/section-testimonial.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/template-parts\/modules\/section-banner.php",
-      "oF" : 0
-    },
-    "\/template-parts\/modules\/section-calloutbar.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/template-parts\/modules\/section-calloutbar.php",
-      "oF" : 0
-    },
-    "\/template-parts\/modules\/section-cardblock.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/template-parts\/modules\/section-cardblock.php",
-      "oF" : 0
-    },
-    "\/template-parts\/modules\/section-testimonial.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/template-parts\/modules\/section-testimonial.php",
+      "oAP" : "\/dist\/template-parts\/sections\/section-testimonial.php",
       "oF" : 0
     }
   },
