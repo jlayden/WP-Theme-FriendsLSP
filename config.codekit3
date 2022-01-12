@@ -1983,28 +1983,36 @@
       "oAP" : "\/dist\/template-parts\/content.php",
       "oF" : 0
     },
+    "\/template-parts\/sections\/banner-frontpage.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/template-parts\/sections\/banner-frontpage.php",
+      "oF" : 0
+    },
+    "\/template-parts\/sections\/banner-simple.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/template-parts\/sections\/banner-simple.php",
+      "oF" : 0
+    },
+    "\/template-parts\/sections\/banner-standard.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/template-parts\/sections\/banner-standard.php",
+      "oF" : 0
+    },
     "\/template-parts\/sections\/footer-calloutbar.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/template-parts\/sections\/footer-calloutbar.php",
-      "oF" : 0
-    },
-    "\/template-parts\/sections\/frontpage-banner.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/template-parts\/sections\/frontpage-banner.php",
-      "oF" : 0
-    },
-    "\/template-parts\/sections\/section-banner.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/template-parts\/sections\/section-banner.php",
       "oF" : 0
     },
     "\/template-parts\/sections\/section-calloutbar.php" : {

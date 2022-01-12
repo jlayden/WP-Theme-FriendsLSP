@@ -17,7 +17,7 @@ get_header();
 
 	<main id="primary" class="site-main homepage">
 
-        <?php get_template_part('template-parts/sections/frontpage-banner' ) ?>
+        <?php get_template_part('template-parts/sections/banner-frontpage' ) ?>
 
         <section class="intro text-center">
             <div class="container">
