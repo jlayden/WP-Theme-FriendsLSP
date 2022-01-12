@@ -64,4 +64,7 @@
 			);
 			?>
 		</nav><!-- #site-navigation -->
+        <div class="cta">
+            <a href="" class="btn btn-primary reverse">Donate Now</a>
+        </div>
 	</header><!-- #masthead -->

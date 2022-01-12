@@ -8,7 +8,7 @@ for (var i = 0; i < document.links.length; i++) {
         current = i;
     }
 }
-document.links[current].className = 'active';
+// document.links[current].className = 'active';
 
 /**
  * Navigation - show mobile navigation when hamburger button is clicked

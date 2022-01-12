@@ -1549,6 +1549,14 @@
       "oO" : 1,
       "oS" : 1
     },
+    "\/page-fullwidth.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/page-fullwidth.php",
+      "oF" : 0
+    },
     "\/page-listing.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1599,19 +1607,6 @@
       "oA" : 0,
       "oAP" : "\/dist\/readme.txt",
       "oF" : 0
-    },
-    "\/screenshot.png" : {
-      "ft" : 32768,
-      "iS" : 264,
-      "oA" : 0,
-      "oAP" : "\/dist\/screenshot.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
     },
     "\/search.php" : {
       "cB" : 0,
