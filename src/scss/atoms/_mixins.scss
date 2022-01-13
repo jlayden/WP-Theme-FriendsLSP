@@ -5,7 +5,7 @@
 
 @mixin heading($size) {
     color: $darkbrown;
-    font-family: $font-heading;
+    font-family: $font-heading, $font-copy, Helvetica, Arial, sans-serif;
     font-size: 4rem;
     line-height: 1.5;
     font-weight: 700;

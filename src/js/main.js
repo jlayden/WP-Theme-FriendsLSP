@@ -47,15 +47,16 @@ for (var i = 0; i < document.links.length; i++) {
  * Remove "slim" when you leave the scroll position
  */
 let sticky = header.offsetTop; // Get the offset position of the navbar
-function slimHeader() {
+console.log(sticky);
+function stickyHeader() {
     if (window.pageYOffset > sticky) {
-        header.classList.add('slim');
+        header.classList.add('sticky');
     } else {
-        header.classList.remove('slim');
+        header.classList.remove('sticky');
     }
 }
 // When the user scrolls the page, add sticky header
-window.onscroll = function() {slimHeader()()};
+window.onscroll = function() {stickyHeader()()};
 
 /**
  * Print the current year for the site footer

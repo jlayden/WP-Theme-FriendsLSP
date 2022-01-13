@@ -35,20 +35,86 @@
     &:hover{
         background-color: $lime;
     }
-}
-
-.btn-secondary {
-    color: $white;
-    background-color: $blue;
-    &:hover{
-        background-color: $blue;
+    &.teal {
+        color: $white;
+        background-color: $teal;
+        &:hover{
+            background-color: $teal;
+        }
+        &.reversed {
+            color: $teal;
+            background-color: $white;
+            &:hover{
+                background-color: $white;
+            }
+        }
     }
-}
-
-.btn-green {
-    color: $white;
-    background-color: $green;
-    &:hover{
+    &.green {
+        color: $white;
         background-color: $green;
+        &:hover{
+            background-color: $green;
+        }
+    }
+    &.blue {
+        color: $white;
+        background-color: $blue;
+        &:hover{
+            background-color: $blue;
+        }
+    }
+    &.darkbrown {
+        color: $white;
+        background-color: $darkbrown;
+        &:hover{
+            background-color: $darkbrown;
+        }
+    }
+    &.lightbrown {
+        color: $white;
+        background-color: $lightbrown;
+        &:hover{
+            background-color: $lightbrown;
+        }
+    }
+    &.reversed {
+        color: $teal;
+        background-color: $white;
+        &:hover{
+            background-color: $white;
+        }
     }
 }
+
+.btn-secndary {
+    color: $white;
+    background-color: $teal;
+    &:hover{
+        background-color: $teal;
+    }
+    &.reversed {
+        color: $teal;
+        background-color: $white;
+        &:hover{
+            background-color: $white;
+        }
+    }
+}
+
+.link {
+    color: $teal;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    line-height: 1;
+    border-bottom: 2px spolid transparent;
+    &:hover{
+        border-bottom: 2px spolid $teal;
+    }
+    &.reversed {
+        color: $white;
+        &:hover{
+            border-bottom: 2px spolid $white;
+        }
+    }
+}
+

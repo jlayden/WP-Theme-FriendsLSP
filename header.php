@@ -28,6 +28,7 @@
 	<header id="masthead" class="site-header">
         <div class="nav-overlay"></div>
 		<div class="site-branding">
+            <!-- <img class="logo-symbol" src="http://flsp.local/wp-content/uploads/2022/01/FLSP_New_Logo-text.jpg" alt="FLSP Logo Symbol" /> -->
 			<?php
 			the_custom_logo();
 			if ( is_front_page() && is_home() ) :
@@ -52,7 +53,6 @@
                 <span></span>
                 <span></span>
                 <span></span>
-                <span></span>
             </div>
             <?php
 			wp_nav_menu(
@@ -65,6 +65,6 @@
 			?>
 		</nav><!-- #site-navigation -->
         <div class="cta">
-            <a href="" class="btn btn-primary reverse">Donate Now</a>
+            <a href="" class="btn btn-primary reversed">Donate Now</a>
         </div>
 	</header><!-- #masthead -->

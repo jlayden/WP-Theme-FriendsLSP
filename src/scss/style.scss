@@ -68,7 +68,7 @@
 @import 'atoms/variables';
 
 /*
- * Import VARIABLES rules
+ * Import ATOM styles
  */
 @import 'atoms/base';
 @import 'atoms/typography';
@@ -77,14 +77,22 @@
 @import 'atoms/navigation';
 
 /*
- * Import MODULE styles
+ * Import BLOCK styles
  */
-@import 'modules/header';
-@import 'modules/footer';
-@import 'modules/banners';
+ @import 'blocks/default';
+
+
+/*
+ * Import SECTION styles
+ */
+@import 'sections/header';
+@import 'sections/footer';
+@import 'sections/banner';
+@import 'sections/calloutbar';
 
 /*
  * Import PAGE styles
  */
+@import 'pages/default';
 @import 'pages/home'; 
 @import 'pages/blog'; 

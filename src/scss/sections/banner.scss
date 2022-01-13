@@ -1,0 +1,105 @@
+// Utility Variables
+@import "../atoms/colors";
+@import "../atoms/fonts";
+@import "../atoms/mixins";
+@import "../atoms/animations";
+
+.banner {
+    margin: 0 auto;
+    padding: 7rem 0 5rem;
+    &.standard {
+        position: relative;
+        padding: 5rem 0;
+        @include mobile {
+            padding: 0 0 3rem;
+        }
+        .banner-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            z-index: -1;
+            @include mobile {
+                // position: relative;
+                position: static;
+                width: 100%;
+                height: 16rem;
+                margin-bottom: 2rem;
+            }
+        }
+        h1 {
+            @include heading(1);
+            color: $darkbrown;
+        }
+        p {
+            color: $black;
+            margin-top: 0;
+            font-size: 1.125rem;
+            line-height: 1.2;
+            @include mobile {
+                font-size: 1rem;
+            }
+        }
+    }
+    &.simple {
+        position: relative;
+        background-color: $teal;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin-bottom: 10rem;
+        .title {
+            color: $white;
+        }
+        .sub-title {
+            @include heading(4);
+            color: $white;
+        }
+        .wave-divider-top {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            overflow: hidden;
+            line-height: 0;
+            transform: translateY(100%);
+            z-index: -1;
+            svg {
+                position: relative;
+                display: block;
+                width: calc(100% + 1.3px);
+                height: 10rem;
+                transform: rotate(0deg);
+                .shape-fill {
+                    fill: $teal;
+                }
+            }
+        }
+        .wave-divider-btm {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            overflow: hidden;
+            line-height: 0;
+            transform: translate(-1%, 100%);
+            z-index: -10;
+            svg {
+                position: relative;
+                display: block;
+                width: calc(100% + 1.3px);
+                height: 10rem;
+                transform: rotate(0deg);
+                .shape-fill {
+                    fill: $lime;
+                }
+            }
+        }
+    }
+}
+
