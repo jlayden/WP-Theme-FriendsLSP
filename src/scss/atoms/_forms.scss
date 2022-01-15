@@ -1,0 +1,49 @@
+.form-wrapper {
+    
+    form {
+        background: rgba(255,255,255,.5);
+        padding: 2rem;
+        border-radius: 0.25rem;
+
+        .mc-field-group {
+            width: 100%;
+            input:focus::-webkit-input-placeholder {
+                visibility:hidden; /*hide placeholder on focus*/
+            }
+            
+            input {
+                padding: 1rem;
+                max-height: 3rem;
+                margin-bottom: 1rem;
+                width: 100%;
+            }
+
+            input:focus {
+                border: 1px solid $teal;
+                border-radius: 3px;
+            }
+
+            label {
+                display: none;
+                font-size: 11px;
+                color: $teal;
+                font-family: $font-heading;
+                background-color: $white;
+                padding: 0 3px;
+            }
+
+            /*style of label when input is focused*/
+            input:focus + label  {
+                display: inline-block;
+                position:absolute;
+                left: 12px;
+                top: -5px;
+            }
+        }
+        // .mce_inline_error {
+        //     padding: 0 !important;
+        //     background: transparent !important;
+        //     color: #6B0505 !important;
+        // }
+    }
+}

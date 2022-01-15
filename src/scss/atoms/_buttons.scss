@@ -23,10 +23,9 @@
     color: $white;
     background-color: $gray;
     height: 3rem;
-    // &:hover{
-    //     background-color: $gray;
-    //     opacity: 0.75;
-    // }
+    &:hover {
+        filter: brightness(1.1);
+    }
 }
 
 .btn-primary {
@@ -81,7 +80,7 @@
         color: $teal;
         background-color: $white;
         &:hover{
-            background-color: $white;
+            filter: brightness(.9);
         }
     }
 }
@@ -90,13 +89,13 @@
     color: $white;
     background-color: $teal;
     &:hover{
-        background-color: $teal;
+        filter: brightness(1.1);
     }
     &.reversed {
         color: $teal;
         background-color: $white;
         &:hover{
-            background-color: $white;
+            filter: brightness(.9);
         }
     }
 }
@@ -109,6 +108,7 @@
     border-bottom: 2px spolid transparent;
     &:hover{
         border-bottom: 2px spolid $teal;
+        filter: brightness(1.1);
     }
     &.reversed {
         color: $white;

@@ -33,6 +33,22 @@
       "oAP" : "\/dist\/404.php",
       "oF" : 0
     },
+    "\/acf-json\/group_61de49cae6efe.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/dist\/acf-json\/group_61de49cae6efe-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/acf-json\/group_61df5f1976449.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/dist\/acf-json\/group_61df5f1976449-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
     "\/archive.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1731,6 +1747,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/src\/scss\/atoms\/_forms.scss" : {
+      "aP" : 1,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 1,
+      "oA" : 1,
+      "oAP" : "\/dist\/scss\/atoms\/_forms.css",
+      "oF" : 0,
+      "oS" : 3,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/src\/scss\/atoms\/_helpers.scss" : {
       "aP" : 1,
       "bl" : 0,
@@ -1980,12 +2011,20 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/template-parts\/atoms\/footer-newsletter.php" : {
+    "\/template-parts\/atoms\/form-newsletter.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/template-parts\/atoms\/footer-newsletter.php",
+      "oAP" : "\/dist\/template-parts\/atoms\/form-newsletter.php",
+      "oF" : 0
+    },
+    "\/template-parts\/atoms\/form-volunteer.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/template-parts\/atoms\/form-volunteer.php",
       "oF" : 0
     },
     "\/template-parts\/atoms\/social-bookmarks.php" : {

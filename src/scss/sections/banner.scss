@@ -1,17 +1,35 @@
 // Utility Variables
+@import "../atoms/variables";
 @import "../atoms/colors";
 @import "../atoms/fonts";
 @import "../atoms/mixins";
 @import "../atoms/animations";
 
 .banner {
+    padding: 5rem 0;
     margin: 0 auto;
-    padding: 7rem 0 5rem;
     &.standard {
         position: relative;
-        padding: 5rem 0;
+        padding: 11rem 0 5rem;
+        min-height: 30rem;
         @include mobile {
             padding: 0 0 3rem;
+        }
+        .banner-overlay {
+            background-image: $gradient-hero;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 0;
+            @include mobile {
+                // position: relative;
+                // position: static;
+                width: 100%;
+                height: 16rem;
+                margin-bottom: 2rem;
+            }
         }
         .banner-image {
             position: absolute;
@@ -31,19 +49,32 @@
                 margin-bottom: 2rem;
             }
         }
-        h1 {
-            @include heading(1);
-            color: $darkbrown;
-        }
-        p {
-            color: $black;
-            margin-top: 0;
-            font-size: 1.125rem;
-            line-height: 1.2;
-            @include mobile {
-                font-size: 1rem;
+        .content-wrapper {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            margin-bottom: 1rem;
+            h1 {
+                @include heading(1);
+                color: $white;
+                @include tablet {
+                    color: $darkgreen;
+                }
+            }
+            p {
+                color: $white;
+                margin-top: 0;
+                @include tablet {
+                    font-size: 1.125rem;
+                    line-height: 1.2;
+                    color: $darkgreen;
+                }
+                @include mobile {
+                    font-size: 1rem;
+                }
             }
         }
+
     }
     &.simple {
         position: relative;
@@ -60,7 +91,7 @@
             @include heading(4);
             color: $white;
         }
-        .wave-divider-top {
+        .wave-divider {
             position: absolute;
             bottom: 0;
             left: 0;
@@ -69,6 +100,9 @@
             line-height: 0;
             transform: translateY(100%);
             z-index: -1;
+            @include tablet {
+                width: 150%;
+            }
             svg {
                 position: relative;
                 display: block;
@@ -79,24 +113,13 @@
                     fill: $teal;
                 }
             }
-        }
-        .wave-divider-btm {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            overflow: hidden;
-            line-height: 0;
-            transform: translate(-1%, 100%);
-            z-index: -10;
-            svg {
-                position: relative;
-                display: block;
-                width: calc(100% + 1.3px);
-                height: 10rem;
-                transform: rotate(0deg);
-                .shape-fill {
-                    fill: $lime;
+            &.accent {
+                transform: translate(-1%, 100%);
+                z-index: -10;
+                svg {
+                    .shape-fill {
+                        fill: $lime;
+                    }
                 }
             }
         }

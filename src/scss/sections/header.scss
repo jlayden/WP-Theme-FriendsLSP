@@ -5,13 +5,13 @@
 @import "../atoms/animations";
 
 .site-header {
-    background: $teal;
-    border-top: 0.25rem solid $lime;
+    background: transparent;
+    border-bottom: 0;
     display: flex;
     flex-direction: row;
     align-items: stretch; 
     justify-content: center;
-    position: fixed;
+    position: absolute;
     left: 0;
     right: 0;
     top: 0;
@@ -29,9 +29,10 @@
         align-items: center;
     }
     &.sticky {
+        position: fixed;
         background: $white;
         box-shadow: rgba(0,0,0,12%) 0 1px 3px;
-        height: 4rem;
+        height: 5rem;
         .cta {
             .btn-primary {
                 color: $white;
@@ -46,7 +47,7 @@
                 .menu {
                     li {
                         a {
-                            color: $darkbrown;
+                            color: $darkgreen;
                             &:hover {
                                 color: $teal;
                             }
@@ -82,9 +83,10 @@
         display: flex;
         justify-content: flex-start;
         margin-right: auto;
+        width: 100%;
         .custom-logo-link {
             display: inline-flex;
-            max-width: 25rem;
+            max-width: 30rem;
             margin: 1rem 0;
                 img {
                 max-width: 100%;
@@ -96,6 +98,7 @@
     .main-navigation {
         display: flex;
         justify-content: flex-end;
+        width: 100%;
         @include tablet {
             width: 100%;
         }
@@ -242,10 +245,10 @@
                             border-radius: 0.25rem;
                         }
                         &:hover {
-                            background-color: $lightbrown;
+                            background-color: $lime;
                         }
                         a {
-                            color: $darkbrown;
+                            color: $darkgreen;
                             padding: 1rem;
                             &:after {
                                 content: none;
@@ -260,6 +263,7 @@
         display: flex;
         align-items: center;
         justify-content: flex-end;
+        width: 100%;
         @include tablet {
             display: none;
         }

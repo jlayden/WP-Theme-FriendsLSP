@@ -52,7 +52,8 @@ if (!function_exists('flsp_custom_setup')) :
         // This theme uses wp_nav_menu() in one location.
         register_nav_menus(
             array(
-                'menu-1' => esc_html__('Primary', 'flsp_custom'),
+                'menu-1' => esc_html__('Primary Navigation', 'flsp_custom'),
+                'menu-2' => esc_html__('Secondary Navigation', 'flsp_custom'),
             )
         );
 
@@ -193,24 +194,16 @@ if (defined('JETPACK__VERSION')) {
  * */
 add_filter('show_admin_bar', '__return_false');
 
-// Register Custom Blocks
-/* REQUIRES PRO VERSION OF ACF
-add_action('acf/init', 'my_register_blocks');
-function my_register_blocks() {
-
-    // check function exists.
-    if (function_exists('acf_register_block_type')) {
-
-        // register a testimonial block.
-        acf_register_block_type(array(
-            'name'                => 'hero',
-            'title'                => __('Hero'),
-            'description'        => __('A custom hero block.'),
-            'render_template'   => 'template-parts/blocks/hero.php',
-            'category'            => 'common',
-            'icon'                => 'align-center',
-            'keywords'            => array('hero', 'banner'),
-            'enqueue_style' => get_template_directory_uri() . '/dist/css/blocks/hero.min.css',
-        ));
-    }
-}*/
+/**
+ * Register Advanced Custom Field sections to local acf-json directory.
+ */
+define( 'MY_PLUGIN_DIR_PATH', untrailingslashit( plugin_dir_path( __FILE__ ) ) );add_filter('acf/settings/save_json', 'my_acf_json_save_point');
+ 
+function my_acf_json_save_point( $path ) {
+    
+    // Update path
+    $path = MY_PLUGIN_DIR_PATH. '/acf-json';
+    // Return path
+    return $path;
+    
+}

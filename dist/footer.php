@@ -14,14 +14,11 @@
 	<footer id="colophon" class="site-footer">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4">
-                    <?php //get_template_part('template-parts/footer/mission' ) ?>
+                <div class="col-lg-8">
+                    <?php wp_nav_menu( array( 'theme_location' => 'secondary' ) )?>
                 </div>
                 <div class="col-lg-4">
-                    <?php //get_template_part('template-parts/footer/donate' ) ?>
-                </div>
-                <div class="col-lg-4">
-                    <?php get_template_part('template-parts/atoms/footer-newsletter' ) ?>
+                    <?php get_template_part('template-parts/atoms/form-newsletter' ) ?>
                 </div>
             </div>
         </div>

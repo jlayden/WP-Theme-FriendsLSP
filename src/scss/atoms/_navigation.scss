@@ -53,3 +53,56 @@
         transition: .3s cubic-bezier(0.215, 0.610, 0.355, 1);
     }
 }
+
+/* 
+ * MENU LINKS
+ */
+.menu {
+    display: flex;
+    width: 100%;
+    @include tablet {
+        flex-direction: column;
+    }
+    ul {
+        display: inline-flex;
+        justify-content: space-between;
+        list-style-type: none;
+        margin: 0;
+        padding: 1rem 0;
+        width: 100%;
+        @include tablet {
+            flex-direction: column;
+        }
+        li {
+            width: 100%;
+            padding-right: 1rem;
+            @include tablet {
+                padding-right: 0;
+                padding-bottom: 1rem;
+            }
+            a {
+                color: $white;
+                font-weight: 700;
+                letter-spacing: 1.2px;;
+                text-transform: uppercase;
+                text-decoration: none;
+                &:hover {
+                    color: $lime;
+                }
+            }
+            .children {
+                padding: 0;
+                li {
+                    @include tablet {
+                        padding: 0;
+                    }
+                    a {
+                        text-transform: none;
+                        font-weight: 300;
+    
+                    }
+                }
+            }
+        }
+    }
+}

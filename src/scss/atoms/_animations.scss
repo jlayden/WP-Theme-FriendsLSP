@@ -15,6 +15,7 @@
 .fade-in {
     animation: fadeIn .2s ease-in-out forwards;
 }
+
 @keyframes fadeOut {
     from {
         opacity: 1;
@@ -32,6 +33,25 @@
 .fade-out {
     animation: fadeOut .2s ease-in-out forwards;
 }
+
+
+// .cssanimation, .cssanimation span {
+//     animation-duration: 1s;
+//     animation-fill-mode: both;
+// }
+
+
+@keyframes fadeInBottom {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to { opacity: 1 }
+}
+.in-bottom {
+    animation: fadeInBottom 1s both forwards;
+}
+
 
 @-webkit-keyframes fadeInLeft {
     from {
