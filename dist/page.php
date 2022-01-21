@@ -13,9 +13,9 @@
  */
 
 get_header();
-get_template_part('template-parts/sections/banner-simple' );
+get_template_part('template-parts/sections/banner-standard' );
 ?>
-	<main id="primary" class="site-main">
+	<main id="primary" class="site-main <?php echo strtolower(get_the_title()); ?>">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 offset-lg-1 col-md-12">

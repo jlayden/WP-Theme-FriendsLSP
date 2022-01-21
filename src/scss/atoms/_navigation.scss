@@ -74,7 +74,7 @@
             flex-direction: column;
         }
         li {
-            width: 100%;
+            width: 100%; //comment
             padding-right: 1rem;
             @include tablet {
                 padding-right: 0;

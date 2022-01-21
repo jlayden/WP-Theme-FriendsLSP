@@ -1,4 +1,5 @@
 <?php $display = get_field('hero_display'); // checkbox ?>
+<?php $color = get_field('hero_color'); // image ID ?>
 <?php $hero_content = get_field('hero_content'); // image ID ?>
 <?php $hero_image = get_field('hero_image'); // image ID ?>
 <?php $hero_overlay_graphic = get_field('hero_overlay_graphic'); // image ID ?>
@@ -11,20 +12,20 @@
 ?>
 
 <?php if ($display !== 'hidden') { ?>
-<section class="banner standard <?php echo $display; ?>">
+<section class="banner standard <?php echo $display; ?> <?php echo $color; ?>" 
+<?php if ($display !== 'simple') { ?> style="background-image: url(<?php echo $hero_img[0]; ?>);" <?php } ?>>
     <div class="banner-overlay"></div>
-    <div class="banner-image" style="background-image: url('<?php echo $hero_img[0]; ?>');"></div>
     <?php if ($hero_overlay_graphic) { ?>	
-        <div class="overlay-wrapper">
+        <div class="overlay-wrapper in-bottom">
             <div class="logo-overlay">
                 <img src="<?php echo $hero_overlay_img[0]; ?>" alt="hero overlay" width="600" height="300" />
             </div>
         </div>
     <?php } ?>
     <?php if ($hero_content) { ?>
-    <div class="content-wrapper">
+    <div class="content-wrapper in-left">
         <div class="content container">
-            <div class="content-area col-md-10 offset-md-1">
+            <div class="content-area col-md-8 offset-md-2">
                 <?php if ($hero_content) { echo $hero_content; }?>
             </div>
         </div>
@@ -36,6 +37,18 @@
         </div>
     <?php } ?>
     </div>
+    <?php } ?>
+    <?php if ($display === 'simple') { ?>
+        <div class="wave-divider <?php echo $color; ?>">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
+        </div>
+        <div class="wave-divider accent <?php echo $color; ?>">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
+        </div>
     <?php } ?>
 </section>
 <?php } ?>

@@ -14,3 +14,9 @@ $white: #FFFFFF;
 $gray: #777777;
 $darkgray: #121212;
 $black: #000000;
+
+/* HERO BANNER BACKGROUND GRADIENTS */
+$gradient-teal: linear-gradient(to bottom, $teal, transparent); // 155deg increase transparency using RGBA
+$gradient-lime: linear-gradient(to bottom, $lime, transparent);
+$gradient-darkgreen: linear-gradient(to bottom, $darkgreen, transparent);
+$gradient-darkbrown: linear-gradient(to bottom, $darkbrown, transparent);

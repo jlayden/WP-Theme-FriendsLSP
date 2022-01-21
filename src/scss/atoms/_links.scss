@@ -1,6 +1,6 @@
 :root {
     --color: $darkbrown;
-    --hover-brightness: 1.2;
+    --hover-brightness: 1.1;
 }
 a {
     color: var(--color);
@@ -17,4 +17,33 @@ a.link:focus,
 a.link:active  {
     text-transform: uppercase;
     text-decoration: none;
+}
+
+a.pdf-download {
+    @include heading(5);
+    display: flex;
+    position: relative;
+    align-items: center;
+    border-top: 2px solid $lightbrown;
+    border-bottom: 2px solid $lightbrown;
+    // width: 100%;
+    max-width: 60%;
+    padding: 1rem 0;
+    margin: 2rem auto;
+    text-decoration: none;
+    font-weight: 700;
+    &:hover {
+        filter: brightness(1);
+        color: $darkbrown;
+        border-color: $darkbrown;
+    }
+    i {
+        color: $lightbrown;
+        font-size: 3rem;
+        line-height: 1;
+        margin-right: 2rem;
+        &:hover {
+            color: $darkbrown;
+        }
+    }
 }

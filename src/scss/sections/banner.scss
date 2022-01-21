@@ -6,17 +6,45 @@
 @import "../atoms/animations";
 
 .banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding: 5rem 0;
     margin: 0 auto;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    &.teal {
+        background-color: $teal;
+        .banner-overlay {
+            background-image: $gradient-teal;
+        }
+    }
+    &.darkbrown {
+        background-color: $darkbrown;
+        .banner-overlay {
+            background-image: $gradient-darkbrown;
+        }
+    }
+    &.darkgreen {
+        background-color: $darkgreen;
+        .banner-overlay {
+            background-image: $gradient-darkgreen;
+        }
+    }
     &.standard {
         position: relative;
-        padding: 11rem 0 5rem;
-        min-height: 30rem;
+        padding: 12rem 0 5rem;
+        margin-bottom: 5rem;
+        // min-height: 30rem;
         @include mobile {
             padding: 0 0 3rem;
         }
         .banner-overlay {
-            background-image: $gradient-hero;
+            // background-image: $gradient-hero;
+            // background: #eb01a5;
+            // background-image: url("IMAGE_URL"); /* fallback */
+            // background-image: url("IMAGE_URL"), linear-gradient(#eb01a5, #d13531); /* W3C */
             position: absolute;
             top: 0;
             left: 0;
@@ -31,29 +59,30 @@
                 margin-bottom: 2rem;
             }
         }
-        .banner-image {
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-size: cover;
-            background-position: center center;
-            background-repeat: no-repeat;
-            z-index: -1;
-            @include mobile {
-                // position: relative;
-                position: static;
-                width: 100%;
-                height: 16rem;
-                margin-bottom: 2rem;
-            }
-        }
+        // .banner-image {
+        //     position: absolute;
+        //     top: 0;
+        //     left: 0;
+        //     right: 0;
+        //     bottom: 0;
+        //     background-size: cover;
+        //     background-position: center center;
+        //     background-repeat: no-repeat;
+        //     z-index: -1;
+        //     @include mobile {
+        //         // position: relative;
+        //         position: static;
+        //         width: 100%;
+        //         height: 16rem;
+        //         margin-bottom: 2rem;
+        //     }
+        // }
         .content-wrapper {
             display: flex;
             flex-direction: column;
             position: relative;
             margin-bottom: 1rem;
+            width: 100%;
             h1 {
                 @include heading(1);
                 color: $white;
@@ -83,6 +112,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
+        padding: 8rem 0 4rem;
         margin-bottom: 10rem;
         .title {
             color: $white;

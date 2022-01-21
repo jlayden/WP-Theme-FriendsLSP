@@ -49,6 +49,9 @@
 // scss-docs-end import-stack
 */
 
+// Font Awesome
+@import "../../node_modules/font-awesome/scss/font-awesome.scss";
+
 /*
  * Import custom styles
  *
@@ -97,3 +100,4 @@
 @import 'pages/default';
 @import 'pages/home'; 
 @import 'pages/blog'; 
+@import 'pages/about';

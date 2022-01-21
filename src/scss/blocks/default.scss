@@ -1,5 +1,10 @@
+.wp-block-image img,
 .wp-block-media-text img {
     width: 100%;
     height: auto;
-    border-radius: 0.5rem,;
+    border-radius: 0.5rem !important;
+    margin-bottom: 1.5rem;
+}
+.wp-block-column:not(:first-child) {
+    margin-left: 3em;
 }
