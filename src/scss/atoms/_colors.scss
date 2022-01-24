@@ -1,13 +1,19 @@
 /* Primary Brand Colors */
-$blue: #46bfca; // DNU old color #69bdc8
-$green: #3c8c66; // DNU old color #54886a
 $lime: #80c34f;
+$blue: #46bfca;
 $teal: #158990;
+$green: #3c8c66;
+$darkgreen: #284232;
+
+/* Original Brand Colors (pre 2021) | DNU old colors */
+$og-lime: #81c454;
+$og-blue: #69bdc8;
+$og-teal: #00949e;
+$og-green: #54886a;
 
 /* Secondary Brand Colors */
 $darkbrown: #775547;
 $lightbrown: #c88469;
-$darkgreen: #284232;
 
 /* Utility Colors */
 $white: #FFFFFF;
@@ -15,8 +21,45 @@ $gray: #777777;
 $darkgray: #121212;
 $black: #000000;
 
+/* Accessible Color Combinations 
+ *
+ * https://color-contrast-checker.deque.com/
+
+Font color | Background color
+
+Dark Green --
+1. darkgreen / lime background
+2. darkgreen / blue background
+3. darkgreen / white background
+
+Lime --
+1. lime / darkgreen background
+
+Blue --
+1. blue / darkgreen background
+
+Dark Brown --
+1. darkbrown / white background
+
+Light Brown --
+1. lightbrown / darkgray background
+
+White --
+1. white / darkgreen background
+2. white / darkbrown background
+
+Dark Gray --
+1. darkgray / white background
+2. darkgray / lime background
+3. darkgray / lightbrown background
+
+*/
+
+
 /* HERO BANNER BACKGROUND GRADIENTS */
 $gradient-teal: linear-gradient(to bottom, $teal, transparent); // 155deg increase transparency using RGBA
 $gradient-lime: linear-gradient(to bottom, $lime, transparent);
+$gradient-green: linear-gradient(to bottom, $green, transparent);
+$gradient-blue: linear-gradient(to bottom, $blue, transparent);
 $gradient-darkgreen: linear-gradient(to bottom, $darkgreen, transparent);
 $gradient-darkbrown: linear-gradient(to bottom, $darkbrown, transparent);

@@ -35,6 +35,5 @@ get_template_part('template-parts/sections/banner-standard' );
 	</main><!-- #main -->
 
 <?php
-get_template_part('template-parts/sections/section-calloutbar' );
 get_template_part('template-parts/sections/footer-calloutbar' );
 get_footer();

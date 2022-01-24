@@ -42,6 +42,10 @@ $enable-grid-classes:       true;
     }
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     padding-top: 0;
     @include tablet {

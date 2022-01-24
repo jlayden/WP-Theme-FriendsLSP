@@ -20,6 +20,24 @@
             background-image: $gradient-teal;
         }
     }
+    &.blue {
+        background-color: $blue;
+        .banner-overlay {
+            background-image: $gradient-blue;
+        }
+    }
+    &.lime {
+        background-color: $lime;
+        .banner-overlay {
+            background-image: $gradient-lime;
+        }
+    }
+    &.green {
+        background-color: $green;
+        .banner-overlay {
+            background-image: $gradient-green;
+        }
+    }
     &.darkbrown {
         background-color: $darkbrown;
         .banner-overlay {
@@ -59,24 +77,24 @@
                 margin-bottom: 2rem;
             }
         }
-        // .banner-image {
-        //     position: absolute;
-        //     top: 0;
-        //     left: 0;
-        //     right: 0;
-        //     bottom: 0;
-        //     background-size: cover;
-        //     background-position: center center;
-        //     background-repeat: no-repeat;
-        //     z-index: -1;
-        //     @include mobile {
-        //         // position: relative;
-        //         position: static;
-        //         width: 100%;
-        //         height: 16rem;
-        //         margin-bottom: 2rem;
-        //     }
-        // }
+        .banner-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            z-index: -1;
+            @include mobile {
+                // position: relative;
+                position: static;
+                width: 100%;
+                height: 16rem;
+                margin-bottom: 2rem;
+            }
+        }
         .content-wrapper {
             display: flex;
             flex-direction: column;

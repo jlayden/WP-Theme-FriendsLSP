@@ -7,12 +7,12 @@ $font-copy: "Avenir";
 /* BebasNeue */
 @font-face {
     font-family: "BebasNeue";
-    src: url("/fonts/BebasNeueBold.eot"), // IE9
-        url("/fonts/BebasNeueBold.eot?#iefix") format("embedded-opentype"), 
-        url("/fonts/BebasNeueBold.woff2") format("woff2"), 
-        url("/fonts/BebasNeueBold.woff") format("woff"), 
-        url("/fonts/BebasNeueBold.ttf") format("truetype"), 
-        url("/fonts/BebasNeueBold.svg#BebasNeueBold") format("svg");
+    src: url("/fonts/BebasNeue-Regular.eot"), // IE9
+        url("/fonts/BebasNeue-Regular.eot?#iefix") format("embedded-opentype"), 
+        url("/fonts/BebasNeue-Regular.woff2") format("woff2"), 
+        url("/fonts/BebasNeue-Regular.woff") format("woff"), 
+        url("/fonts/BebasNeue-Regular.ttf") format("truetype");
+        // url("/fonts/BebasNeueBold.svg#BebasNeueBold") format("svg");
 }
 /* Avenir */
 @font-face {

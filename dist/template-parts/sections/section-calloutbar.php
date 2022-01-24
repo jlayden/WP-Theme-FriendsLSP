@@ -1,9 +1,10 @@
-<?php $background_color = get_field('background_color'); // choice text ?>
-<?php $css_class = get_field('css_class'); // choice text ?>
-<?php $subtitle = get_field('subtitle'); // text ?>
-<?php $title = get_field('title'); // text ?>
-<?php $button = get_field('button'); // group ?>
-
+<?php $display = get_field('callout_section_display'); // checkbox ?>
+<?php $background_color = get_field('callout_section_background_color'); // choice text ?>
+<?php $css_class = get_field('callout_section_css_class'); // choice text ?>
+<?php $subtitle = get_field('callout_section_subtitle'); // text ?>
+<?php $title = get_field('callout_section_title'); // text ?>
+<?php $button = get_field('callout_section_button'); // group ?>
+<?php if ($display == 'visible') { ?>	
 <section class="calloutbar <?php echo $css_class; ?> <?php echo $background_color; ?>">
     <div class="container">
         <div class="row">
@@ -19,3 +20,4 @@
         </div>
     </div>
 </section>
+<?php } ?>

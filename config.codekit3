@@ -129,12 +129,44 @@
       "oAP" : "\/dist\/fonts\/Avenir Next LT W02 Regular.woff2",
       "oF" : 0
     },
+    "\/fonts\/BebasNeue-Regular.eot" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/fonts\/BebasNeue-Regular.eot",
+      "oF" : 0
+    },
+    "\/fonts\/BebasNeue-Regular.otf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/fonts\/BebasNeue-Regular.otf",
+      "oF" : 0
+    },
     "\/fonts\/BebasNeue-Regular.ttf" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/fonts\/BebasNeue-Regular.ttf",
+      "oF" : 0
+    },
+    "\/fonts\/BebasNeue-Regular.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/fonts\/BebasNeue-Regular.woff",
+      "oF" : 0
+    },
+    "\/fonts\/BebasNeue-Regular.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/fonts\/BebasNeue-Regular.woff2",
       "oF" : 0
     },
     "\/fonts\/BebasNeueBold.eot" : {
@@ -921,7 +953,7 @@
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-cafe",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 663957004.80246103
+    "lastBuiltDate" : 664479755.59986901
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
@@ -2491,9 +2523,9 @@
         "**\/*.md",
         "**\/*.kit"
       ],
-      "removeFontFace" : 0,
-      "removeKeyframes" : 0,
-      "removeVariables" : 0,
+      "removeFontFace" : 1,
+      "removeKeyframes" : 1,
+      "removeVariables" : 1,
       "safelistEntries" : [
 
       ],

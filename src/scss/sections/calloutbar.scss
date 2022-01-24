@@ -1,6 +1,9 @@
 .calloutbar {
-    &.footer {
-        background: url(http://friendslsp.org/wp-content/uploads/2021/11/IMG_2786-scaled.jpg);
+    &.standard {
+        // TODO style me
+    }
+    &.image {
+        // background: url(http://friendslsp.org/wp-content/uploads/2021/11/IMG_2786-scaled.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -8,8 +11,11 @@
         position: relative;
         text-align: center; 
         margin-bottom: 0;
-        .content {
+        .content-wrapper {
             z-index: 1;
+            .content {
+                //TODO style me
+            }
         }
         &:after {
             background: linear-gradient(0deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, .8),rgba(255, 255, 255, 1));
@@ -20,6 +26,14 @@
             width: 100%;
             height: 100%;
             z-index: 0;
+        }
+    }
+    &.gradient {
+        // margin: 0 auto;
+        padding: 5rem 0;
+        background: linear-gradient(to right, $teal, $blue) !important;
+        .content * {
+            color: $white;
         }
     }
 }

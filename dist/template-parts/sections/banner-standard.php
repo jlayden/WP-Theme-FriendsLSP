@@ -31,7 +31,7 @@
         </div>
     <?php if ($display === 'contact') { ?>
         <div class="form-wrapper container">
-            <div class="form col-md-4 offset-md-1">
+            <div class="form col-md-4 offset-md-2">
                 <?php get_template_part('/template-parts/atoms/form-volunteer' );?>
             </div>
         </div>
