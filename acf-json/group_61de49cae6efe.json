@@ -1,6 +1,6 @@
 {
     "key": "group_61de49cae6efe",
-    "title": "Section Hero Banner",
+    "title": "Hero Banner",
     "fields": [
         {
             "key": "field_61e24a1ba9c9a",
@@ -175,5 +175,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1642739595
+    "modified": 1643060748
 }

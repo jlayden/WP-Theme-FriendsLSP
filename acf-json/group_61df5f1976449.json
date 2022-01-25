@@ -1,6 +1,6 @@
 {
     "key": "group_61df5f1976449",
-    "title": "Calloutbar Footer",
+    "title": "Callout Bar",
     "fields": [
         {
             "key": "field_61df600f1e421",
@@ -177,5 +177,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1642983310
+    "modified": 1643060778
 }

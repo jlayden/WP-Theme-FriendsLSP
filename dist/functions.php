@@ -138,6 +138,28 @@ function flsp_custom_widgets_init()
             'after_title'   => '</h2>',
         )
     );
+    register_sidebar( 
+        array(
+            'name' => 'Footer Widget Area Left',
+            'id' => 'footer-widget-left',
+            'description' => 'Appears in the footer area',
+            'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+            'after_widget' => '</aside>',
+            'before_title' => '<h3 class="widget-title">',
+            'after_title' => '</h3>',
+        ) 
+    );
+    register_sidebar( 
+        array(
+            'name' => 'Footer Widget Area Right',
+            'id' => 'footer-widget-right',
+            'description' => 'Appears in the footer area',
+            'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+            'after_widget' => '</aside>',
+            'before_title' => '<h3 class="widget-title">',
+            'after_title' => '</h3>',
+        ) 
+    );
 }
 add_action('widgets_init', 'flsp_custom_widgets_init');
 
@@ -206,4 +228,12 @@ function my_acf_json_save_point( $path ) {
     // Return path
     return $path;
     
+}
+
+/**
+ * 
+ * Custom Walker Example
+ */
+class FLSP_Custom_Menu_Walker extends Walker_Nav_Menu {
+	
 }

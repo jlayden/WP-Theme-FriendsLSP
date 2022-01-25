@@ -40,7 +40,6 @@ get_header();
 
 
 	</main><!-- #main -->
-
 <?php
 get_template_part('template-parts/atoms/social-bookmarks' );
 get_footer();
