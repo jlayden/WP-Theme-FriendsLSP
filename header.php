@@ -25,10 +25,9 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'flsp_custom' ); ?></a>
 
-	<header id="masthead" class="site-header">
+	<header id="masthead" class="site-header transparent">
         <div class="nav-overlay"></div>
 		<div class="site-branding">
-            <!-- <img class="logo-symbol" src="http://flsp.local/wp-content/uploads/2022/01/FLSP_New_Logo-text.jpg" alt="FLSP Logo Symbol" /> -->
 			<?php
 			the_custom_logo();
 			if ( is_front_page() && is_home() ) :
@@ -65,6 +64,6 @@
 			?>
 		</nav><!-- #site-navigation -->
         <div class="cta">
-            <a href="" class="btn btn-primary reversed">Donate Now</a>
+            <a href="https://friendslsp.org/donate/" class="btn btn-primary reversed">Donate Now</a>
         </div>
 	</header><!-- #masthead -->

@@ -5,7 +5,7 @@
 @import "../atoms/animations";
 
 .site-header {
-    background: transparent;
+    // background: transparent;
     border-bottom: 0;
     display: flex;
     flex-direction: row;
@@ -48,13 +48,13 @@
             display: inline-flex;
             max-width: 30rem;
             margin: 1rem 0;
-                img {
-                    max-width: 10rem;
-                    top: 2rem;
-                    width: 100%;
-                    height: auto;
-                    position: absolute;
-            }
+            // img {
+            //     max-width: 10rem;
+            //     top: 2rem;
+            //     width: 100%;
+            //     height: auto;
+            //     position: absolute;
+            // }
         }
     }
     .main-navigation {
@@ -241,6 +241,16 @@
             display: none;
         }
     }
+    &.transparent {
+        background: transparent;
+        .site-branding {
+            .custom-logo-link {
+                img {
+                    display: none;
+                }
+            }
+        }
+    }
     &.sticky {
         position: fixed;
         background: $white;
@@ -253,6 +263,8 @@
             padding: 0;
                 img {
                     position: relative;
+                    width: 100%;
+                    height: auto;
                     top: unset;
                     max-width: 100%;
             }

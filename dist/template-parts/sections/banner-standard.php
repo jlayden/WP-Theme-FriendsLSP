@@ -14,6 +14,9 @@
 <?php if ($display !== 'hidden') { ?>
 <section class="banner standard <?php echo $display; ?> <?php echo $color; ?>" 
 <?php if ($display !== 'simple') { ?> style="background-image: url(<?php echo $hero_img[0]; ?>);" <?php } ?>>
+    <a class="logo-link" href="https://friendslsp.org/" title="FLSP | Home">
+        <img src="http://friendslsp.org/wp-content/uploads/2022/01/FLSP_Logo_White_Border_No_Wordmark.jpg" alt="FLSP Logo"/>
+    </a>
     <div class="banner-overlay"></div>
     <?php if ($hero_overlay_graphic) { ?>	
         <div class="overlay-wrapper in-bottom">
@@ -25,7 +28,7 @@
     <?php if ($hero_content) { ?>
     <div class="content-wrapper in-left">
         <div class="content container">
-            <div class="content-area col-md-8 offset-md-2">
+            <div class="content-area col-md-8 offset-md-2 text-center">
                 <?php if ($hero_content) { echo $hero_content; }?>
             </div>
         </div>

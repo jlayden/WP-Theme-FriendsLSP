@@ -1,25 +1,63 @@
 /* Primary Brand Colors */
-$lime: #80c34f;
-$blue: #46bfca;
+$lime: #80C34F;
+$blue: #46BFCA;
 $teal: #158990;
-$green: #3c8c66;
-$darkgreen: #284232;
+$green: #3C8C66;
+$darkgreen: #284232; 
 
-/* Original Brand Colors (pre 2021) | DNU old colors */
-$og-lime: #81c454;
-$og-blue: #69bdc8;
-$og-teal: #00949e;
-$og-green: #54886a;
+/* Primary Brand Color w Opacity Tint */
+$lime-100: #80C34F; // 100% opacity rgba(128, 195, 79, 1)
+$lime-75: #9fd27b; // 75% #80c34fbf (hex w opacity)
+$lime-50: #bfe1a7; // 50% #80c34f80
+$lime-25: #dff0d3; // 25% #80c34f40
+
+$blue-100: #46BFCA; // 100% opacity rgba(70, 191, 202, 1)
+$blue-75: #74cfd7;
+$blue-50: #a2dfe4;
+$blue-25: #d0eff1;
+
+$teal-100: #158990; // 100% opacity rgba(21, 137, 144, 1)
+$teal-75: #4fa6ab;
+$teal-50: #8ac4c7;
+$teal-25: #c4e1e3;
+
+$green-100: #3C8C66; // 100% opacity rgba(60, 140, 102, 1)
+$green-75: #6ca88c;
+$green-50: #9dc5b2;
+$green-25: #cee2d8;
+
+$darkgreen-100: #284232; // rgba(40, 66, 50, 1)
+$darkgreen-75: #5d7165;
+$darkgreen-50: #93a098;
+$darkgreen-25: #c9cfcb;
 
 /* Secondary Brand Colors */
 $darkbrown: #775547;
-$lightbrown: #c88469;
+$lightbrown: #C88469;
 
 /* Utility Colors */
 $white: #FFFFFF;
 $gray: #777777;
 $darkgray: #121212;
 $black: #000000;
+
+/* Primary Gradients | 1 Color/Transparent */
+$gradient-hero: linear-gradient(to bottom, rgba(40, 66, 50, .9), rgba(40, 66, 50, 0.8), rgba(21, 137, 144, 0.3));
+$gradient-teal: linear-gradient(to bottom, $teal, transparent); // 155deg increase transparency using RGBA
+$gradient-lime: linear-gradient(to bottom, $lime, transparent);
+$gradient-green: linear-gradient(to bottom, $green, transparent);
+$gradient-blue: linear-gradient(to bottom, $blue, transparent);
+$gradient-darkgreen: linear-gradient(to bottom, $darkgreen, transparent);
+$gradient-darkbrown: linear-gradient(to bottom, $darkbrown, transparent);
+
+/* 2 Color Gradients */
+$gradient-lime-teal: linear-gradient(to right, $lime, $teal);
+$gradient-green-darkgreen: linear-gradient(to right, $green, $darkgreen);
+$gradient-blue-darkbrown: linear-gradient(to right, $blue, $darkbrown);
+
+/* Full Color Gradient */
+$gradient-all: linear-gradient(to right, $lime, $blue, $teal, $green, $darkgreen);
+
 
 /* Accessible Color Combinations 
  *
@@ -55,12 +93,11 @@ Dark Gray --
 
 */
 
-
-/* HERO BANNER BACKGROUND GRADIENTS */
-$gradient-hero: linear-gradient(to bottom, rgba(40, 66, 50, .9), rgba(40, 66, 50, 0.8), rgba(21, 137, 144, 0.3));
-$gradient-teal: linear-gradient(to bottom, $teal, transparent); // 155deg increase transparency using RGBA
-$gradient-lime: linear-gradient(to bottom, $lime, transparent);
-$gradient-green: linear-gradient(to bottom, $green, transparent);
-$gradient-blue: linear-gradient(to bottom, $blue, transparent);
-$gradient-darkgreen: linear-gradient(to bottom, $darkgreen, transparent);
-$gradient-darkbrown: linear-gradient(to bottom, $darkbrown, transparent);
+/* 
+ * DO NOT USE
+ * Original Brand Colors (pre 2021)
+ * */
+$og-lime: #81c454;
+$og-blue: #69bdc8;
+$og-teal: #00949e;
+$og-green: #54886a;
