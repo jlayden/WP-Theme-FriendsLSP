@@ -26,6 +26,24 @@
     &:hover {
         filter: brightness(1.1);
     }
+    &:active {
+        color: $white;
+        background-color: $blue;
+        border-color: $blue;
+        box-shadow: inherit;
+    }
+    &:focus {
+        color: $white;
+        background-color: $blue;
+        border-color: $blue;
+        box-shadow: inherit;
+    }
+    &:visited {
+        color: $white;
+        background-color: $blue;
+        border-color: $blue;
+        box-shadow: inherit;
+    }
 }
 
 .btn-primary {

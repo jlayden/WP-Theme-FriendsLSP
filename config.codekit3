@@ -463,6 +463,26 @@
       "oAP" : "\/dist\/single.php",
       "oF" : 0
     },
+    "\/src\/img\/fa-angle.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/img\/fa-angle.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/src\/img\/quote.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/img\/quote.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/src\/js\/main.js" : {
       "bF" : 0,
       "ft" : 64,

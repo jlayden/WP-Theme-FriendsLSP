@@ -42,20 +42,22 @@ for (var i = 0; i < document.links.length; i++) {
 });
 
 /**
- * Slim header
- * Add the slim class to the header when you reach its scroll position. 
- * Remove "slim" when you leave the scroll position
+ * Header - toggle between transparent header and fixed positioning
+ * Toggle "sticky" class to the header when the user scrolls beyond its position. 
+ * Toggle "transparent" class when the user scrolls to the top of the page.
  */
-let sticky = header.offsetTop; // Get the offset position of the navbar
-console.log(sticky);
+// let sticky = header.offsetYTop;
 function stickyHeader() {
-    if (window.pageYOffset > sticky) {
-        header.classList.add('sticky');
-    } else {
+    if (window.pageYOffset > 200) {
+        header.classList.add('sticky')
+        header.classList.remove('transparent');
+    } 
+    if (window.pageYOffset == 0) {
+        header.classList.add('transparent')
         header.classList.remove('sticky');
     }
 }
-// When the user scrolls the page, add sticky header
+// When the user scrolls down the page, add sticky header
 window.onscroll = function() {stickyHeader()()};
 
 /**
@@ -65,3 +67,19 @@ window.onscroll = function() {stickyHeader()()};
     document.getElementById("year").innerHTML = new Date().getFullYear();
 }
 getCopyrightYear();
+
+/*
+$(function() {
+    //caches a jQuery object containing the header element
+    var header = $(".clearHeader");
+    $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+
+        if (scroll >= 500) {
+            header.removeClass('clearHeader').addClass("darkHeader");
+        } else {
+            header.removeClass("darkHeader").addClass('clearHeader');
+        }
+    });
+});
+*/
