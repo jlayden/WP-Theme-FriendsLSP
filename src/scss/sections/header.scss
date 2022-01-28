@@ -302,9 +302,9 @@
             }
         }
     }
-    &.sticky + .site-main {
-        padding-top: 6rem;
-    }
+    // &.sticky + .site-main {
+    //     padding-top: 6rem;
+    // }
     &.open {
         .nav-overlay {
             display: block;

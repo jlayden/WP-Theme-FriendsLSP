@@ -4,7 +4,7 @@
     <form action="https://friendslsp.us18.list-manage.com/subscribe/post?u=f750bd55cd4cf3761a32db78c&amp;id=5e57947361" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
         <div id="mc_embed_signup_scroll" class="d-flex flex-column">
 
-            <!-- <h2>Subscribe</h2> -->
+            <h5 style="color:#fff;font-weight:700;">Stay Connected</h5>
 
             <!-- <div class="indicates-required"><span class="asterisk">*</span> indicates required</div> -->
 

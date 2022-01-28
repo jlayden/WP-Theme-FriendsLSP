@@ -111,7 +111,13 @@
  * Fixed Side Bar for Social
  */
 .social-icon-bar {
+    opacity: 0;
     position: fixed;
+    background-color: $white;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.2);
+    padding: 0.25rem;
+    overflow: hidden;
+    text-align: center;
     top: 50%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -125,36 +131,47 @@
         margin: 0;
         padding: 0;
         gap: inherit;
-        a {
-            display: inline-block;
-            background-color: $blue;
-            text-align: center;
-            padding: 1rem;
-            margin: 0 auto;
-            transition: all 0.3s ease;
-            color: $white;
-            font-size: 1.125rem;
-            width: 100%;
-            &:hover {
-                background-color: $darkgreen;
-                width: 125%;
-            }
-        
-            &.facebook {
-                background: #3B5998;
-                color: $white;
-            }
-            &.twitter {
-                background: #55ACEE;
-                color: $white;
-            }
-            &.linkedin {
-                background: #007bb5;
-                color: $white;
-            }
-            &.youtube {
-                background: #bb0000;
-                color: $white;
+        li {
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            flex-direction: column;
+            transition: transform .1s linear;
+            a {
+                // padding: 2.5rem 1.25rem;
+                // display: inline-block;
+                // background-color: $white;
+                // text-align: center;
+                // margin: 0 auto;
+                // color: $white;
+                // font-size: 1.125rem;
+                // width: 100%;
+                // transition: all 0.3s ease;
+                // &:hover {
+                //     transform: scale(1.2);
+                // }
+                // &.facebook {
+                //     background: #3B5998;
+                //     color: $white;
+                // }
+                // &.twitter {
+                //     background: #55ACEE;
+                //     color: $white;
+                // }
+                // &.linkedin {
+                //     background: #007bb5;
+                //     color: $white;
+                // }
+                // &.youtube {
+                //     background: #bb0000;
+                //     color: $white;
+                // }
+                svg {
+                    width: 3rem !important;
+                    height: 3rem !important;
+                    padding: 0 0.25rem;
+                    color: $darkgreen !important;
+                }
             }
         }
     }

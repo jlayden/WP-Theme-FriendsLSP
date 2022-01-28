@@ -46,7 +46,6 @@ for (var i = 0; i < document.links.length; i++) {
  * Toggle "sticky" class to the header when the user scrolls beyond its position. 
  * Toggle "transparent" class when the user scrolls to the top of the page.
  */
-// let sticky = header.offsetYTop;
 function stickyHeader() {
     if (window.pageYOffset > 200) {
         header.classList.add('sticky')
@@ -57,8 +56,24 @@ function stickyHeader() {
         header.classList.remove('sticky');
     }
 }
-// When the user scrolls down the page, add sticky header
-window.onscroll = function() {stickyHeader()()};
+
+/**
+ * Header - toggle between transparent header and fixed positioning
+ * Toggle "sticky" class to the header when the user scrolls beyond its position. 
+ * Toggle "transparent" class when the user scrolls to the top of the page.
+ */
+const socialIconBar = document.querySelector('.social-icon-bar');
+function handleSocialIconBar() {
+    if (window.pageYOffset > 200) {
+        socialIconBar.classList.add('in-left');
+    } 
+}
+// Add On Scroll Event Listener to DOM
+document.addEventListener('scroll', function(e) {
+    stickyHeader();
+    handleSocialIconBar();
+});
+
 
 /**
  * Print the current year for the site footer

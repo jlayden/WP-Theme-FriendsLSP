@@ -25,22 +25,24 @@
         <div class="site-info">
             <div class="container">
                 <div class="row align-items-center">
-                    <div id="footer-widget-left" class="col-lg-4 order-lg-1">
+                    <div id="footer-widget-left" class="col-lg-4 order-lg-2">
                         <?php if(is_active_sidebar('footer-widget-left')){
                             dynamic_sidebar('footer-widget-left');
                         } ?>
                     </div>
-                    <div id="footer-widget-right" class="social-wrapper col-lg-4 order-lg-3">
+                    <div id="footer-widget-right" class="social-wrapper col-lg-4 order-lg-1">
                         <?php
                         if(is_active_sidebar('footer-widget-right')){
                             dynamic_sidebar('footer-widget-right');
                         } ?>
                     </div>
-                    <div id="copyright" class="col-lg-4 order-lg-2">
-                        ©<span id="year"></span>
-                        <a href="<?php echo get_home_url(); ?>">
-                            <?php echo get_bloginfo(); ?>
-                        </a>
+                    <div class="col-lg-4 order-lg-3">
+                        <div id="copyright" class="copyright">
+                            ©<span id="year"></span>
+                            <a href="<?php echo get_home_url(); ?>">
+                                <?php echo get_bloginfo(); ?>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -25,17 +25,17 @@
 
             <div class="mc-field-group form-group">
                 <label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label>
-                <input type="email" value="" name="EMAIL" class="required email form-control-lg" placeholder="Email" id="mce-EMAIL">
+                <input type="email" value="" name="EMAIL" class="required email form-control form-control-lg" placeholder="Email" id="mce-EMAIL">
             </div>
 
             <div class="mc-field-group form-group">
                 <label for="mce-FNAME">First Name </label>
-                <input type="text" value="" name="FNAME" class="form-control-lg" placeholder="First name" id="mce-FNAME">
+                <input type="text" value="" name="FNAME" class="form-control form-control-lg" placeholder="First name" id="mce-FNAME">
             </div>
 
             <div class="mc-field-group form-group">
                 <label for="mce-LNAME">Last Name </label>
-                <input type="text" value="" name="LNAME" class="form-control-lg" placeholder="Last name" id="mce-LNAME">
+                <input type="text" value="" name="LNAME" class="form-control form-control-lg" placeholder="Last name" id="mce-LNAME">
             </div>
 
             <div id="mce-responses" class="clear">

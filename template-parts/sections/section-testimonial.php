@@ -1,23 +1,48 @@
-<?php $testimonial_image = get_field('testimonial_image'); // image ID ?>
-<?php $quote_icon = get_field('quote_icon'); // image ID ?>
-<?php $order = get_field('order'); // select ?>
-<?php $headline = get_field('headline'); // text ?>
-<?php $paragraph = get_field('paragraph'); // text ?>
-<?php 
-	$testimonial_size = "large"; // (thumbnail, medium, large, full or custom size)
-	$testimonial_img = wp_get_attachment_image_src( $testimonial_image, $testimonial_size );
-	$quote_icon = wp_get_attachment_image_src( $overlay_graphic, "full" );
-?>
 <section class="testimonial">
     <div class="container">
-            <div class="col-lg-6 <?php echo $order; ?>">
-                <img src="<?php echo $testimonial_img[0]; ?>" alt="" width="600" height="300" />
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>John Doe</h3>
+                            <h5>Architect & Engineer</h5>
+                            <p>We love that guy</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-6 <?php echo $order; ?>">
-                <div class="quote-icon" style="background-image: url('<?php echo $quote_icon[0]; ?>');"></div>
-                <h2 class="title"><?php echo $headline; ?></h2>
-                <p class="large"><?php echo $paragraph; ?></p>
+            <div class="col-lg-4">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>John Doe</h3>
+                            <h5>Architect & Engineer</h5>
+                            <p>We love that guy</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-		</div>
+            <div class="col-lg-4">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>John Doe</h3>
+                            <h5>Architect & Engineer</h5>
+                            <p>We love that guy</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </section>

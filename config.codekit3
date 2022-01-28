@@ -809,6 +809,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/src\/scss\/sections\/testimonial.scss" : {
+      "aP" : 1,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 1,
+      "oA" : 1,
+      "oAP" : "\/dist\/scss\/sections\/testimonial.css",
+      "oF" : 0,
+      "oS" : 3,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/src\/scss\/style.scss" : {
       "aP" : 1,
       "bl" : 0,
@@ -847,6 +862,14 @@
       "oAP" : "\/dist\/style-min.css",
       "oF" : 0,
       "pg" : 0
+    },
+    "\/template-parts\/atoms\/card-quote.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/template-parts\/atoms\/card-quote.php",
+      "oF" : 0
     },
     "\/template-parts\/atoms\/form-newsletter.php" : {
       "cB" : 0,
@@ -904,6 +927,22 @@
       "oAP" : "\/dist\/template-parts\/content.php",
       "oF" : 0
     },
+    "\/template-parts\/nav\/nav-tabs.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/template-parts\/nav\/nav-tabs.php",
+      "oF" : 0
+    },
+    "\/template-parts\/nav\/section-subnav.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/template-parts\/nav\/section-subnav.php",
+      "oF" : 0
+    },
     "\/template-parts\/sections\/banner-frontpage.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -950,6 +989,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/template-parts\/sections\/section-cardblock.php",
+      "oF" : 0
+    },
+    "\/template-parts\/sections\/section-feature.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/template-parts\/sections\/section-feature.php",
       "oF" : 0
     },
     "\/template-parts\/sections\/section-testimonial.php" : {
