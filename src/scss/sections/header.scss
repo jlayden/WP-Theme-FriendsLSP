@@ -5,7 +5,7 @@
 @import "../atoms/animations";
 
 .site-header {
-    // background: transparent;
+    background: transparent;
     border-bottom: 0;
     display: flex;
     flex-direction: row;
@@ -14,7 +14,7 @@
     position: absolute;
     left: 0;
     right: 0;
-    top: 0;
+    top: -6rem;
     margin: 0 auto;
     padding: 0 2rem;
     width: 100%;
@@ -23,8 +23,7 @@
     z-index: 999999;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    transition: height, background-color .25s ease-in-out;
-    @include tablet {
+    @include respond-below(md) {
         height: 5rem;
         align-items: center;
     }
@@ -45,28 +44,21 @@
         margin-right: auto;
         width: 100%;
         .custom-logo-link {
-            display: inline-flex;
+            display: none;
             max-width: 30rem;
             margin: 1rem 0;
-            // img {
-            //     max-width: 10rem;
-            //     top: 2rem;
-            //     width: 100%;
-            //     height: auto;
-            //     position: absolute;
-            // }
         }
     }
     .main-navigation {
         display: flex;
         justify-content: flex-end;
         width: 100%;
-        @include tablet {
+        @include respond-below(md) {
             width: 100%;
         }
         .menu-toggle {
             display: none;
-            @include tablet {
+            @include respond-below(md) {
                 display: block;
             }
         }
@@ -82,7 +74,7 @@
                 list-style-type: none;
                 margin: 0 auto;
                 padding: 0;
-                @include tablet {
+                @include respond-below(md) {
                     visibility: hidden;
                     display: none;
                     background: $white;
@@ -109,16 +101,25 @@
                     flex-direction: column;
                     height: 100%;
                     width: auto;
-                    margin-right: 2rem;
+                    margin: 0;
+                    padding: 0;
+                    @include respond-above(sm) {
+                        margin-right: 2rem;
+                    }
                     &:hover {
                         .sub-menu {
                             transform: translateX(-50%) scaleY(1);
                             opacity: 1;
-                            @include tablet {
+                            @include respond-below(md) {
                                 transform: none;
                             }
                             a {
-                                color: $teal;
+                                color: $darkgreen;
+                                display: inline-block;
+                                width: 100%;
+                                &:hover {
+                                    color: $darkgreen;
+                                }
                             }
                         }
                     }
@@ -135,15 +136,14 @@
                         height: 100%;
                         text-decoration: none;
                         text-transform: uppercase;
-                        transition-property: color,background-color,border-color,filter;
-                        transition-duration: .2s;
-                        transition-timing-function: linear;
-                        @include tablet {
-                            color: $teal;
-                            padding: 0.5rem 0;
+                        transition: color .2s ease-in-out;
+                        @include respond-below(md) {
+                            color: $darkgreen;
+                            padding: 0;
+                            margin-bottom: 1rem;
                         }
                         &:after {
-                            content: " ";
+                            content: '';
                             position: absolute;
                             top: calc(50% + 1.15rem);
                             left: 0;
@@ -156,13 +156,13 @@
                             transform: scaleX(1);
                         }
                         &:hover {
-                            color: $lime;
-                            @include tablet {
-                                color: $teal;
-                            }
+                            color: $white;
+                            // @include tablet {
+                            //     color: $teal;
+                            // }
                         }
                         &.active {
-                            color: $lime;
+                            color: $blue;
                         }
                     }
                 }
@@ -191,8 +191,11 @@
                         left: 0.5rem;
                         background: $teal;
                         z-index: -1;
+                        @include respond-below(sm){
+                            content: none;
+                        }
                     }
-                    @include tablet {
+                    @include respond-below(md) {
                         position: relative;
                         opacity: 1;
                         top: inherit;
@@ -205,7 +208,8 @@
                         text-align: center;
                         padding: 0;
                         margin: 0;
-                        @include tablet {
+                        transition: background-color .2s ease-in-out;
+                        @include respond-below(md) {
                             padding: 0;
                         }
                         &:first-child {
@@ -218,11 +222,18 @@
                             border-radius: 0.25rem;
                         }
                         &:hover {
-                            background-color: $lime;
+                            background-color: $blue-25;
                         }
                         a {
                             color: $darkgreen;
                             padding: 1rem;
+                            @include respond-below(md) {
+                                display: inline-block;
+                                padding: 0;
+                                margin-bottom: 1rem;
+                                width: 100%;
+                                text-transform: none;
+                            }
                             &:after {
                                 content: none;
                             }
@@ -237,25 +248,23 @@
         align-items: center;
         justify-content: flex-end;
         width: 100%;
-        @include tablet {
+        @include respond-below(md) {
             display: none;
         }
     }
     &.transparent {
+        top: 0;
         background: transparent;
-        .site-branding {
-            .custom-logo-link {
-                img {
-                    display: none;
-                }
-            }
-        }
+        transition: background-color .25s ease-in-out;
     }
     &.sticky {
         position: fixed;
+        top: 0;
         background: $white;
         box-shadow: rgba(0,0,0,12%) 0 1px 3px;
         height: 5rem;
+        max-height: 5rem;
+        transition: 1s top ease;
         .custom-logo-link {
             display: inline-flex;
             max-width: 30rem;
@@ -279,15 +288,6 @@
                                 color: $teal;
                             }
                         }
-                        .sub-menu {
-                            // top: 5.25rem;
-                            a {
-                                color: $darkgreen;
-                                &:hover {
-                                    color: $white;
-                                }
-                            }
-                        }
                     }
                 }
             }
@@ -302,9 +302,6 @@
             }
         }
     }
-    // &.sticky + .site-main {
-    //     padding-top: 6rem;
-    // }
     &.open {
         .nav-overlay {
             display: block;

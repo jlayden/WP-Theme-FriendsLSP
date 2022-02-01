@@ -2,13 +2,15 @@
  * Navigation - highlight current page
  * Add the active class to the link when on the current page or subpage. 
  */
+/*
 let current = 0;
 for (var i = 0; i < document.links.length; i++) {
     if (document.links[i].href === document.URL) {
         current = i;
     }
 }
-// document.links[current].className = 'active';
+document.links[current].className = 'active';
+*/
 
 /**
  * Navigation - show mobile navigation when hamburger button is clicked
@@ -47,15 +49,18 @@ for (var i = 0; i < document.links.length; i++) {
  * Toggle "transparent" class when the user scrolls to the top of the page.
  */
 function stickyHeader() {
-    if (window.pageYOffset > 200) {
-        header.classList.add('sticky')
-        header.classList.remove('transparent');
-    } 
     if (window.pageYOffset == 0) {
-        header.classList.add('transparent')
         header.classList.remove('sticky');
+        header.classList.add('transparent');
+    }
+    else if (window.pageYOffset > 95 && window.pageYOffset < 200) {
+        header.classList.remove('transparent');
+    } else if (window.pageYOffset >= 200) {
+        header.classList.remove('transparent');
+        header.classList.add('sticky');
     }
 }
+// stickyHeader();
 
 /**
  * Header - toggle between transparent header and fixed positioning
@@ -70,6 +75,7 @@ function handleSocialIconBar() {
 }
 // Add On Scroll Event Listener to DOM
 document.addEventListener('scroll', function(e) {
+    e.preventDefault();
     stickyHeader();
     handleSocialIconBar();
 });

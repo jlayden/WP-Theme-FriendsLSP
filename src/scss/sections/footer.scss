@@ -28,7 +28,6 @@
     }
     .site-info {
         background-color: $darkgreen;
-        // border-top: 0.25rem solid $lime;
         color: $white;
         padding: 1.25rem 0;
         width: 100%; 
@@ -72,6 +71,9 @@
             }
             a {
                 font-weight: normal;
+                &:hover {
+                    color: $darkgreen-25;
+                }
             }
         }
     }

@@ -26,37 +26,43 @@
     &.teal {
         background-color: $teal;
         .banner-overlay {
-            background-image: $gradient-teal;
+            background-image: $gradient-teal-transparent;
         }
     }
     &.blue {
         background-color: $blue;
         .banner-overlay {
-            background-image: $gradient-blue;
+            background-image: $gradient-blue-transparent;
         }
     }
     &.lime {
         background-color: $lime;
         .banner-overlay {
-            background-image: $gradient-lime;
+            background-image: $gradient-lime-transparent;
         }
     }
     &.green {
         background-color: $green;
         .banner-overlay {
-            background-image: $gradient-green;
+            background-image: $gradient-green-transparent;
         }
     }
     &.darkbrown {
         background-color: $darkbrown;
         .banner-overlay {
-            background-image: $gradient-darkbrown;
+            background-image: $gradient-darkbrown-transparent;
         }
     }
     &.darkgreen {
         background-color: $darkgreen;
         .banner-overlay {
-            background-image: $gradient-darkgreen;
+            background-image: $gradient-darkgreen-transparent;
+        }
+    }
+    &.all {
+        background-color: $gradient-all;
+        .banner-overlay {
+            background-image: $gradient-hero;
         }
     }
     &.standard {

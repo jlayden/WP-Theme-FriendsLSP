@@ -49,8 +49,9 @@
 // scss-docs-end import-stack
 */
 
-// Font Awesome
-@import "../../node_modules/font-awesome/scss/font-awesome.scss";
+// Font Awesome 
+// TODO Causing Codekit error due to calc function
+// @import "../../node_modules/font-awesome/scss/font-awesome.scss";
 
 /*
  * Import custom styles
