@@ -18,6 +18,10 @@
     .form-wrapper { 
         height: 100%;
         width: 100%;
+        .newsletter-title {
+            color: $darkgreen;
+            font-weight: 700;
+        }
         form {
             background: $lime;
         }
@@ -65,6 +69,9 @@
             text-align: center;
             @include respond-above(md) {
                 text-align: right;
+            }
+            a {
+                font-weight: normal;
             }
         }
     }

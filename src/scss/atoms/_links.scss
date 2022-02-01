@@ -1,15 +1,19 @@
-:root {
-    --color: $darkbrown;
-    --hover-brightness: 1.1;
-}
+// Utility Variables
+@import "../atoms/colors";
+@import "../atoms/fonts";
+@import "../atoms/mixins";
+
 a {
-    color: var(--color);
+    color: $teal-100;
+    font-family: $font-heading, $font-copy, Helvetica, Arial, sans-serif;
+    font-size: 1.125rem;
+    font-weight: 700;
+    transition: color .3s ease-in-out;
 }
 a:hover,
 a:focus,
 a:active {
-    /* Darken on click/hover */
-    filter: brightness(var(--hover-brightness));
+    color: $teal-75;
 }
 a.link,
 a.link:hover,
