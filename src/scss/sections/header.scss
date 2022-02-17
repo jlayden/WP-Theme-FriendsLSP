@@ -26,6 +26,7 @@
     @include respond-below(md) {
         height: 5rem;
         align-items: center;
+        justify-content: flex-start;
     }
     .nav-overlay {
         visibility: hidden;
@@ -43,10 +44,17 @@
         justify-content: flex-start;
         margin-right: auto;
         width: 100%;
+        @include respond-below(md) {
+            width: auto;
+        }
         .custom-logo-link {
             display: none;
             max-width: 30rem;
             margin: 1rem 0;
+            @include respond-below(md) {
+                width: auto;
+                max-width: inherit;
+            }
         }
     }
     .main-navigation {
@@ -54,7 +62,7 @@
         justify-content: flex-end;
         width: 100%;
         @include respond-below(md) {
-            width: 100%;
+            width: auto;
         }
         .menu-toggle {
             display: none;
@@ -270,12 +278,16 @@
             max-width: 30rem;
             margin: 0;
             padding: 0;
-                img {
-                    position: relative;
-                    width: 100%;
-                    height: auto;
-                    top: unset;
-                    max-width: 100%;
+            @include respond-below(md) {
+                display: inline-block;
+                max-width: 15rem;
+            }
+            img {
+                position: relative;
+                width: 100%;
+                height: auto;
+                top: unset;
+                max-width: 100%;
             }
         }
         .main-navigation {

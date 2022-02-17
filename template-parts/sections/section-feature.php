@@ -11,7 +11,7 @@
 <section class="featured">
     <div class="container">
             <div class="col-lg-6 <?php echo $order; ?>">
-                <img src="<?php echo $testimonial_img[0]; ?>" alt="" width="600" height="300" />
+                <img src="<?php echo $testimonial_img[0]; ?>" alt="<?php echo $headline; ?>" width="100%" height="auto" />
             </div>
             <div class="col-lg-6 <?php echo $order; ?>">
                 <div class="quote-icon" style="background-image: url('<?php echo $quote_icon[0]; ?>');"></div>

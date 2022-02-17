@@ -24,6 +24,7 @@ document.links[current].className = 'active';
  btnHamburger.addEventListener('click', function(e){
     e.preventDefault();
     if (header.classList.contains('open')) { // Close Hamburger Menu
+        document.body.classList.remove('modal-open');
         btnHamburger.classList.remove('open');
         header.classList.remove('open');
         navOverlay.classList.remove('fade-in');
@@ -33,6 +34,7 @@ document.links[current].className = 'active';
         primaryMenu.style.display = "none";
 
     } else { // Open Hamburger Menu
+        document.body.classList.add('modal-open');
         btnHamburger.classList.add('open');
         header.classList.add('open');
         navOverlay.classList.remove('fade-out');

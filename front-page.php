@@ -34,9 +34,9 @@ get_header();
             </div>
         </section>
 
-        <?php get_template_part('template-parts/sections/section-testimonial', get_post_format() ) ?>
+        <?php // get_template_part('template-parts/sections/section-testimonial', get_post_format() ) ?>
         
-        <?php get_template_part('template-parts/sections/section-feature', get_post_format() ) ?>
+        <?php // get_template_part('template-parts/sections/section-feature', get_post_format() ) ?>
 
         <?php get_template_part('template-parts/sections/footer-calloutbar', get_post_format() ) ?>
 

@@ -20,7 +20,7 @@
         left: 2rem;
         z-index: 1;
         img {
-            max-width: 12rem;
+            max-width: 8rem;
         }
     }
     &.teal {
@@ -67,7 +67,7 @@
     }
     &.standard {
         position: relative;
-        padding: 12rem 0 5rem;
+        padding: 5rem 0;
         margin-bottom: 5rem;
         // min-height: 30rem;
         @include mobile {
