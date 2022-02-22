@@ -166,9 +166,16 @@
                 "operator": "==",
                 "value": "dist\/page-fullwidth.php"
             }
+        ],
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "dist\/home.php"
+            }
         ]
     ],
-    "menu_order": 0,
+    "menu_order": 4,
     "position": "normal",
     "style": "default",
     "label_placement": "top",
@@ -177,5 +184,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1643060778
+    "modified": 1645501908
 }

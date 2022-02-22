@@ -1,17 +1,34 @@
-<?php $display = get_field('hero_display'); // checkbox ?>
-<?php $color = get_field('hero_color'); // image ID ?>
-<?php $hero_content = get_field('hero_content'); // image ID ?>
-<?php $hero_image = get_field('hero_image'); // image ID ?>
-<?php $hero_overlay_graphic = get_field('hero_overlay_graphic'); // image ID ?>
-<?php $hero_overlay_align = get_field('hero_overlay_align'); // select ?>
 <?php 
-	$hero_size = "hero-large"; // (thumbnail, medium, large, full or custom size)
-	$hero_img = wp_get_attachment_image_src( $hero_image, $hero_size );
-	$hero_overlay_size = "full"; // (thumbnail, medium, large, full or custom size)
-	$hero_overlay_img = wp_get_attachment_image_src( $hero_overlay_graphic, $hero_overlay_size );
+
+$post_id = false;
+
+if ( is_home() ) {
+	$post_id = 13; // specif ID of home page
+    $display = get_field('hero_display', $post_id); // dropdown
+    $color = get_field('hero_color', $post_id); // image ID 
+    $hero_content = get_field('hero_content', $post_id); // image ID 
+    $hero_image = get_field('hero_image', $post_id); // image ID 
+    $hero_overlay_graphic = get_field('hero_overlay_graphic', $post_id); // image ID
+    $hero_overlay_align = get_field('hero_overlay_align', $post_id); // select
+    $hero_size = "hero-large"; // (thumbnail, medium, large, full or custom size)
+    $hero_img = wp_get_attachment_image_src( $hero_image, $hero_size );
+    $hero_overlay_size = "full"; // (thumbnail, medium, large, full or custom size)
+    $hero_overlay_img = wp_get_attachment_image_src( $hero_overlay_graphic, $hero_overlay_size );
+} else {
+	$post_id = 13; // specif ID of home page
+    $display = get_field('hero_display'); // dropdown
+    $color = get_field('hero_color'); // image ID 
+    $hero_content = get_field('hero_content'); // image ID 
+    $hero_image = get_field('hero_image'); // image ID 
+    $hero_overlay_graphic = get_field('hero_overlay_graphic'); // image ID
+    $hero_overlay_align = get_field('hero_overlay_align'); // select
+    $hero_size = "hero-large"; // (thumbnail, medium, large, full or custom size)
+    $hero_img = wp_get_attachment_image_src( $hero_image, $hero_size );
+    $hero_overlay_size = "full"; // (thumbnail, medium, large, full or custom size)
+    $hero_overlay_img = wp_get_attachment_image_src( $hero_overlay_graphic, $hero_overlay_size );
+}
 ?>
 
-<?php if ($display !== 'hidden') { ?>
 <section class="banner standard <?php echo $display; ?> <?php echo $color; ?>" 
 <?php if ($display !== 'simple') { ?> style="background-image: url(<?php echo $hero_img[0]; ?>);" <?php } ?>>
     <a class="logo-link" href="https://friendslsp.org/" title="FLSP | Home">
@@ -29,7 +46,7 @@
     <div class="content-wrapper in-left">
         <div class="content container">
             <div class="content-area col-md-8 offset-md-2 text-center">
-                <?php if ($hero_content) { echo $hero_content; }?>
+                <?php echo $hero_content; ?>
             </div>
         </div>
     <?php if ($display === 'contact') { ?>
@@ -54,4 +71,3 @@
         </div>
     <?php } ?>
 </section>
-<?php } ?>

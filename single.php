@@ -8,7 +8,7 @@
  */
 
 get_header();
-get_template_part('template-parts/modules/banner' );
+get_template_part('template-parts/sections/banner-standard' );
 ?>
 	<main id="primary" class="site-main">
         <div class="container">

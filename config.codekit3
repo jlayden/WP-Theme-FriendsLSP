@@ -259,6 +259,14 @@
       "oAP" : "\/dist\/header.php",
       "oF" : 0
     },
+    "\/home.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/home.php",
+      "oF" : 0
+    },
     "\/inc\/custom-header.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -381,14 +389,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/page-fullwidth.php",
-      "oF" : 0
-    },
-    "\/page-listing.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/page-listing.php",
       "oF" : 0
     },
     "\/page.php" : {

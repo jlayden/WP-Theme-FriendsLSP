@@ -1,8 +1,8 @@
 <?php
 /**
- * Template Name: Blog Listing
+ * Template Name: Home
  * 
- * The template for displaying a single blog post
+ * The template for displaying a listing of all blog posts previewed as cards
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
@@ -10,14 +10,14 @@
  */
 
 get_header();
-get_template_part('template-parts/modules/banner' )
+get_template_part('template-parts/sections/banner-standard' );
 ?>
 
 	<main id="primary" class="site-main">
 
     <div class="container">
         <div class="row">
-            <div class="col-md-7">
+            <div class="col-lg-10 offset-lg-1">
                 <?php
                 while ( have_posts() ) :
                     the_post();
@@ -32,13 +32,11 @@ get_template_part('template-parts/modules/banner' )
                 endwhile; // End of the loop.
                 ?>
             </div>
-            <div class="col-md-3">
-                <?php get_sidebar(); ?>
-            </div>
         </div>
     </div>
 
 	</main><!-- #main -->
 
 <?php
+get_sidebar();
 get_footer();

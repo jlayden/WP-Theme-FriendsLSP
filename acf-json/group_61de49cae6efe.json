@@ -16,7 +16,6 @@
                 "id": ""
             },
             "choices": {
-                "hidden": "Hidden",
                 "standard": "Standard",
                 "overlay": "Overlay",
                 "simple": "Simple",
@@ -164,6 +163,20 @@
                 "operator": "==",
                 "value": "default"
             }
+        ],
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "dist\/home.php"
+            }
+        ],
+        [
+            {
+                "param": "page_type",
+                "operator": "==",
+                "value": "posts_page"
+            }
         ]
     ],
     "menu_order": 0,
@@ -175,5 +188,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1644472195
+    "modified": 1645502290
 }
