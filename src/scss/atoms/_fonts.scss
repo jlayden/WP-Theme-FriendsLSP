@@ -1,9 +1,9 @@
-$font-heading: "Futura";
+$font-heading: "Futura LT";
 $font-copy: "Avenir";
 
 /* Futura */
 @font-face {
-    font-family: 'Futura';
+    font-family: 'Futura LT';
     src: url('/fonts/FuturaLT.eot'),
         url('/fonts/FuturaLT.eot?#iefix') format('embedded-opentype'),
         url('/fonts/FuturaLT.woff2') format('woff2'),
@@ -24,7 +24,7 @@ $font-copy: "Avenir";
         url("/fonts/Avenir Next LT W02 Regular.svg#Avenir Next LT W02 Regular") format("svg");
 }
 
-/* Futura LT 
+/* Futura LT - Extended */
 @font-face {
     font-family: 'Futura LT';
     src: url('/fonts/FuturaLT-CondensedOblique.eot'),
@@ -264,15 +264,3 @@ $font-copy: "Avenir";
     font-weight: bold;
     font-style: normal;
 }
-*/
-/* Avenir
-@font-face {
-    font-family: "Avenir";
-    src: url("/fonts/Avenir Next LT W02 Regular.eot"), // IE9
-        url("/fonts/Avenir Next LT W02 Regular.eot?#iefix") format("embedded-opentype"), 
-        url("/fonts/Avenir Next LT W02 Regular.woff2") format("woff2"), 
-        url("/fonts/Avenir Next LT W02 Regular.woff") format("woff"), 
-        url("/fonts/Avenir Next LT W02 Regular.ttf") format("truetype"), 
-        url("/fonts/Avenir Next LT W02 Regular.svg#Avenir Next LT W02 Regular") format("svg");
-}
-*/

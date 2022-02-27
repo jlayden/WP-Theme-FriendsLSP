@@ -23,13 +23,14 @@ a.link:active  {
     text-decoration: none;
 }
 
-a.pdf-download {
+a.btn-download {
     @include heading(5);
+    color: $darkgreen;
     display: inline-flex;
     position: relative;
     align-items: center;
-    border-top: 2px solid $lightbrown;
-    border-bottom: 2px solid $lightbrown;
+    border-top: 2px solid $darkgreen;
+    border-bottom: 2px solid $darkgreen;
     padding: 1rem 0.5rem;
     margin: 2rem auto;
     text-decoration: none;
@@ -37,17 +38,18 @@ a.pdf-download {
     transition: all .3s ease-in-out;
     &:hover {
         filter: brightness(1);
-        color: $darkbrown;
-        border-color: $darkbrown;
-        i {
-            color: $darkbrown;
+        color: $green;
+        border-color: $green;
+        svg {
+            fill: $green;
         }
     }
-    i {
-        color: $lightbrown;
-        font-size: 3rem;
+    svg {
+        fill: $darkgreen;
+        height: 3rem;
+        width: auto;
         line-height: 1;
-        margin-right: 2rem;
+        margin-right: 1rem;
         transition: all .3s ease-in-out;
     }
 }
