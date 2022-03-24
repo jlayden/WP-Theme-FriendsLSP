@@ -13,12 +13,11 @@
  */
 
 get_header();
-get_template_part('template-parts/sections/banner-frontpage' )
 ?>
 
 	<main id="primary" class="site-main homepage">
 
-        <?php  //get_template_part('template-parts/sections/banner-frontpage' ) ?>
+        <?php  get_template_part('template-parts/sections/banner-frontpage' ) ?>
 
         <section class="intro text-center">
             <div class="container">

@@ -170,13 +170,6 @@
         ],
         [
             {
-                "param": "page_template",
-                "operator": "==",
-                "value": "dist\/home.php"
-            }
-        ],
-        [
-            {
                 "param": "page_type",
                 "operator": "==",
                 "value": "posts_page"
@@ -206,5 +199,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1647667077
+    "modified": 1648162418
 }
