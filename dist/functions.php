@@ -248,3 +248,10 @@ function my_acf_json_save_point( $path ) {
 class FLSP_Custom_Menu_Walker extends Walker_Nav_Menu {
 	
 }
+
+
+/**
+ * 
+ * Blog Listing | Featured Image
+ */
+add_theme_support( 'post-thumbnails' );

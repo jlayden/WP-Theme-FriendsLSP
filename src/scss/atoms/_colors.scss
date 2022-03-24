@@ -55,14 +55,19 @@ $black: #000000;
 
 /* Transparent Gradients */
 $gradient-hero: linear-gradient(to bottom, rgba(40, 66, 50, .9), rgba(40, 66, 50, 0.8), rgba(21, 137, 144, 0.3));
-$gradient-teal-transparent: linear-gradient(to bottom, $teal, transparent); // 155deg increase transparency using RGBA
-$gradient-lime-transparent: linear-gradient(to bottom, $lime, transparent);
-$gradient-green-transparent: linear-gradient(to bottom, $green, transparent);
-$gradient-blue-transparent: linear-gradient(to bottom, $blue, transparent);
-$gradient-darkgreen-transparent: linear-gradient(to bottom, $darkgreen, transparent);
-$gradient-darkbrown-transparent: linear-gradient(to bottom, $darkbrown, transparent);
+$gradient-teal-transparent: linear-gradient(to bottom, $teal, rgba(21, 137, 144, 0.5));    // 155deg increase transparency using RGBA
+$gradient-lime-transparent: linear-gradient(to bottom, $lime, #80c34f80);
+$gradient-green-transparent: linear-gradient(to bottom, $green, rgba(60, 140, 102, 0.5));
+$gradient-blue-transparent: linear-gradient(to bottom, $blue, rgba(70, 191, 202, 0.5));
+$gradient-darkgreen-transparent: linear-gradient(to bottom, $darkgreen, rgba(40, 66, 50, 0.5));
+$gradient-darkbrown-transparent: linear-gradient(to bottom, $darkbrown, rgba(119, 85, 71, 0.5));
 
-/* One Color Gradients */
+/* Two Color Radial Gradients */
+$lime-green: radial-gradient(ellipse at top, $lime, transparent), radial-gradient(ellipse at bottom, $green, transparent);
+$teal-blue: radial-gradient(ellipse at top, $teal, transparent), radial-gradient(ellipse at bottom, $blue, transparent);
+$darkbrown-darkgreen: radial-gradient(ellipse at top, $darkbrown, transparent), radial-gradient(ellipse at bottom, $darkgreen, transparent);
+
+/* One Color Linear Gradients */
 $gradient-teal: linear-gradient(to bottom, $teal-100, $teal-25);
 $gradient-lime: linear-gradient(to bottom, $lime-100, $lime-25);
 $gradient-green: linear-gradient(to bottom, $green-100, $green-25);
@@ -70,7 +75,7 @@ $gradient-blue: linear-gradient(to bottom, $blue-100, $blue-25);
 $gradient-darkgreen: linear-gradient(to bottom, $darkgreen-100, $darkgreen-25);
 $gradient-darkbrown: linear-gradient(to bottom, $darkbrown-100, $darkbrown-25);
 
-/* Two Color Gradients */
+/* Two Color Linear Gradients */
 $gradient-lime-teal: linear-gradient(to right, $lime, $teal);
 $gradient-green-darkgreen: linear-gradient(to right, $green, $darkgreen);
 $gradient-blue-darkbrown: linear-gradient(to right, $blue, $darkbrown);

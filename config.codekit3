@@ -1031,6 +1031,14 @@
       "oO" : 1,
       "oS" : 1
     },
+    "\/page-blog.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/page-blog.php",
+      "oF" : 0
+    },
     "\/page-fullwidth.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1119,21 +1127,31 @@
       "oAP" : "\/dist\/single.php",
       "oF" : 0
     },
-    "\/src\/img\/fa-angle.svg" : {
+    "\/src\/img\/icon-caret-right.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/dist\/img\/fa-angle.svg",
+      "oAP" : "\/dist\/img\/icon-caret-right.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/src\/img\/quote.svg" : {
+    "\/src\/img\/icon-download-cloud.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/dist\/img\/quote.svg",
+      "oAP" : "\/dist\/img\/icon-download-cloud.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/src\/img\/icon-quote.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/img\/icon-quote.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -1565,6 +1583,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/template-parts\/content-page.php",
+      "oF" : 0
+    },
+    "\/template-parts\/content-post.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/template-parts\/content-post.php",
       "oF" : 0
     },
     "\/template-parts\/content-search.php" : {

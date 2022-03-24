@@ -16,9 +16,9 @@
                 "id": ""
             },
             "choices": {
-                "standard": "Standard",
-                "overlay": "Overlay",
-                "simple": "Simple",
+                "solid": "Standard",
+                "transparent": "Background Image",
+                "wave": "Wave",
                 "contact": "Contact"
             },
             "default_value": false,
@@ -30,11 +30,11 @@
             "placeholder": ""
         },
         {
-            "key": "field_61e24458da6d0",
-            "label": "Hero Content",
-            "name": "hero_content",
-            "type": "wysiwyg",
-            "instructions": "Include H1 heading tag for SEO",
+            "key": "field_61e60248c1bb8",
+            "label": "Background Color",
+            "name": "hero_color",
+            "type": "select",
+            "instructions": "Select a background color for the banner",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
@@ -42,59 +42,22 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
-            "tabs": "all",
-            "toolbar": "full",
-            "media_upload": 1,
-            "delay": 0
-        },
-        {
-            "key": "field_61de49d78c5cc",
-            "label": "Hero Image",
-            "name": "hero_image",
-            "type": "image",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
+            "choices": {
+                "teal": "Teal",
+                "blue": "Teal Blue",
+                "lime": "Lime Green",
+                "green": "Green",
+                "darkgreen": "Brown Green",
+                "darkbrown": "Dark Brown",
+                "all": "Full"
             },
-            "return_format": "id",
-            "preview_size": "medium",
-            "library": "all",
-            "min_width": "",
-            "min_height": "",
-            "min_size": "",
-            "max_width": "",
-            "max_height": "",
-            "max_size": "",
-            "mime_types": ""
-        },
-        {
-            "key": "field_61de4a898c5cd",
-            "label": "Hero Overlay Graphic",
-            "name": "hero_overlay_graphic",
-            "type": "image",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "return_format": "id",
-            "preview_size": "medium",
-            "library": "all",
-            "min_width": "",
-            "min_height": "",
-            "min_size": "",
-            "max_width": "",
-            "max_height": "",
-            "max_size": "",
-            "mime_types": ""
+            "default_value": false,
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
         },
         {
             "key": "field_61de4aa28c5ce",
@@ -123,11 +86,11 @@
             "placeholder": ""
         },
         {
-            "key": "field_61e60248c1bb8",
-            "label": "Hero Color",
-            "name": "hero_color",
-            "type": "select",
-            "instructions": "Select a background color for the banner",
+            "key": "field_61e24458da6d0",
+            "label": "Rich Text Area",
+            "name": "hero_content",
+            "type": "wysiwyg",
+            "instructions": "",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
@@ -135,18 +98,59 @@
                 "class": "",
                 "id": ""
             },
-            "choices": {
-                "teal": "Teal",
-                "darkgreen": "Dark Green",
-                "darkbrown": "Dark Brown"
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_61de49d78c5cc",
+            "label": "Background Image",
+            "name": "hero_image",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
             },
-            "default_value": false,
-            "allow_null": 0,
-            "multiple": 0,
-            "ui": 0,
-            "return_format": "value",
-            "ajax": 0,
-            "placeholder": ""
+            "return_format": "id",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_61de4a898c5cd",
+            "label": "Overlay Graphic",
+            "name": "hero_overlay_graphic",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "id",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
         }
     ],
     "location": [
@@ -202,5 +206,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1645506275
+    "modified": 1647667077
 }

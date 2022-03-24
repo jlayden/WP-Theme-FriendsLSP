@@ -1,2 +1,12 @@
 // Utility Variables
 @import "../atoms/colors";
+
+// Default Card Style
+article.post {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 30%;
+    margin: 1%;
+    flex-basis: 30%;
+}

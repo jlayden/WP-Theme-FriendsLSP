@@ -4,7 +4,7 @@
 @import "../atoms/mixins";
 
 .btn {
-    font-family: $font-copy, Helvetica, Arial, sans-serif;
+    font-family: $font-heading, $font-copy, Helvetica, Arial, sans-serif;
     display: inline-block;
     outline: none;
     cursor: pointer;

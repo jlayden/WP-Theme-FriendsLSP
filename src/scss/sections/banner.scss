@@ -30,13 +30,13 @@
         }
     }
     &.blue {
-        background-color: $blue;
+        background-color: $teal-blue;
         .banner-overlay {
             background-image: $gradient-blue-transparent;
         }
     }
     &.lime {
-        background-color: $lime;
+        background-color: $lime-green;
         .banner-overlay {
             background-image: $gradient-lime-transparent;
         }
@@ -48,7 +48,7 @@
         }
     }
     &.darkbrown {
-        background-color: $darkbrown;
+        background-color: $darkbrown-darkgreen;
         .banner-overlay {
             background-image: $gradient-darkbrown-transparent;
         }
@@ -138,7 +138,95 @@
         }
 
     }
-    &.simple {
+    &.standard {
+        position: relative;
+        padding: 5rem 0;
+        margin-bottom: 5rem;
+        min-height: 22rem;
+        @include mobile {
+            padding: 0 0 3rem;
+        }
+        .banner-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 0;
+            @include mobile {
+                width: 100%;
+                height: 16rem;
+                margin-bottom: 2rem;
+            }
+        }
+        .banner-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            z-index: -1;
+            @include mobile {
+                // position: relative;
+                position: static;
+                width: 100%;
+                height: 16rem;
+                margin-bottom: 2rem;
+            }
+        }
+        .content-wrapper {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            margin-bottom: 1rem;
+            width: 100%;
+            h1 {
+                @include heading(1);
+                color: $white;
+                @include tablet {
+                    color: $darkgreen;
+                }
+            }
+            p {
+                color: $white;
+                margin-top: 0;
+                @include tablet {
+                    font-size: 1.125rem;
+                    line-height: 1.2;
+                    color: $darkgreen;
+                }
+                @include mobile {
+                    font-size: 1rem;
+                }
+            }
+        }
+
+    }
+    &.solid {
+        &.darkgreen {
+            background-color: $green;
+        }
+        &.darkbrown {
+            background-color: $darkgreen;
+        }
+        &.lime {
+            background-color: $teal;
+        }
+        &.teal {
+            background-color: $blue;
+        }
+        &.blue {
+            background-color: $green;
+        }
+        &.green {
+            background-color: $teal;
+        }
+        
+    }
+    &.wave {
         position: relative;
         background-color: $teal;
         display: flex;
@@ -173,14 +261,66 @@
                 height: 10rem;
                 transform: rotate(0deg);
                 .shape-fill {
-                    fill: $teal;
+                    fill: $green;
                 }
             }
             &.accent {
-                transform: translate(-1%, 100%);
-                z-index: -10;
+                transform: rotate(180deg) translate(0%, 0%);
+                z-index: 0;
                 svg {
                     .shape-fill {
+                        fill: $green;
+                    }
+                }
+            }
+        }
+        &.blue {
+            .wave-divider {
+                svg {
+                    .shape-fill {
+                        fill: $blue;
+                    }
+                }
+                &.accent {
+                    svg {
+                        .shape-fill {
+                            fill: $lime-green;
+                        }
+                    }
+                }
+            }
+        }
+        &.teal-blue {
+            .wave-divider {
+                svg {
+                    .shape-fill {
+                        fill: $blue;
+                    }
+                }
+                &.accent {
+                    svg {
+                        .shape-fill {
+                            fill: $green;
+                        }
+                    }
+                }
+            }
+        }
+        &.lime-green {
+            .wave-divider {
+                svg {
+                    fill: $darkbrown;
+                    &.accent {
+                        fill: $darkgreen;
+                    }
+                }
+            }
+        }
+        &.darkgreen {
+            .wave-divider {
+                svg {
+                    fill: $darkbrown;
+                    &.accent {
                         fill: $lime;
                     }
                 }
