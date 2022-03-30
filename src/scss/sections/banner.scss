@@ -24,45 +24,45 @@
         }
     }
     &.teal {
-        background-color: $teal;
+        background-color: $lime;
         .banner-overlay {
-            background-image: $gradient-teal-transparent;
+            background: $gradient-teal-transparent;
         }
     }
     &.blue {
-        background-color: $teal-blue;
+        background-color: $radial-teal-blue;
         .banner-overlay {
-            background-image: $gradient-blue-transparent;
+            background: $gradient-blue-transparent;
         }
     }
     &.lime {
-        background-color: $lime-green;
+        background-color: $lime;
         .banner-overlay {
-            background-image: $gradient-lime-transparent;
+            background: $gradient-lime-transparent;
         }
     }
     &.green {
-        background-color: $green;
+        background-color: $blue;
         .banner-overlay {
-            background-image: $gradient-green-transparent;
+            background: $gradient-green-transparent;
         }
     }
     &.darkbrown {
-        background-color: $darkbrown-darkgreen;
+        background: $radial-darkbrown-darkgreen;
         .banner-overlay {
-            background-image: $gradient-darkbrown-transparent;
+            background: $gradient-darkbrown-transparent;
         }
     }
     &.darkgreen {
         background-color: $darkgreen;
         .banner-overlay {
-            background-image: $gradient-darkgreen-transparent;
+            background: $gradient-darkgreen-transparent;
         }
     }
     &.all {
         background-color: $gradient-all;
         .banner-overlay {
-            background-image: $gradient-hero;
+            background: $gradient-hero;
         }
     }
     &.standard {
@@ -205,27 +205,28 @@
         }
 
     }
+    /*
     &.solid {
         &.darkgreen {
-            background-color: $green;
-        }
-        &.darkbrown {
             background-color: $darkgreen;
         }
+        &.darkbrown {
+            background-color: $darkbrown;
+        }
         &.lime {
-            background-color: $teal;
+            background-color: $lime;
         }
         &.teal {
-            background-color: $blue;
-        }
-        &.blue {
-            background-color: $green;
-        }
-        &.green {
             background-color: $teal;
         }
-        
+        &.blue {
+            background-color: $blue;
+        }
+        &.green {
+            background-color: $green;
+        }
     }
+    */
     &.wave {
         position: relative;
         background-color: $teal;
@@ -284,7 +285,7 @@
                 &.accent {
                     svg {
                         .shape-fill {
-                            fill: $lime-green;
+                            fill: $radial-lime-green;
                         }
                     }
                 }

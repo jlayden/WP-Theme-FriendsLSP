@@ -64,6 +64,6 @@
 			?>
 		</nav><!-- #site-navigation -->
         <div class="cta">
-            <a href="https://friendslsp.org/donate/" class="btn btn-primary reversed">Donate Now</a>
+            <a href="/donate" class="btn btn-primary reversed">Donate Now</a>
         </div>
 	</header><!-- #masthead -->

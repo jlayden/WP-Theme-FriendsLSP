@@ -9,6 +9,7 @@
         flex-direction: column;
         background: linear-gradient(125deg,  rgba(0,148,158, .9), rgba(0,148,158, .8), rgba(0,148,158, .5), rgba(129,196,84,.3));
         height: 100vh;
+        margin-bottom: 0;
         @include mobile {
             justify-content: flex-end;
             height: 50vh;

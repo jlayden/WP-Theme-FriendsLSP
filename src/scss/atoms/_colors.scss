@@ -63,9 +63,9 @@ $gradient-darkgreen-transparent: linear-gradient(to bottom, $darkgreen, rgba(40,
 $gradient-darkbrown-transparent: linear-gradient(to bottom, $darkbrown, rgba(119, 85, 71, 0.5));
 
 /* Two Color Radial Gradients */
-$lime-green: radial-gradient(ellipse at top, $lime, transparent), radial-gradient(ellipse at bottom, $green, transparent);
-$teal-blue: radial-gradient(ellipse at top, $teal, transparent), radial-gradient(ellipse at bottom, $blue, transparent);
-$darkbrown-darkgreen: radial-gradient(ellipse at top, $darkbrown, transparent), radial-gradient(ellipse at bottom, $darkgreen, transparent);
+$radial-lime-green: radial-gradient(ellipse at top, $lime, transparent), radial-gradient(ellipse at bottom, $green, transparent);
+$radial-teal-blue: radial-gradient(ellipse at top, $teal, transparent), radial-gradient(ellipse at bottom, $blue, transparent);
+$radial-darkbrown-darkgreen: radial-gradient(ellipse at top, $darkbrown, transparent), radial-gradient(ellipse at bottom, $darkgreen, transparent);
 
 /* One Color Linear Gradients */
 $gradient-teal: linear-gradient(to bottom, $teal-100, $teal-25);

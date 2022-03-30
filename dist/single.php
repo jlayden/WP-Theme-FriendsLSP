@@ -13,7 +13,7 @@ get_template_part('template-parts/sections/banner-standard' );
 	<main id="primary" class="site-main">
         <div class="container">
             <div class="row">
-                <div class="col-8">
+                <div class="col-lg-10 offset-lg-1">
                 <?php
                     while ( have_posts() ) :
                         the_post();
@@ -28,12 +28,17 @@ get_template_part('template-parts/sections/banner-standard' );
                     endwhile; // End of the loop.
                 ?>
                 </div>
-                <div class="col-4">
-                    <?php get_sidebar(); ?>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                        <?php get_sidebar(); ?>
                 </div>
             </div>
         </div>
 
 	</main><!-- #main -->
 <?php
+get_template_part('template-parts/sections/footer-calloutbar' );
 get_footer();

@@ -907,6 +907,14 @@
       "oAP" : "\/dist\/header.php",
       "oF" : 0
     },
+    "\/home.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/home.php",
+      "oF" : 0
+    },
     "\/inc\/custom-header.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1023,12 +1031,12 @@
       "oO" : 1,
       "oS" : 1
     },
-    "\/page-blog.php" : {
+    "\/page-events.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/page-blog.php",
+      "oAP" : "\/dist\/page-events.php",
       "oF" : 0
     },
     "\/page-fullwidth.php" : {
@@ -1118,6 +1126,26 @@
       "oA" : 0,
       "oAP" : "\/dist\/single.php",
       "oF" : 0
+    },
+    "\/src\/img\/icon-accordion.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/img\/icon-accordion.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/src\/img\/icon-caret-right--white.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/img\/icon-caret-right--white.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/src\/img\/icon-caret-right.svg" : {
       "ft" : 2097152,
@@ -1340,6 +1368,36 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/src\/scss\/blocks\/accordion.scss" : {
+      "aP" : 1,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 1,
+      "oA" : 1,
+      "oAP" : "\/dist\/scss\/blocks\/accordion.css",
+      "oF" : 0,
+      "oS" : 3,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/src\/scss\/blocks\/cards.scss" : {
+      "aP" : 1,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 1,
+      "oA" : 1,
+      "oAP" : "\/dist\/scss\/blocks\/cards.css",
+      "oF" : 0,
+      "oS" : 3,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/src\/scss\/blocks\/default.scss" : {
       "aP" : 1,
       "bl" : 0,
@@ -1475,6 +1533,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/src\/scss\/sections\/sponsors.scss" : {
+      "aP" : 1,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 1,
+      "oA" : 1,
+      "oAP" : "\/dist\/scss\/sections\/sponsors.css",
+      "oF" : 0,
+      "oS" : 3,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/src\/scss\/sections\/testimonial.scss" : {
       "aP" : 1,
       "bl" : 0,
@@ -1529,6 +1602,14 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/template-parts\/atoms\/accordion.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/template-parts\/atoms\/accordion.php",
+      "oF" : 0
+    },
     "\/template-parts\/atoms\/card-quote.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1559,6 +1640,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/template-parts\/atoms\/social-bookmarks.php",
+      "oF" : 0
+    },
+    "\/template-parts\/content-card.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/template-parts\/content-card.php",
       "oF" : 0
     },
     "\/template-parts\/content-none.php" : {
@@ -1601,12 +1690,28 @@
       "oAP" : "\/dist\/template-parts\/content.php",
       "oF" : 0
     },
+    "\/template-parts\/nav\/alert-banner.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/template-parts\/nav\/alert-banner.php",
+      "oF" : 0
+    },
     "\/template-parts\/nav\/nav-tabs.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/template-parts\/nav\/nav-tabs.php",
+      "oF" : 0
+    },
+    "\/template-parts\/nav\/nav-visit.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/template-parts\/nav\/nav-visit.php",
       "oF" : 0
     },
     "\/template-parts\/nav\/section-subnav.php" : {
@@ -1671,6 +1776,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/template-parts\/sections\/section-feature.php",
+      "oF" : 0
+    },
+    "\/template-parts\/sections\/section-sponsors.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/template-parts\/sections\/section-sponsors.php",
       "oF" : 0
     },
     "\/template-parts\/sections\/section-testimonial.php" : {

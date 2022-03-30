@@ -9,14 +9,12 @@
 
 ?>
 
-<h1>this is high almighty ... call me baby jesus</h1>
-
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 	</header><!-- .entry-header -->
 
-	<?php flsp_custom_post_thumbnail(); ?>
+	<?php // flsp_custom_post_thumbnail(); ?>
 
 	<div class="entry-content">
 		<?php
