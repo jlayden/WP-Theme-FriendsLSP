@@ -18,6 +18,7 @@
             "choices": {
                 "solid": "Standard",
                 "transparent": "Background Image",
+                "image": "Featured Image",
                 "wave": "Wave",
                 "contact": "Contact"
             },
@@ -61,7 +62,7 @@
         },
         {
             "key": "field_61de4aa28c5ce",
-            "label": "Hero Overlay Align",
+            "label": "Align Content",
             "name": "hero_overlay_align",
             "type": "select",
             "instructions": "",
@@ -87,7 +88,7 @@
         },
         {
             "key": "field_61e24458da6d0",
-            "label": "Rich Text Area",
+            "label": "Content Area",
             "name": "hero_content",
             "type": "wysiwyg",
             "instructions": "",
@@ -130,7 +131,7 @@
         },
         {
             "key": "field_61de4a898c5cd",
-            "label": "Overlay Graphic",
+            "label": "Featured Image",
             "name": "hero_overlay_graphic",
             "type": "image",
             "instructions": "",
@@ -199,5 +200,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1648162418
+    "modified": 1648674026
 }

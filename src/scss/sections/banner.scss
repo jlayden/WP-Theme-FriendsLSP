@@ -34,6 +34,9 @@
         .banner-overlay {
             background: $gradient-blue-transparent;
         }
+        &.image {
+            border-bottom: 0.5rem solid $teal;
+        }
     }
     &.lime {
         background-color: $lime;
@@ -143,6 +146,7 @@
         padding: 5rem 0;
         margin-bottom: 5rem;
         min-height: 22rem;
+        z-index: -1;
         @include mobile {
             padding: 0 0 3rem;
         }
@@ -175,6 +179,22 @@
                 width: 100%;
                 height: 16rem;
                 margin-bottom: 2rem;
+            }
+        }
+        .image-overlay {
+            position: absolute;
+            bottom: -50%;
+            right: 5%;
+            border: 0.5rem solid $lime;
+            border-radius: 50%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 25rem;
+            width: 25rem;
+            z-index: 1;
+            &.blue {
+                border: 0.5rem solid $teal;
             }
         }
         .content-wrapper {

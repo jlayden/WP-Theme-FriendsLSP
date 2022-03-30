@@ -31,21 +31,17 @@ if ( is_home() ) {
 
 <section class="banner standard <?php echo $display; ?> <?php echo $color; ?>" 
 <?php if ($display !== 'solid') { ?> style="background-image: url(<?php echo $hero_img[0]; ?>);" <?php } ?>>
-    <a class="logo-link" href="https://friendslsp.org/" title="FLSP | Home">
+    <a class="logo-link" href="/" title="FLSP | Home">
         <img src="http://friendslsp.org/wp-content/uploads/2022/01/FLSP_Logo_White_Border_No_Wordmark.jpg" alt="FLSP Logo"/>
     </a>
     <div class="banner-overlay"></div>
-    <?php if ($hero_overlay_graphic) { ?>	
-        <div class="overlay-wrapper in-bottom">
-            <div class="logo-overlay">
-                <img src="<?php echo $hero_overlay_img[0]; ?>" alt="hero overlay" width="600" height="300" />
-            </div>
-        </div>
+    <?php if ($hero_overlay_graphic && $display == 'image') { ?>
+        <div class="image-overlay in-right <?php echo $color; ?>" style="background-image: url(<?php echo $hero_overlay_img[0]; ?>);"></div>
     <?php } ?>
     <?php if ($hero_content) { ?>
     <div class="content-wrapper in-left">
         <div class="content container">
-            <div class="content-area col-md-8 offset-md-2 text-center">
+            <div class="content-area col-md-10 offset-md-2 text-<?php echo $hero_overlay_align ?>">
                 <?php echo $hero_content; ?>
             </div>
         </div>

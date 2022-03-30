@@ -1,3 +1,9 @@
+// Utility Variables
+@import "../atoms/variables";
+@import "../atoms/colors";
+@import "../atoms/fonts";
+@import "../atoms/mixins";
+
 .about {
     .wp-block-columns {
         align-items: center;

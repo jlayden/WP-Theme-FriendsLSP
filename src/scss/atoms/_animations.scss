@@ -591,6 +591,9 @@
     animation: fadeOut .2s ease-in-out forwards;
 }
 
+
+
+/* fadeInLeft */
 @-webkit-keyframes fadeInLeft {
     from {
         opacity: 0;
@@ -657,4 +660,74 @@
     -o-animation-duration: 1s;
     animation-delay: 1s;
 }
+
+
+/* fadeInRight */
+@-webkit-keyframes fadeInRight {
+    from {
+        opacity: 0;
+        -webkit-transform: translatex(50%);
+        -moz-transform: translatex(50%);
+        -o-transform: translatex(50%);
+        transform: translatex(50%);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translatex(0);
+        -moz-transform: translatex(0);
+        -o-transform: translatex(0);
+        transform: translatex(0);
+    }
+}
+@-moz-keyframes fadeInRight {
+    from {
+        opacity: 0;
+        -webkit-transform: translatex(50%);
+        -moz-transform: translatex(50%);
+        -o-transform: translatex(50%);
+        transform: translatex(50%);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translatex(0);
+        -moz-transform: translatex(0);
+        -o-transform: translatex(0);
+        transform: translatex(0);
+    }
+}
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        -webkit-transform: translatex(50%);
+        -moz-transform: translatex(50%);
+        -o-transform: translatex(50%);
+        transform: translatex(50%);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translatex(0);
+        -moz-transform: translatex(0);
+        -o-transform: translatex(0);
+        transform: translatex(0);
+    }
+}
+.in-right {
+    -webkit-animation-name: fadeInRight;
+    -moz-animation-name: fadeInRight;
+    -o-animation-name: fadeInRight;
+    animation-name: fadeInRight;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    -o-animation-duration: 1s;
+    animation-delay: 1s;
+}
+
 

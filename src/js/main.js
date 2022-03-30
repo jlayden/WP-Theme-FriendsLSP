@@ -1,3 +1,39 @@
+//
+//  BootStrap 5.x JavaScript
+//
+//  Some Bootstrap components require JavaScript. This file powers those components.
+//  It uses ECMAScript modules, so to work in browsers it must be 'bundled' into a single,
+//  browser-compatible JS file. CodeKit does this automatically using Rollup.
+//
+
+//
+//  1. Import Bootstrap Modules
+//     Remove the modules you don't need to reduce the file size of your final JS:
+//
+// import '/node_modules/bootstrap/js/dist/alert';
+// import 'node_modules/bootstrap/js/dist/button';
+// import 'node_modules/bootstrap/js/dist/carousel';
+// import 'node_modules/bootstrap/js/dist/collapse';
+// import 'node_modules/bootstrap/js/dist/dropdown';
+// import 'node_modules/bootstrap/js/dist/modal';
+// import 'node_modules/bootstrap/js/dist/offcanvas';
+// import 'node_modules/bootstrap/js/dist/popover';
+// import 'node_modules/bootstrap/js/dist/scrollspy';
+// import 'node_modules/bootstrap/js/dist/tab';
+// import 'node_modules/bootstrap/js/dist/toast';
+// import 'node_modules/bootstrap/js/dist/tooltip';
+
+//
+//  2. Import PopperJS
+//     If you use the 'dropdown', 'tooltip', or 'popover' Bootstrap components, you MUST include PopperJS
+//     or those components won't work. If you do not use those components, remove this import:
+//
+// import '@popperjs/core/lib/index.js'
+
+//
+//  3. Add your custom JavaScript below, either directly or by importing ES6 modules:
+//
+
 /**
  * Navigation - highlight current page
  * Add the active class to the link when on the current page or subpage. 
@@ -106,3 +142,21 @@ $(function() {
     });
 });
 */
+
+
+/**
+ * Tabs
+ */
+
+// var triggerTabList = [].slice.call(document.querySelectorAll('#myTab a'))
+// triggerTabList.forEach(function (triggerEl) {
+//   var tabTrigger = new bootstrap.Tab(triggerEl)
+
+//   triggerEl.addEventListener('click', function (event) {
+//     event.preventDefault()
+//     tabTrigger.show()
+//   })
+// })
+
+// var triggerEl = document.querySelector('#myTab a[href="#wildlife"]')
+// bootstrap.Tab.getInstance(triggerEl).show() // Select tab by name
