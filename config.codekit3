@@ -1055,6 +1055,14 @@
       "oAP" : "\/dist\/page-programs.php",
       "oF" : 0
     },
+    "\/page-visit.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/page-visit.php",
+      "oF" : 0
+    },
     "\/page.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1175,11 +1183,31 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/src\/img\/icon-quote.svg" : {
+    "\/src\/img\/icon-quote-blue.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/dist\/img\/icon-quote.svg",
+      "oAP" : "\/dist\/img\/icon-quote-blue.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/src\/img\/icon-quote-green.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/img\/icon-quote-green.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/src\/img\/icon-quote-lime.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/img\/icon-quote-lime.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,

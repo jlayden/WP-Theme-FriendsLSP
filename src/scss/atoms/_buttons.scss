@@ -3,6 +3,7 @@
 @import "../atoms/fonts";
 @import "../atoms/mixins";
 
+button,
 .btn {
     font-family: $font-heading, $font-copy, Helvetica, Arial, sans-serif;
     display: inline-block;

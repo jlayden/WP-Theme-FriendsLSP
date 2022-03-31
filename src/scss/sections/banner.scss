@@ -23,128 +23,10 @@
             max-width: 8rem;
         }
     }
-    &.teal {
-        background-color: $lime;
-        .banner-overlay {
-            background: $gradient-teal-transparent;
-        }
-    }
-    &.blue {
-        background-color: $radial-teal-blue;
-        .banner-overlay {
-            background: $gradient-blue-transparent;
-        }
-        &.image {
-            border-bottom: 0.5rem solid $teal;
-        }
-    }
-    &.lime {
-        background-color: $lime;
-        .banner-overlay {
-            background: $gradient-lime-transparent;
-        }
-    }
-    &.green {
-        background-color: $blue;
-        .banner-overlay {
-            background: $gradient-green-transparent;
-        }
-    }
-    &.darkbrown {
-        background: $radial-darkbrown-darkgreen;
-        .banner-overlay {
-            background: $gradient-darkbrown-transparent;
-        }
-    }
-    &.darkgreen {
-        background-color: $darkgreen;
-        .banner-overlay {
-            background: $gradient-darkgreen-transparent;
-        }
-    }
-    &.all {
-        background-color: $gradient-all;
-        .banner-overlay {
-            background: $gradient-hero;
-        }
-    }
     &.standard {
         position: relative;
-        padding: 5rem 0;
-        margin-bottom: 5rem;
-        // min-height: 30rem;
-        @include mobile {
-            padding: 0 0 3rem;
-        }
-        .banner-overlay {
-            // background-image: $gradient-hero;
-            // background: #eb01a5;
-            // background-image: url("IMAGE_URL"); /* fallback */
-            // background-image: url("IMAGE_URL"), linear-gradient(#eb01a5, #d13531); /* W3C */
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            z-index: 0;
-            @include mobile {
-                // position: relative;
-                // position: static;
-                width: 100%;
-                height: 16rem;
-                margin-bottom: 2rem;
-            }
-        }
-        .banner-image {
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-size: cover;
-            background-position: center center;
-            background-repeat: no-repeat;
-            z-index: -1;
-            @include mobile {
-                // position: relative;
-                position: static;
-                width: 100%;
-                height: 16rem;
-                margin-bottom: 2rem;
-            }
-        }
-        .content-wrapper {
-            display: flex;
-            flex-direction: column;
-            position: relative;
-            margin-bottom: 1rem;
-            width: 100%;
-            h1 {
-                @include heading(1);
-                color: $white;
-                @include tablet {
-                    color: $darkgreen;
-                }
-            }
-            p {
-                color: $white;
-                margin-top: 0;
-                @include tablet {
-                    font-size: 1.125rem;
-                    line-height: 1.2;
-                    color: $darkgreen;
-                }
-                @include mobile {
-                    font-size: 1rem;
-                }
-            }
-        }
-
-    }
-    &.standard {
-        position: relative;
-        padding: 5rem 0;
-        margin-bottom: 5rem;
+        padding: 5rem 0 0;
+        margin-bottom: 6rem;
         min-height: 22rem;
         z-index: -1;
         @include mobile {
@@ -174,7 +56,6 @@
             background-repeat: no-repeat;
             z-index: -1;
             @include mobile {
-                // position: relative;
                 position: static;
                 width: 100%;
                 height: 16rem;
@@ -185,7 +66,6 @@
             position: absolute;
             bottom: -50%;
             right: 5%;
-            border: 0.5rem solid $lime;
             border-radius: 50%;
             background-position: center;
             background-repeat: no-repeat;
@@ -193,9 +73,6 @@
             height: 25rem;
             width: 25rem;
             z-index: 1;
-            &.blue {
-                border: 0.5rem solid $teal;
-            }
         }
         .content-wrapper {
             display: flex;
@@ -223,8 +100,155 @@
                 }
             }
         }
-
+        &.teal {
+            background-color: $lime;
+            .banner-overlay {
+                background: $gradient-teal-transparent;
+            }
+            .image-overlay {
+                border: 0.5rem solid $green;
+            }
+            &.image {
+                border-bottom: 0.75rem solid $green;
+            }
+        }
+        &.blue {
+            background-color: $radial-teal-blue;
+            .banner-overlay {
+                background: $gradient-blue-transparent;
+            }
+            .image-overlay {
+                border: 0.5rem solid $teal;
+            }
+            &.image {
+                border-bottom: 0.75rem solid $teal;
+            }
+        }
+        &.lime {
+            background-color: $lime;
+            .banner-overlay {
+                background: $gradient-lime-transparent;
+            }
+            .image-overlay {
+                border: 0.5rem solid $darkgreen;
+            }
+            &.image {
+                border-bottom: 0.75rem solid $darkgreen;
+            }
+        }
+        &.green {
+            background-color: $blue;
+            .banner-overlay {
+                background: $gradient-green-transparent;
+            }
+            .image-overlay {
+                border: 0.5rem solid $darkgreen;
+            }
+            &.image {
+                border-bottom: 0.75rem solid $darkgreen;
+            }
+        }
+        &.darkbrown {
+            background: $radial-darkbrown-darkgreen;
+            .banner-overlay {
+                background: $gradient-darkbrown-transparent;
+            }
+            .image-overlay {
+                border: 0.5rem solid $blue;
+            }
+            &.image {
+                border-bottom: 0.75rem solid $blue;
+            }
+        }
+        &.darkgreen {
+            background-color: $darkgreen;
+            .banner-overlay {
+                background: $gradient-darkgreen-transparent;
+            }
+            .image-overlay {
+                border: 0.5rem solid $lime;
+            }
+            &.image {
+                border-bottom: 0.75rem solid $lime;
+            }
+        }
     }
+
+
+    
+    // &.standard {
+    //     position: relative;
+    //     padding: 5rem 0 0;
+    //     margin-bottom: 5rem;
+    //     // min-height: 30rem;
+    //     @include mobile {
+    //         padding: 0 0 3rem;
+    //     }
+    //     .banner-overlay {
+    //         // background-image: $gradient-hero;
+    //         // background: #eb01a5;
+    //         // background-image: url("IMAGE_URL"); /* fallback */
+    //         // background-image: url("IMAGE_URL"), linear-gradient(#eb01a5, #d13531); /* W3C */
+    //         position: absolute;
+    //         top: 0;
+    //         left: 0;
+    //         right: 0;
+    //         bottom: 0;
+    //         z-index: 0;
+    //         @include mobile {
+    //             // position: relative;
+    //             // position: static;
+    //             width: 100%;
+    //             height: 16rem;
+    //             margin-bottom: 2rem;
+    //         }
+    //     }
+    //     .banner-image {
+    //         position: absolute;
+    //         top: 0;
+    //         left: 0;
+    //         right: 0;
+    //         bottom: 0;
+    //         background-size: cover;
+    //         background-position: center center;
+    //         background-repeat: no-repeat;
+    //         z-index: -1;
+    //         @include mobile {
+    //             // position: relative;
+    //             position: static;
+    //             width: 100%;
+    //             height: 16rem;
+    //             margin-bottom: 2rem;
+    //         }
+    //     }
+    //     .content-wrapper {
+    //         display: flex;
+    //         flex-direction: column;
+    //         position: relative;
+    //         margin-bottom: 1rem;
+    //         width: 100%;
+    //         h1 {
+    //             @include heading(1);
+    //             color: $white;
+    //             @include tablet {
+    //                 color: $darkgreen;
+    //             }
+    //         }
+    //         p {
+    //             color: $white;
+    //             margin-top: 0;
+    //             @include tablet {
+    //                 font-size: 1.125rem;
+    //                 line-height: 1.2;
+    //                 color: $darkgreen;
+    //             }
+    //             @include mobile {
+    //                 font-size: 1rem;
+    //             }
+    //         }
+    //     }
+
+    // }
     /*
     &.solid {
         &.darkgreen {
@@ -246,7 +270,6 @@
             background-color: $green;
         }
     }
-    */
     &.wave {
         position: relative;
         background-color: $teal;
@@ -347,6 +370,6 @@
                 }
             }
         }
-    }
+    }*/
 }
 

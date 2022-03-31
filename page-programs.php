@@ -18,11 +18,12 @@ get_template_part('template-parts/sections/banner-standard' );
         <section class="container">
             <div class="col-lg-10 offset-lg-1">
             <?php
+            // tabbed nav section
+            get_template_part('template-parts/nav/nav-tabs' );
+
             while ( have_posts() ) :
                 the_post();
-                get_template_part('template-parts/nav/nav-tabs' );
                 get_template_part( 'template-parts/content', 'page' );
-                get_template_part('template-parts/nav/downloads' );
 
                 // If comments are open or we have at least one comment, load up the comment template.
                 if ( comments_open() || get_comments_number() ) :
@@ -30,6 +31,9 @@ get_template_part('template-parts/sections/banner-standard' );
                 endif;
 
             endwhile; // End of the loop.
+
+            // brochure downloads
+            get_template_part('template-parts/nav/downloads' );
             ?>
             </div>
 

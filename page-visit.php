@@ -1,6 +1,6 @@
 <?php
 /**
- * The default template for displaying all pages
+ * Template Name: Visit
  *
  * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages
@@ -38,5 +38,6 @@ get_template_part('template-parts/sections/banner-standard' );
 
 	</main><!-- #main -->
 <?php
+get_template_part('template-parts/nav/nav-visit' );
 get_template_part('template-parts/sections/footer-calloutbar' );
 get_footer();
