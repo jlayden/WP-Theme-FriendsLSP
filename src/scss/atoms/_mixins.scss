@@ -214,9 +214,9 @@ $breakpoints: (
 //  DESKTOP FIRST - DNU
 //––––––––––––––––––––––––––––––––––––––––––––––––––
 $mobile-width-small: 375px;
-$mobile-width: 768px;
-$tablet-width: 992px;
-$desktop-large-width: 1400px;
+$mobile-width: 767px;
+$tablet-width: 991px;
+$desktop-large-width: 1399px;
 
 @mixin mobile-small {
 	@media (max-width: #{$mobile-width-small}) {

@@ -264,6 +264,16 @@
         top: 0;
         background: transparent;
         transition: background-color .25s ease-in-out;
+        &.open {
+            background: $teal;
+        }
+        .main-navigation {
+            #menu-toggle {
+                span {
+                    background-color: $white;
+                }
+            }
+        }
     }
     &.sticky {
         position: fixed;

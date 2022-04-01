@@ -36,6 +36,10 @@ a.btn-download {
     text-decoration: none;
     font-weight: 700;
     transition: all .3s ease-in-out;
+    @include respond-below(md){
+        padding: 0.75rem 0.5rem;
+        margin: 1.5rem auto;
+    }
     &:hover {
         filter: brightness(1);
         color: $green;
@@ -44,6 +48,7 @@ a.btn-download {
             fill: $green;
         }
     }
+    img,
     svg {
         fill: $darkgreen;
         height: 3rem;

@@ -1,9 +1,57 @@
 .calloutbar {
     &.standard {
-        // TODO style me
+        display: flex;
+        margin: 0;
+        @include mobile {
+            flex-direction: column;
+        }
+        img {
+            max-width: 50%;
+            width: 100%;
+            height: auto;
+            @include tablet {
+                max-width: 100%;
+                order: 2;
+            }
+        }
+        .content-wrapper {
+            width: 100%;
+            background: $blue;
+            padding: 3rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            * {
+                color: $white;
+            }
+            .btn {
+                background-color: $teal;
+                margin-top: 1.5rem;
+            }
+        }
+        &.teal {
+            .content-wrapper {
+                background: $teal;
+                .btn {
+                    color: $darkgreen;
+                    background: $lime;
+                }
+            }
+        }
+        &.darkgreen {
+            .content-wrapper {
+                background: $darkgreen;
+                * {
+                    color: $lightbrown;
+                }
+                .btn {
+                    color: $lightbrown-25;
+                    background: $darkbrown;
+                }
+            }
+        }
     }
     &.image {
-        // background: url(http://friendslsp.org/wp-content/uploads/2021/11/IMG_2786-scaled.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -34,6 +82,9 @@
         background: linear-gradient(to right, $teal, $blue) !important;
         .content * {
             color: $white;
+        }
+        .cta {
+            margin-top: 1rem;
         }
     }
 }

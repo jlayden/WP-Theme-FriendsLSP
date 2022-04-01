@@ -11,7 +11,9 @@
     margin-bottom: 1.5rem;
 }
 .wp-block-column:not(:first-child) {
-    margin-left: 3rem;
+    @include respond-above(md){
+        margin-left: 3rem;
+    }
 }
 .wp-block-quote {
     background-image: url(../../src/img/icon-quote-blue.svg);
@@ -22,10 +24,21 @@
     padding: 2rem 0 0;
     width: 100%;
     text-align: right;
+    @include mobile {
+        background-position: top left !important;
+        padding: 2.5rem 0 0  !important;
+        text-align: center  !important;
+        background-size: auto  !important;
+    }
     p {
         font-size: 2rem;
         text-align: left;
         padding-left: 5rem;
+        @include mobile {
+            font-size: 1.25rem;
+            line-height: 1.5;
+            padding: 0 !important;
+        }
     }
     cite {
         font-size: 1.5rem;

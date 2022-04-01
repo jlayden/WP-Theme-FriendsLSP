@@ -9,15 +9,33 @@
         margin-bottom: 0;
     }
     .nav-tabs {
-        margin-top: -92px;
-        .nav-link {
-            color: $white;
-            &.active {
-                color: $darkgreen;
-            }
-        }
+        margin-top: -5.75rem;
     }
     .tab-content {
         padding: 3rem 0;
+        @include tablet {
+            padding: 3rem 0 0 0;
+        }
+        .tab-pane {
+            .tab-content {
+                padding: 0 0 0 2rem;;
+                p:first-child {
+                    margin-top: 0;
+                }
+            }
+        }
+        .nav-pills {
+            .nav-link {
+                color: $darkgreen;
+                margin-bottom: 0.5rem;
+                // text-align: left;
+                &.active {
+                    color: $white;
+                    background-color: $darkgreen;
+                }
+            }
+        }
+        
     }
+    
 }

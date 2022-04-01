@@ -23,7 +23,7 @@ button,
     padding: 1rem 0.875rem 1.125rem;
     color: $white;
     background-color: $gray;
-    height: 3rem;
+    // height: 3rem;
     &:hover {
         filter: brightness(1.1);
     }
@@ -49,51 +49,51 @@ button,
 
 .btn-primary {
     color: $white;
-    background-color: $lime;
-    &:hover{
-        background-color: $lime;
-    }
+    background-color: $darkgreen;
+    // &:hover{
+    //     background-color: $darkgreen-75;
+    // }
     &.teal {
         color: $white;
         background-color: $teal;
         &:hover{
-            background-color: $teal;
+            background-color: $teal-75;
         }
         &.reversed {
             color: $teal;
             background-color: $white;
-            &:hover{
-                background-color: $white;
-            }
+            // &:hover{
+            //     background-color: $gray;
+            // }
         }
     }
     &.green {
         color: $white;
         background-color: $green;
-        &:hover{
-            background-color: $green;
-        }
+        // &:hover{
+        //     background-color: $green-75;
+        // }
     }
     &.blue {
         color: $white;
         background-color: $blue;
-        &:hover{
-            background-color: $blue;
-        }
+        // &:hover{
+        //     background-color: $blue-75;
+        // }
     }
     &.darkbrown {
         color: $white;
         background-color: $darkbrown;
-        &:hover{
-            background-color: $darkbrown;
-        }
+        // &:hover{
+        //     background-color: $darkbrown;
+        // }
     }
     &.lightbrown {
         color: $white;
         background-color: $lightbrown;
-        &:hover{
-            background-color: $lightbrown;
-        }
+        // &:hover{
+        //     background-color: $lightbrown;
+        // }
     }
     &.reversed {
         color: $teal;
@@ -104,7 +104,8 @@ button,
     }
 }
 
-.btn-secndary {
+// TODO - add arrow for external links
+.btn-link {
     color: $white;
     background-color: $teal;
     &:hover{
@@ -124,15 +125,15 @@ button,
     text-transform: uppercase;
     letter-spacing: 1.2px;
     line-height: 1;
-    border-bottom: 2px spolid transparent;
+    border-bottom: 2px solid transparent;
     &:hover{
-        border-bottom: 2px spolid $teal;
+        border-bottom: 2px solid $teal;
         filter: brightness(1.1);
     }
     &.reversed {
         color: $white;
         &:hover{
-            border-bottom: 2px spolid $white;
+            border-bottom: 2px solid $white;
         }
     }
 }

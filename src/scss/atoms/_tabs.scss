@@ -1,0 +1,43 @@
+// Utility Variables
+@import "../atoms/variables";
+@import "../atoms/colors";
+@import "../atoms/fonts";
+@import "../atoms/mixins";
+
+/* TABS */
+.nav-tabs {
+    border: 0;
+    @include tablet {
+        margin: 0;
+        background-color: $green-25;
+        border-radius: 0.25rem;
+    }
+    .nav-link {
+        color: $white;
+        border-bottom: 0;
+        border-radius: 0.25rem 0.25rem 0 0;
+        @include tablet {
+            color: $darkgreen;
+        }
+        &.active {
+            color: $darkgreen;
+            @include tablet {
+                border: 0.125rem solid $darkgreen;
+                border-radius: 0.25rem;
+            }
+        }
+    }
+}
+
+/* PILLS */
+.nav-pills {
+    .nav-link {
+        color: $darkgreen;
+        margin-bottom: 0.5rem;
+        &.active {
+            color: $white;
+            background-color: $darkgreen;
+        }
+    }
+}
+    

@@ -1,0 +1,14 @@
+// Utility Variables
+@import "../atoms/variables";
+@import "../atoms/colors";
+@import "../atoms/fonts";
+@import "../atoms/mixins";
+
+.visit {
+    .calloutbar.gradient {
+        @include mobile {
+            margin-top: 0;
+        } 
+    }
+}
+

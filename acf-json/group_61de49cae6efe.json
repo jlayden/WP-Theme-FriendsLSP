@@ -49,8 +49,7 @@
                 "lime": "Lime Green",
                 "green": "Green",
                 "darkgreen": "Brown Green",
-                "darkbrown": "Dark Brown",
-                "all": "Full"
+                "darkbrown": "Dark Brown"
             },
             "default_value": false,
             "allow_null": 0,
@@ -200,5 +199,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1648674026
+    "modified": 1648745668
 }
