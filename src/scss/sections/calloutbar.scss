@@ -1,8 +1,12 @@
+// Utility Variables
+@import "../atoms/colors";
+@import "../atoms/mixins";
+
 .calloutbar {
     &.standard {
         display: flex;
         margin: 0;
-        @include mobile {
+        @include tablet {
             flex-direction: column;
         }
         img {
@@ -11,7 +15,7 @@
             height: auto;
             @include tablet {
                 max-width: 100%;
-                order: 2;
+                // order: 2;
             }
         }
         .content-wrapper {

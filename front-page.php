@@ -37,21 +37,6 @@ get_header();
             </div>
         </section>
 
-        <section class="intro text-center" style="background-color: #EFEFEF;">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12">
-                        <?php
-                        while ( have_posts() ) :
-                            the_post();
-                            the_content();
-                        endwhile;
-                        ?>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <?php get_template_part('template-parts/sections/section-testimonial', get_post_format() ) ?>
         
         <?php get_template_part('template-parts/sections/section-feature', get_post_format() ) ?>

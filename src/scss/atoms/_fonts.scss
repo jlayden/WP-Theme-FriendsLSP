@@ -3,28 +3,47 @@ $font-copy: "Avenir";
 
 /* Futura */
 @font-face {
-    font-family: 'Futura';
-    src: url('/fonts/FuturaLT.eot'),
-        url('/fonts/FuturaLT.eot?#iefix') format('embedded-opentype'),
-        url('/fonts/FuturaLT.woff2') format('woff2'),
-        url('/fonts/FuturaLT.woff') format('woff'),
-        url('/fonts/FuturaLT.ttf') format('truetype');
-    font-weight: 500;
+    font-family: "Futura";
+    font-weight: 400;
     font-style: normal;
+    font-display: swap; /* Read next point */
+    unicode-range: U+000-5FF; /* Download only latin glyphs */
+    src: local("Futura"), url("/fonts/FuturaLT.woff2") format("woff2"),
+        url("/fonts/FuturaLT.woff") format("woff");
 }
 
 /* Avenir */
 @font-face {
     font-family: "Avenir";
-    src: url("/fonts/Avenir Next LT W02 Regular.eot"), // IE9
-        url("/fonts/Avenir Next LT W02 Regular.eot?#iefix") format("embedded-opentype"), 
-        url("/fonts/Avenir Next LT W02 Regular.woff2") format("woff2"), 
-        url("/fonts/Avenir Next LT W02 Regular.woff") format("woff"), 
-        url("/fonts/Avenir Next LT W02 Regular.ttf") format("truetype"), 
-        url("/fonts/Avenir Next LT W02 Regular.svg#Avenir Next LT W02 Regular") format("svg");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+000-5FF;
+    src: local("Avenir"), url("/fonts/Avenir Next LT W02 Regular.woff2") format("woff2"),
+        url("/fonts/Avenir Next LT W02 Regular.woff") format("woff");
 }
 
-/* Futura LT - Extended 
+/*
+@font-face {
+    font-family: "Avenir";
+    src: url("/fonts/Avenir Next LT W02 Regular.eot"),
+        // IE9
+        url("/fonts/Avenir Next LT W02 Regular.eot?#iefix") format("embedded-opentype"),
+        url("/fonts/Avenir Next LT W02 Regular.woff2") format("woff2"),
+        url("/fonts/Avenir Next LT W02 Regular.woff") format("woff"),
+        url("/fonts/Avenir Next LT W02 Regular.ttf") format("truetype"),
+        url("/fonts/Avenir Next LT W02 Regular.svg#Avenir Next LT W02 Regular") format("svg");
+}
+Futura LT - Extended 
+
+@font-face {
+    font-family: "Futura";
+    src: url("/fonts/FuturaLT.eot"), url("/fonts/FuturaLT.eot?#iefix") format("embedded-opentype"),
+        url("/fonts/FuturaLT.woff2") format("woff2"), url("/fonts/FuturaLT.woff") format("woff"),
+        url("/fonts/FuturaLT.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
 @font-face {
     font-family: 'Futura LT';
     src: url('/fonts/FuturaLT-CondensedOblique.eot'),

@@ -26,13 +26,15 @@
     &.standard {
         position: relative;
         padding: 5rem 0 0;
-        margin-bottom: 6rem;
+        margin-bottom: 2.5rem;
         min-height: 22rem;
         z-index: -1;
-        @include mobile {
-            padding: 0 0 3rem;
-            margin-bottom: 3rem;
+        @include tablet {
+            padding: 3rem 0 0;
             justify-content: flex-end;
+        }
+        @include mobile {
+            padding: 0 0 1.5rem;
         }
         .banner-overlay {
             position: absolute;
@@ -65,52 +67,44 @@
             }
         }
         .image-overlay {
-            position: absolute;
-            bottom: -50%;
-            right: 5%;
-            border-radius: 50%;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            height: 25rem;
-            width: 25rem;
-            z-index: 1;
-            @include tablet {
-                bottom: -35%;
-                height: 15rem;
-                width: 15rem;
-            }
-            @include mobile {
-                bottom: -25%;
-                height: 8rem;
-                width: 8rem;
-            }
+            display: none;
+            // position: absolute;
+            // bottom: -50%;
+            // right: 5%;
+            // border-radius: 50%;
+            // background-position: center;
+            // background-repeat: no-repeat;
+            // background-size: cover;
+            // height: 25rem;
+            // width: 25rem;
+            // z-index: 1;
+            // @include tablet {
+            //     bottom: -35%;
+            //     height: 15rem;
+            //     width: 15rem;
+            // }
+            // @include mobile {
+            //     bottom: -25%;
+            //     height: 8rem;
+            //     width: 8rem;
+            // }
         }
         .content-wrapper {
             display: flex;
             flex-direction: column;
             position: relative;
-            margin-bottom: 1rem;
+            padding: 12rem 0 1rem;
+            // margin-bottom: 1rem;
             width: 100%;
             h1 {
-                @include heading(1);
                 color: $white;
-                // @include tablet {
-                //     color: $darkgreen;
-                // }
             }
             p {
                 color: $white;
                 margin-top: 0;
                 @include tablet {
-                    font-size: 1.125rem;
-                    line-height: 1.2;
                     margin: 0;
-                    // color: $darkgreen;
                 }
-                // @include mobile {
-                //     font-size: 1rem;
-                // }
             }
         }
         &.teal {
@@ -186,34 +180,64 @@
             }
         }
     }
-    &.contact {
+    &.contact.teal {
         padding-bottom: 5rem;
         @include tablet {
             padding-bottom: 0;
         }
         .banner-overlay {
             @include tablet {
-                background: linear-gradient(to top, $white, rgba(21, 137, 144, 0.5));
+                // background: linear-gradient(to bottom, $white, rgba(21, 137, 144, 0.5));
+                background: linear-gradient(to top, #FFFFFF, rgba(21, 137, 144, 0.5), #158990);
             }
         }
         .content-wrapper {
-            @include tablet {
-                margin: 12rem 0 0;
-            }
+            // @include tablet {
+            //     margin: 12rem 0 0;
+            // }
             .form-wrapper {
                 margin-top: 1rem;
-                .form {
+                form {
                     @include tablet {
-                        background: linear-gradient(to top, $blue-100, $blue-25);
+                        background-color: $blue;
+                        // background: linear-gradient(to top, $blue-100, $lime-100);
                     }
                 }
             }
         }
        
     }
-
-
-    
+    &.image {
+        @include mobile {
+            padding: 0 0 4rem;
+        }
+        .image-overlay {
+            display: block;
+            position: absolute;
+            bottom: -50%;
+            right: 5%;
+            border-radius: 50%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 25rem;
+            width: 25rem;
+            z-index: 1;
+            @include tablet {
+                bottom: -35%;
+                height: 15rem;
+                width: 15rem;
+            }
+            @include mobile {
+                bottom: -15%;
+                height: 8rem;
+                width: 8rem;
+            }
+        }
+        .content-wrapper {
+            padding-bottom: 0;
+        }
+    }
     // &.standard {
     //     position: relative;
     //     padding: 5rem 0 0;

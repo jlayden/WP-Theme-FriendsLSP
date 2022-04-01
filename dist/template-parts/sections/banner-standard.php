@@ -41,13 +41,13 @@ if ( is_home() ) {
     <?php if ($hero_content) { ?>
     <div class="content-wrapper in-left">
         <div class="content container">
-            <div class="content-area col-md-8 offset-md-2 text-<?php echo $hero_overlay_align ?>">
+            <div class="content-area col-lg-8 offset-lg-2 col-md-12 text-<?php echo $hero_overlay_align ?>">
                 <?php echo $hero_content; ?>
             </div>
         </div>
     <?php if ($display === 'contact') { ?>
         <div class="form-wrapper container">
-            <div class="form col-md-4 offset-md-4">
+            <div class="form col-lg-4 offset-lg-4 col-md-6 offset-md-3 col-sm-12">
                 <?php get_template_part('/template-parts/atoms/form-volunteer' );?>
             </div>
         </div>

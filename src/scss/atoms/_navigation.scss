@@ -112,23 +112,35 @@
  * Site Alert Banner
  */
 .site-alert-banner {
-    position: relative;
     display: block;
-    z-index: 1;
+    position: relative;
+    background-color: $lime;
     text-decoration: none;
     padding: 0.75rem 0;
-    background-color: $lime;
+    z-index: 1;
     transition: background-color 0.15s ease-in-out;
-    color: $white;
-    h2 {
-        display: block;
-        color: $white;
-        padding-right: 4rem;
+    .arrow-icon {
+        content: '';
+        width: 0.5rem;
+        height: 0.5rem;
         background-image: url(../images/icon-caret-right--white);
         background-repeat: no-repeat;
         background-position: right 0.5rem center;
         background-size: 0.5rem;
+    }
+    &:hover {
+        .arrow-icon {
+
+        }
+    }
+    h2 {
+        display: block;
+        color: $white;
+        font-size: 1.5rem;
+        padding-right: 4rem;
+        margin-bottom: 0;
         transition: background-position 0.25s ease-in-out;
+        
     }
 }
 
@@ -143,10 +155,11 @@
     padding: 0.25rem;
     overflow: hidden;
     text-align: center;
-    top: 40%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    top: 50%;
+    z-index:10;
+    -webkit-transform: translateY(-50px);
+    -ms-transform: translateY(-50px);
+    transform: translateY(-50px);
     ul {
         display: flex;
         justify-content: flex-start;

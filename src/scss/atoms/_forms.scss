@@ -1,3 +1,7 @@
+// Utility Variables
+@import "../atoms/colors";
+@import "../atoms/mixins";
+
 .form-wrapper {
     
     form {
@@ -16,11 +20,18 @@
                 max-height: 3rem;
                 margin-bottom: 1rem;
                 width: 100%;
-            }
-
-            input:focus {
+            &:focus {
                 border: 1px solid $teal;
                 border-radius: 3px;
+            }
+
+            &::placeholder {
+                color: $darkgreen;
+                font-size: 1.25rem;
+                @include tablet {
+                    font-size: 1.125rem;
+                }
+              }
             }
 
             label {
