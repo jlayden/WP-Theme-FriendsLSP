@@ -11,7 +11,7 @@
     margin-bottom: 1.5rem;
 }
 .wp-block-column:not(:first-child) {
-    @include respond-above(md){
+    @include respond-above(md) {
         margin-left: 3rem;
     }
 }
@@ -26,9 +26,9 @@
     text-align: right;
     @include mobile {
         background-position: top left !important;
-        padding: 2.5rem 0 0  !important;
-        text-align: center  !important;
-        background-size: auto  !important;
+        padding: 2.5rem 0 0 !important;
+        text-align: center !important;
+        background-size: auto !important;
     }
     p {
         font-size: 2rem;
@@ -67,5 +67,46 @@
     }
 }
 
+/* STACKABLE */
+.stk-block-button {
+    a.stk-button {
+        font-family: $font-heading, $font-copy, Helvetica, Arial, sans-serif;
+        display: inline-block;
+        outline: none;
+        cursor: pointer;
 
-  
+        transition-property: background-color, border-color, color, box-shadow, filter;
+        transition-duration: 0.2s;
+        border: 0;
+        min-width: 10rem;
+        text-transform: uppercase;
+        white-space: normal;
+        text-align: center;
+        padding: 1rem 0.875rem 1.125rem !important;
+        color: $white;
+        background-color: $gray;
+        text-decoration: none;
+        -ms-user-select: none;
+        -webkit-user-select: none;
+        user-select: none;
+        border-radius: 0.25rem;
+        transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+            box-shadow 0.15s ease-in-out;
+        &:hover {
+            filter: brightness(1.1);
+        }
+        &.stk-button__inner-text {
+            color: $white;
+            font-size: 1.125rem;
+            line-height: 1;
+            font-weight: 700;
+            letter-spacing: 1.2px;
+            vertical-align: middle;
+        }
+    }
+    &.teal {
+        a.stk-button {
+            background-color: $teal;
+        }
+    }
+}

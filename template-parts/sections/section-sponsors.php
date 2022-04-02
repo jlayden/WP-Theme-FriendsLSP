@@ -8,10 +8,10 @@
         </div>
 
         <div class="d-flex flex-row justify-content-center flex-wrap">
-            <div class="sponsor d-flex flex-column">
-                <h3>Sponsor</h3>
-                <img src="" alt="logo" />
-            </div>
+            <a class="sponsor d-flex flex-column" href="http://sturgeonfest.org/" target="_blank">
+                <h3>Sturgeon Fest</h3>
+                <img src="http://sturgeonfest.org/wp-content/themes/sturgeonfest-2021/assets/images/logo-evergreen@2x.gif" alt="Sturgeon Fest Logo" />
+            </a>
             <div class="sponsor d-flex flex-column">
                 <h3>Sponsor</h3>
                 <img src="" alt="logo" />

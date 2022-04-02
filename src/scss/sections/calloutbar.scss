@@ -5,6 +5,9 @@
 .calloutbar {
     &.standard {
         display: flex;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
         margin: 0;
         @include tablet {
             flex-direction: column;
@@ -13,8 +16,10 @@
             max-width: 50%;
             width: 100%;
             height: auto;
+            padding: 2rem;
             @include tablet {
                 max-width: 100%;
+                padding: 1rem;
                 // order: 2;
             }
         }
