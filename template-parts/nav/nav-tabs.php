@@ -42,7 +42,7 @@
             <h3>2007:</h3>
             <p>Lakeshore State Park officially opened in June, making it Wisconsin's only urban state park. The Park is continuously undergoing prairie restoration, which includes planting and maintaining native forbs (flowering plants) and short prairie grasses.</p>
             <p class="text-center">
-                <a href="https://friendslsp.org/wp-content/uploads/2017/11/History2010-Revised-1.pdf" class="btn-download">
+                <a href="https://friendslsp.org/wp-content/uploads/2017/11/History2010-Revised-1.pdf" class="btn-download" target="_blank">
                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
                         <g>
                             <path d="M446.844,208.875C447.625,203.313,448,197.656,448,192c0-70.563-57.406-128-128-128
@@ -78,7 +78,7 @@
                     <p>If you love birding and want to find out what others have observed, check out <a class="link" href="ebird.org" target="_blank">ebird.org</a>, created by the <a class="link" href="https://www.birds.cornell.edu/home/" target="_blank">Cornell Lab of Ornithology</a> and <a class="link" href="https://www.audubon.org/" target="_blank">National Audubon Society</a>.</p>
                     <p>Here you can create an account to submit your findings, look up information about different species, search for bird sightings at Lakeshore State Park, and see when certain species are typically at the Park, as well as numerous other sites throughout the country.</p>
                     <p class="text-center">
-                        <a href="http://friendslsp.org/wp-content/uploads/2020/10/Bird-Brochure-2020.pdf" class="btn-download">
+                        <a href="http://friendslsp.org/wp-content/uploads/2020/10/Bird-Brochure-2020.pdf" class="btn-download" target="_blank">
                             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
                                 <g>
                                     <path d="M446.844,208.875C447.625,203.313,448,197.656,448,192c0-70.563-57.406-128-128-128
@@ -100,7 +100,7 @@
                     <p>The foxes are often seen at dawn and dusk, hunting, playing or just walking down the trails.</p>
                     <p>Other mammals that live in the Park include mink, woodchucks, muskrats, various mice and voles, and an occasional rabbit, coyote or deer.</p>
                     <p class="text-center">
-                        <a href="http://friendslsp.org/wp-content/uploads/2020/03/Vertebrate-Brochure-2020.pdf" class="btn-download">
+                        <a href="http://friendslsp.org/wp-content/uploads/2020/03/Vertebrate-Brochure-2020.pdf" class="btn-download" target="_blank">
                             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
                                 <g>
                                     <path d="M446.844,208.875C447.625,203.313,448,197.656,448,192c0-70.563-57.406-128-128-128
@@ -122,7 +122,7 @@
                     <p>While walking around the rock prairie at the south entrance, keep a close eye out for Common and Butler's Garter Snakes.</p>
                     <p>These snakes are not a threat to humans (but do eat worms and other small creatures). Near the rocky shores of the basin, look for resident Snapping, Soft Shelled and Painted Turtles, which often poke their head up while they warm up in the shallow water.</p>
                     <p class="text-center">
-                        <a href="http://friendslsp.org/wp-content/uploads/2020/03/Vertebrate-Brochure-2020.pdf" class="btn-download">
+                        <a href="http://friendslsp.org/wp-content/uploads/2020/03/Vertebrate-Brochure-2020.pdf" class="btn-download" target="_blank">
                             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
                                 <g>
                                     <path d="M446.844,208.875C447.625,203.313,448,197.656,448,192c0-70.563-57.406-128-128-128
@@ -143,7 +143,7 @@
                     <p>It is common to observe large Bullfrogs in the wetland prairie, sunning themselves on the rocks.</p>
                     <p>Photos of reptiles and amphibians found at the Park courtesy of A.B. Sheldon and the Wisconsin DNR.
                     <p class="text-center">
-                        <a href="http://friendslsp.org/wp-content/uploads/2020/03/Vertebrate-Brochure-2020.pdf" class="btn-download">
+                        <a href="http://friendslsp.org/wp-content/uploads/2020/03/Vertebrate-Brochure-2020.pdf" class="btn-download" target="_blank">
                             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
                                 <g>
                                     <path d="M446.844,208.875C447.625,203.313,448,197.656,448,192c0-70.563-57.406-128-128-128
@@ -163,7 +163,7 @@
                     <h2>Insects</h2>
                     <p>An invertebrate is an organism without a true backbone. This means that it has neither a cartilage or bony spine. The majority of invertebrates instead rely on an exoskeleton to protect their vital organs. Lakeshore State Park is host to a variety of pollinators and other invertebrates. The diversity of the prairies allow insects to thrive here throughout the growing season, and they provide an overwintering habitat for species that do not migrate. These animals may be creepy crawlies, but check them out-they are vital to the ecosystem and can be beautiful and interesting!
                     <p class="text-center">
-                        <a href="http://friendslsp.org/wp-content/uploads/2020/10/Invertebrates-Brochure-2020.pdf" class="btn-download">
+                        <a href="http://friendslsp.org/wp-content/uploads/2020/10/Invertebrates-Brochure-2020.pdf" class="btn-download" target="_blank">
                             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
                                 <g>
                                     <path d="M446.844,208.875C447.625,203.313,448,197.656,448,192c0-70.563-57.406-128-128-128
@@ -188,7 +188,7 @@
                     <p>The park area once was part of Lake Michigan, with surrounding areas dominated by wild rice, but the prairie plants observed here would have been present in large portions of Wisconsin prior to urbanization.</p>
                     <p>The restoration process is ongoing, so stop by often to see what we're working on next!</p>
                     <p class="text-center">
-                        <a href="http://friendslsp.org/wp-content/uploads/2020/10/Plants-Brochure-2020.pdf" class="btn-download">
+                        <a href="http://friendslsp.org/wp-content/uploads/2020/10/Plants-Brochure-2020.pdf" class="btn-download" target="_blank">
                             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
                                 <g>
                                     <path d="M446.844,208.875C447.625,203.313,448,197.656,448,192c0-70.563-57.406-128-128-128
@@ -214,7 +214,7 @@
                     <p>A fishing license is required for anyone aged 16 and older. It is required that anyone fishing in the park follow all state licensing and regulations. Stamps or special licensing is required for some species, such as Great Lakes Trout/Salmon.</p>
                     <p>For more information on regulations and licensing, see <a class="link" href="https://dnr.wisconsin.gov/topic/fishing/regulations" target="_blank">DNR Fishing Regulations</a>.</p>
                     <p class="text-center">
-                        <a href="http://friendslsp.org/wp-content/uploads/2020/10/Fish-Brochure-2020.pdf" class="btn-download">
+                        <a href="http://friendslsp.org/wp-content/uploads/2020/10/Fish-Brochure-2020.pdf" class="btn-download" target="_blank">
                             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
                                 <g>
                                     <path d="M446.844,208.875C447.625,203.313,448,197.656,448,192c0-70.563-57.406-128-128-128
@@ -304,7 +304,7 @@
         <h3>Eating Your Catch</h3>
         <p>View online or download the DNR's biannual publication of safe eating guidelines <a class="link" target="_blank" href="https://widnr.widen.net/s/lxhdnp5jtn/choosewisely">'Choose Wisely'</a> or pickup during your next visit from the Park's brochure holders.</p>
         <p class="text-center">
-            <a href="https://widnr.widen.net/s/lxhdnp5jtn/choosewisely" class="btn-download">
+            <a href="https://widnr.widen.net/s/lxhdnp5jtn/choosewisely" class="btn-download" target="_blank">
                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
                     <g>
                         <path d="M446.844,208.875C447.625,203.313,448,197.656,448,192c0-70.563-57.406-128-128-128

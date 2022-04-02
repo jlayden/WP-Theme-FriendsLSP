@@ -16,10 +16,10 @@
             max-width: 50%;
             width: 100%;
             height: auto;
-            padding: 2rem;
+            // padding: 2rem;
             @include tablet {
                 max-width: 100%;
-                padding: 1rem;
+                // padding: 1rem;
                 // order: 2;
             }
         }
@@ -63,11 +63,14 @@
     &.image {
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: left;
         padding: 10rem 0 5rem;
         position: relative;
         text-align: center; 
         margin-bottom: 0;
+        @include tablet {
+            background-position: center;
+        }
         .content-wrapper {
             z-index: 1;
             .content {

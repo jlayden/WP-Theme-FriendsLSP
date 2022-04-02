@@ -20,7 +20,7 @@
                 <h2>Resources for Educators</h2>
                 <p>Outdoor education and play support emotional, behavioral and intellectual development. Studies have shown that students who learn outdoors develop: a sense of self, independence, confidence, creativity, decision-making and problem-solving skills, empathy towards others, motor skills, self-discipline and initiative.</p>
                 <p class="text-center">
-                    <a href="http://friendslsp.org/wp-content/uploads/2020/03/Education-Brochure-2020.pdf" class="btn-download">
+                    <a href="http://friendslsp.org/wp-content/uploads/2020/03/Education-Brochure-2020.pdf" class="btn-download" target="_blank">
                         <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
                             <g>
                                 <path d="M446.844,208.875C447.625,203.313,448,197.656,448,192c0-70.563-57.406-128-128-128

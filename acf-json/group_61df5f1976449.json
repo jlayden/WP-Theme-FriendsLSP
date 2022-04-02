@@ -19,7 +19,7 @@
                 "hidden": "Hidden",
                 "standard": "Standard",
                 "gradient": "Gradient",
-                "image": "Image"
+                "image": "Background Image"
             },
             "default_value": false,
             "allow_null": 0,
@@ -186,5 +186,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1648745783
+    "modified": 1648860890
 }
