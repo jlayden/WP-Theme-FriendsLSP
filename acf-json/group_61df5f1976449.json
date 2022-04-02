@@ -17,7 +17,8 @@
             },
             "choices": {
                 "hidden": "Hidden",
-                "standard": "Standard",
+                "standard": "Standard Left",
+                "reversed": "Standard Right",
                 "gradient": "Gradient",
                 "image": "Background Image"
             },
@@ -186,5 +187,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1648860890
+    "modified": 1648862093
 }
