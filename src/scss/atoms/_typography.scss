@@ -7,86 +7,86 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     color: $darkbrown;
-    font-size: 4rem;
-    line-height: 1.5;
+    font-size: 3rem;
+    line-height: 1.2;
     font-weight: 700;
-    @include mobile {
-        font-size: 3rem;
-        line-height: 1.2;
-    }
+    // @include mobile {
+    //     font-size: 3rem;
+    //     line-height: 1.2;
+    // }
 }
 h2 {
     color: $darkgreen;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 700;
-    @include mobile {
-        font-size: 2rem;
-    }
+    // @include mobile {
+    //     font-size: 2rem;
+    // }
 }
 h3 {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     font-weight: 500;
-    @include mobile {
-        font-size: 1.5rem;
-    }
+    // @include mobile {
+    //     font-size: 1.5rem;
+    // }
 }
 h4 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     line-height: 1.2;
     font-weight: 700;
-    @include mobile {
-        font-size: 1.25rem;
-    }
+    // @include mobile {
+    //     font-size: 1.25rem;
+    // }
 }
 h5 {
-    font-size: 1.25rem;
+    font-size: 1.125rem;
     line-height: 1.2;
     font-weight: 400;
     letter-spacing: 1.25px;
     color: $darkbrown;
     text-transform: uppercase;
-    @include mobile {
-        font-size: 1.125rem;
-    }
+    // @include mobile {
+    //     font-size: 1.125rem;
+    // }
 }
 h6 {
-    font-size: 1.125rem;
+    font-size: 1rem;
     line-height: 1.5;
     font-weight: 700;
     &.light {
         font-weight: 300;
     }
-    @include mobile {
-        font-size: 1rem;
-    }
+    // @include mobile {
+    //     font-size: 1rem;
+    // }
 }
 
 p {
-    font-size: 1.125rem;
-    line-height: 1.5;
-    margin: 1.5rem 0;
-    @include mobile {
-        font-size: 1rem;
-        line-height: 1.4;
-        margin: 1rem 0;
-    }
+    font-size: 1rem;
+    line-height: 1.3;
+    margin: 1rem 0;
+    // @include mobile {
+    //     font-size: 1rem;
+    //     line-height: 1.4;
+    //     margin: 1rem 0;
+    // }
     &.large {
-        font-size: 1.25rem;
-        line-height: 1.6;
-        margin: 1.75rem 0;
-        @include mobile {
-            font-size: 1.125rem;
-            margin: 1.25rem 0;
-        }
+        font-size: 1.125rem;
+        line-height: 1.4;
+        margin: 1.25rem 0;
+        // @include mobile {
+        //     font-size: 1.125rem;
+        //     margin: 1.25rem 0;
+        // }
     }
-    &.x-small {
-        font-size: 1rem;
-    }
-    &.fine {
-        font-size: 0.75rem;
-        line-height: 1;
-        color: $gray;
-    }
+    // &.x-small {
+    //     font-size: 1rem;
+    // }
+    // &.fine {
+    //     font-size: 0.75rem;
+    //     line-height: 1;
+    //     color: $gray;
+    // }
     &.reversed {
         color: $white;
     }
