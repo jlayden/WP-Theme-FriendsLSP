@@ -3,31 +3,42 @@
 @import "../atoms/mixins";
 
 .calloutbar {
-    &.standard {
+    &.standard,
+    &.reversed {
         display: flex;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
         margin: 0;
         @include tablet {
-            flex-direction: column;
+            flex-direction: column-reverse;
         }
-        img {
-            max-width: 50%;
-            width: 100%;
-            height: auto;
+        .image-wrapper {
+            width: 50%;
+            flex-basis: 50%;
             @include tablet {
+                width: 100%;
+                flex-basis: 100%;
+                // order: 2;
+            }
+            img {
+                height: auto;
                 max-width: 100%;
-                order: 2;
             }
         }
         .content-wrapper {
-            width: 100%;
             background: $blue;
             padding: 3rem;
             display: flex;
             flex-direction: column;
             justify-content: center;
+            width: 50%;
+            flex-basis: 50%;
+            @include tablet {
+                width: 100%;
+                flex-basis: 100%;
+                // order: 2;
+            }
             * {
                 color: $white;
             }
@@ -58,6 +69,12 @@
             }
         }
     }
+    &.reversed {
+        flex-direction: row-reverse;
+        @include tablet {
+            flex-direction: column-reverse;
+        }
+    }
     &.image {
         background-size: cover;
         background-repeat: no-repeat;
@@ -85,6 +102,9 @@
             height: 100%;
             z-index: 0;
         }
+        .cta {
+            margin-top: 1.5rem;
+        }
     }
     &.gradient {
         // margin: 0 auto;
@@ -94,7 +114,7 @@
             color: $white;
         }
         .cta {
-            margin-top: 1rem;
+            margin-top: 1.5rem;
         }
     }
 }

@@ -15,7 +15,7 @@ $background_img = wp_get_attachment_image_src($background_image, $background_siz
 $featured_size = "full"; // (thumbnail, medium, large, full or custom size)
 $featured_img = wp_get_attachment_image_src($featured_image, $featured_size);
 
-if ($display !== 'hidden' && $display !== 'standard') { ?>
+if ($display !== 'hidden' && $display !== 'standard' && $display !== 'reversed') { ?>
 <section class="calloutbar <?php echo $display ?> <?php echo $background_color ?>" style="background-image: url('<?php echo $background_img[0]; ?>');">
     <div class="container">
         <div class="row">
@@ -38,7 +38,9 @@ if ($display !== 'hidden' && $display !== 'standard') { ?>
 <?php } else { ?>
 <section class="calloutbar <?php echo $display ?>" style="background-image: url('<?php echo $background_img[0]; ?>');">
     <?php if ($featured_image) { ?>
+    <div class="image-wrapper">
         <img src="<?php echo $featured_img[0]; ?>" class="d-block mx-lg-auto img-fluid img-overlay" alt="overlay image" loading="lazy">
+    </div>
     <?php } ?>
     <div class="content-wrapper">
         <?php echo $content; ?>
