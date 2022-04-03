@@ -1,5 +1,5 @@
 h1, h2, h3, h4, h5, h6 {
-    font-family: $font-heading, $font-copy, Helvetica, Arial, sans-serif;
+    font-family: $font-heading, $font-copy, Roboto, Oxygen, Ubuntu, Arial, sans-serif;
     &.reversed {
         color: $white;
     }
@@ -68,13 +68,15 @@ p {
     @include mobile {
         font-size: 1rem;
         line-height: 1.4;
+        margin: 1rem 0;
     }
     &.large {
         font-size: 1.25rem;
         line-height: 1.6;
-        margin: 2rem 0;
+        margin: 1.75rem 0;
         @include mobile {
             font-size: 1.125rem;
+            margin: 1.25rem 0;
         }
     }
     &.x-small {
