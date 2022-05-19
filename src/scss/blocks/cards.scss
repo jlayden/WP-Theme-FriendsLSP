@@ -276,24 +276,6 @@ $main-blue-rgb-015: rgba(70, 191, 202, 0.1) !default;
         @include respond-below(md) {
             margin-bottom: 6rem;
         }
-        &::after,
-        &::before {
-            content: "";
-            position: absolute;
-            display: block;
-            left: 0;
-            right: 0;
-            width: 100%;
-            height: 100%;
-        }
-        &::before {
-            top: 0;
-            background: linear-gradient(to top, $blue-25 25%, transparent 100%);
-        }
-        &::after {
-            bottom: 0;
-            background: linear-gradient(to bottom, $blue-75 0%, transparent 100%);
-        }
         .card-img-top,
         .card-body,
         .card-footer {
@@ -317,16 +299,43 @@ $main-blue-rgb-015: rgba(70, 191, 202, 0.1) !default;
             height: 8rem;
             width: 8rem;
             box-shadow: 3px 3px 10px $teal;
+            padding: 0.25rem;
         }
         .card-body {
+            position: relative;
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
             padding: 0 2rem 1rem;
+            overflow: hidden;
+            border-radius: 0.25rem 0.25rem 0 0;
+            z-index: 0;
+            &::after,
+            &::before {
+                content: "";
+                position: absolute;
+                display: block;
+                left: 0;
+                right: 0;
+                width: 100%;
+                height: 100%;
+            }
+            &::before {
+                top: 0;
+                background: linear-gradient(to top, $blue-25 25%, transparent 100%);
+            }
+            &::after {
+                bottom: 0;
+                background: linear-gradient(to bottom, $blue-50 0%, transparent 100%);
+            }
+            .card-content {
+                z-index: 1;
+            }
         }
         .card-footer {
             padding: 1rem 2rem 2rem;
             text-align: center;
+            background-color: $blue-25;
         }
     }
 }

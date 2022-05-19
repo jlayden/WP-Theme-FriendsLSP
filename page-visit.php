@@ -38,6 +38,7 @@ get_template_part('template-parts/sections/banner-standard' );
 
 	</main><!-- #main -->
 <?php
-get_template_part('template-parts/nav/nav-visit' );
+get_template_part('template-parts/nav/nav-subnav' );
+get_template_part('template-parts/nav/nav-map' );
 get_template_part('template-parts/sections/footer-calloutbar' );
 get_footer();
