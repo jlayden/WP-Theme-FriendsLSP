@@ -57,6 +57,14 @@
       "oO" : 1,
       "oS" : 1
     },
+    "\/acf-json\/group_62841206a7c05.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/dist\/acf-json\/group_62841206a7c05-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
     "\/archive.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1193,7 +1201,7 @@
       "oAP" : "\/dist\/img\/icon-check.png",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -1216,7 +1224,7 @@
       "oAP" : "\/dist\/img\/icon-hours.png",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -1229,7 +1237,7 @@
       "oAP" : "\/dist\/img\/icon-map.png",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -1934,6 +1942,14 @@
       "oAP" : "\/dist\/template-parts\/sections\/section-feature.php",
       "oF" : 0
     },
+    "\/template-parts\/sections\/section-richtext.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/template-parts\/sections\/section-richtext.php",
+      "oF" : 0
+    },
     "\/template-parts\/sections\/section-sponsors.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1959,11 +1975,11 @@
   },
   "projectAttributes" : {
     "creationDate" : 662422977.46796703,
-    "displayValue" : "flsp_custom",
+    "displayValue" : "WP-Theme-FriendsLSP",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-cafe",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 664479755.59986901
+    "lastBuiltDate" : 674506386.18852198
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,

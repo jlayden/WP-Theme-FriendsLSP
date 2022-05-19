@@ -20,6 +20,7 @@ get_header();
     <?php  
         get_template_part('template-parts/sections/banner-frontpage' );
         get_template_part('template-parts/nav/alert-banner' );
+        
     ?>
 
         <section class="intro text-center">
@@ -37,11 +38,17 @@ get_header();
             </div>
         </section>
 
-        <?php get_template_part('template-parts/sections/section-testimonial', get_post_format() ) ?>
-        
-        <?php get_template_part('template-parts/sections/section-feature', get_post_format() ) ?>
+        <?php 
+            get_template_part('template-parts/sections/section-cardblock', get_post_format() );
+            
+            // get_template_part('template-parts/sections/section-testimonial', get_post_format() );
+            
+            // get_template_part('template-parts/sections/section-feature', get_post_format() );
+            get_template_part('template-parts/nav/nav-visit' );
 
-        <?php get_template_part('template-parts/sections/footer-calloutbar', get_post_format() ) ?>
+            get_template_part('template-parts/sections/footer-calloutbar', get_post_format() );
+            
+        ?>
 
 
 	</main><!-- #main -->

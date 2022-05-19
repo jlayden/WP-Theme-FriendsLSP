@@ -40,5 +40,5 @@ get_template_part('template-parts/sections/banner-standard' );
 
 <?php
 get_template_part('template-parts/sections/footer-calloutbar' );
-get_template_part('template-parts/sections/section-sponsors' );
+// get_template_part('template-parts/sections/section-sponsors' );
 get_footer();

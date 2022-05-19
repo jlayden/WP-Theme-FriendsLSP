@@ -36,9 +36,9 @@ if ($display !== 'hidden' && $display !== 'standard' && $display !== 'reversed')
     </div>
 </section>
 <?php } else { ?>
-<section class="calloutbar <?php echo $display ?>" style="background-image: url('<?php echo $background_img[0]; ?>');">
+<section class="calloutbar <?php echo $background_color ?> <?php echo $display ?>" style="background-image: url('<?php echo $background_img[0]; ?>');">
     <?php if ($featured_image) { ?>
-    <div class="image-wrapper">
+    <div class="image-wrapper" style="background-image: url('<?php echo $featured_img[0]; ?>');">
         <img src="<?php echo $featured_img[0]; ?>" class="d-block mx-lg-auto img-fluid img-overlay" alt="overlay image" loading="lazy">
     </div>
     <?php } ?>

@@ -54,15 +54,17 @@
                 <span></span>
                 <span></span>
             </div>
+            <div class="menu-main-navigation-container">
             <?php
 			wp_nav_menu(
 				array(
 					'theme_location' => 'menu-1',
 					'menu_id'        => 'primary-menu',
-                    //'container_class' => 'menu-wrapper', // changes outer <div> class
+                    // 'container_class' => 'menu-main-navigation-container', // changes outer <div> class
 				)
 			);
 			?>
+            </div>
 		</nav><!-- #site-navigation -->
         <div class="cta">
             <a href="/donate" class="btn btn-primary reversed">Donate Now</a>

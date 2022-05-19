@@ -16,6 +16,7 @@
         .image-wrapper {
             width: 50%;
             flex-basis: 50%;
+            background-size: cover;
             @include tablet {
                 width: 100%;
                 flex-basis: 100%;
@@ -24,6 +25,7 @@
             img {
                 height: auto;
                 max-width: 100%;
+                visibility: hidden;
             }
         }
         .content-wrapper {
@@ -53,6 +55,33 @@
                 .btn {
                     color: $darkgreen;
                     background: $lime;
+                }
+            }
+        }
+        &.green {
+            .content-wrapper {
+                background: $green;
+                .btn {
+                    color: $darkgreen;
+                    background: $lime;
+                }
+            }
+        }
+        &.lime {
+            .content-wrapper {
+                background: $lime;
+                .btn {
+                    color: $teal-25;
+                    background: $darkgreen;
+                }
+            }
+        }
+        &.brown {
+            .content-wrapper {
+                background: $darkbrown;
+                .btn {
+                    color: $teal-25;
+                    background: $darkgreen;
                 }
             }
         }
@@ -115,6 +144,21 @@
         }
         .cta {
             margin-top: 1.5rem;
+        }
+        &.green {
+            background: linear-gradient(to right, $green, $teal) !important;
+        }
+        &.teal {
+            background: linear-gradient(to right, $teal, $darkgreen) !important;
+        }
+        &.lime {
+            background: linear-gradient(to right, $green, $lime) !important;
+        }
+        &.darkgreen {
+            background: linear-gradient(to right, $darkgreen, $green) !important;
+        }
+        &.brown {
+            background: linear-gradient(to right, $darkbrown, $lightbrown) !important;
         }
     }
 }

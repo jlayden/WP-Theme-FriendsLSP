@@ -52,8 +52,8 @@ if (!function_exists('flsp_custom_setup')) :
         // This theme uses wp_nav_menu() in one location.
         register_nav_menus(
             array(
-                'menu-1' => esc_html__('Primary Navigation', 'flsp_custom'),
-                'menu-2' => esc_html__('Secondary Navigation', 'flsp_custom'),
+                'menu-1' => esc_html__('Primary Navigation', 'WP-Theme-FriendsLSP'),
+                'menu-2' => esc_html__('Secondary Navigation', 'WP-Theme-FriendsLSP'),
             )
         );
 

@@ -45,11 +45,11 @@
             },
             "choices": {
                 "teal": "Teal",
-                "blue": "Teal Blue",
-                "lime": "Lime Green",
+                "blue": "Blue",
+                "lime": "Lime",
                 "green": "Green",
-                "darkgreen": "Brown Green",
-                "darkbrown": "Dark Brown"
+                "darkgreen": "Dark Green",
+                "darkbrown": "Brown"
             },
             "default_value": false,
             "allow_null": 0,
@@ -156,9 +156,14 @@
     "location": [
         [
             {
-                "param": "post_type",
+                "param": "page_type",
                 "operator": "==",
-                "value": "page"
+                "value": "posts_page"
+            },
+            {
+                "param": "page_type",
+                "operator": "!=",
+                "value": "front_page"
             }
         ],
         [
@@ -166,13 +171,6 @@
                 "param": "post_type",
                 "operator": "==",
                 "value": "post"
-            }
-        ],
-        [
-            {
-                "param": "page_type",
-                "operator": "!=",
-                "value": "front_page"
             }
         ]
     ],
@@ -185,5 +183,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1648783160
+    "modified": 1652922130
 }

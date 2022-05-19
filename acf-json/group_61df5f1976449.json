@@ -44,10 +44,11 @@
                 "id": ""
             },
             "choices": {
-                "teal": "Teal",
                 "blue": "Blue",
                 "lime": "Lime",
+                "teal": "Teal",
                 "green": "Green",
+                "brown": "Brown",
                 "darkgreen": "Dark Green"
             },
             "default_value": "blue",
@@ -187,5 +188,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1648862093
+    "modified": 1652829466
 }

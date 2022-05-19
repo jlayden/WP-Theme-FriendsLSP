@@ -126,6 +126,7 @@ button,
     letter-spacing: 1.2px;
     line-height: 1;
     border-bottom: 2px solid transparent;
+    transition-property: background-color,border-color,color,box-shadow,filter;
     &:hover{
         border-bottom: 2px solid $teal;
         filter: brightness(1.1);

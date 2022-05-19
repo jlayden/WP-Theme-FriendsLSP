@@ -132,12 +132,17 @@
             .image-overlay {
                 border: 0.5rem solid $teal;
             }
+            .content-wrapper {
+                * {
+                    color: $darkgreen;
+                }
+            }
             &.image {
                 border-bottom: 0.75rem solid $teal;
             }
         }
         &.lime {
-            background-color: $lime;
+            background: $radial-lime-green;
             .banner-overlay {
                 background: $gradient-lime-transparent;
             }

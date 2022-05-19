@@ -1,22 +1,109 @@
 <!-- Nav tabs -->
 <ul class="nav nav-tabs flex-column flex-md-row" id="eduPrograms" role="tablist">
     <li class="nav-item">
-        <a class="nav-link active" id="discover-tab" data-bs-toggle="tab" href="#discover" role="tab" aria-controls="discover" aria-selected="true">history</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" id="wildlife-tab" data-bs-toggle="tab" href="#wildlife" role="tab" aria-controls="wildlife" aria-selected="false">wildlife</a>
+        <a class="nav-link active" id="fishing-tab" data-bs-toggle="tab" href="#fishing" role="tab" aria-controls="fishing" aria-selected="false">fishing</a>
     </li>
     <li class="nav-item">
         <a class="nav-link" id="marina-tab" data-bs-toggle="tab" href="#marina" role="tab" aria-controls="marina" aria-selected="false">marina</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" id="fishing-tab" data-bs-toggle="tab" href="#fishing" role="tab" aria-controls="fishing" aria-selected="false">fishing</a>
+        <a class="nav-link" id="discover-tab" data-bs-toggle="tab" href="#discover" role="tab" aria-controls="discover" aria-selected="true">history</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" id="wildlife-tab" data-bs-toggle="tab" href="#wildlife" role="tab" aria-controls="wildlife" aria-selected="false">wildlife</a>
     </li>
 </ul>
 
 <!-- Tab panes -->
 <div class="tab-content">
-    <div class="tab-pane active" id="discover" role="tabpanel" aria-labelledby="discover-tab">
+    <div class="tab-pane active" id="fishing" role="tabpanel" aria-labelledby="fishing-tab">
+        <h2>Fishing</h2>
+        <p>Lakeshore State Park is home to some of the most accessible fishing spots in Milwaukee. With multiple fishing areas, it is connected to Lake Michigan and is host to the same species of fish as found in the coastal areas of the Lake. Rock, Smallmouth and Largemouth Bass are common in the lagoon, as are Bluegills, Sunfish and Northern Pike. During fall months, Trout and Salmon species are seen jumping through the water as they prepare to spawn. Many fishermen even brave the shoreline winds in winter, and once the ice is thick enough, ice fish for Northern Pike and Trout in the lagoon!
+            The Park is open 24hours/day for fishing purposes. State of Wisconsin licensing and regulations apply. Some species found in Lake Michigan require an additional permit. For more information or to obtain a license, please see the DNR's fishing information at:dnr.wi.gov/topic/fishing/
+        </p>
+        <h3>Wheelchair-Accessible Fishing Locations</h3>
+        <p>We are committed to fair and equal treatment for all.</p>
+        <ul>
+            <li> South Entrance-Paved trail and railing area to fish right off the Milwaukee Harbor, and the south end of the lagoon
+            </li>
+            <li> North Entrance-Paved trail and railing at the 'bump out' south of Discovery World.
+            </li>
+            <li> Fishing Dock-Located along the western path about half-way through the park
+            </li>
+            <li> Other Fishing Locations
+            </li>
+            <li> Lakeshore's Shoreline
+            </li>
+            <li> Rock Blocks-located at the south entrance and north of the fishing dock
+            </li>
+            <li> Below the Park's pedestrian bridge
+            </li>
+        </ul>
+        <h3>Invasive Species</h3>
+        <p>Most lakes and streams in Wisconsin have invasive species. Lake Michigan is home to invasive species such as the Round Goby, Zebra/Quagga Mussels, and Rusty Crayfish. The invasive species rule (Wis. Adm. Code ch. NR 40) makes it illegal to possess, transport, transfer, or introduce certain invasive species in Wisconsin without a permit. If an invasive is inadvertently caught while fishing, please dispose of it on land rather than putting it back into the water. In any case, do not keep it for any purposes, especially for use as bait! To help prevent the spread of aquatic invasive species (AIS), the DNR has several recommendations including:</p>
+        <ul>
+            <li> Inspecting and cleaning all equipment immediately after it's removed from the water
+            </li>
+            <li> Remove all attached aquatic plants on-site to prevent spread to another water body
+            </li>
+            <li> Do not use prohibited invasive fish or crayfish as bait
+            </li>
+            <li> Do not introduce any non-native aquatic plant, algae or cyanobacteria into any water body
+            </li>
+            <li> Drain all water from any vehicle before entering and immediately after leaving a water body
+            </li>
+            <li> These practices are also consistent with the Viral Hemorrhagic Septicemia (VHS) prevention guidelines. For more information on VHS, see the DNR site for history and guidelines.
+            </li>
+        </ul>
+        <h3>Monofilament Fishing Line Deposit Bins</h3>
+        <p>Located at the fishing dock and along the south entrance railing, you will see plastic PVC tubes with a sticker requesting your disposal of used fishing line. The monofilaments line can be recycled and proper placement into these bins prevents the line from endangering the bird species at the Park. Please do your part and place any excess/used fishing line into these for proper disposal. Please do not place ordinary trash or hooks into these, as this only complicates the recycling process. For other waste, use the trash cans located at the north and south entrances of the Park.</p>
+
+        <h3>Eating Your Catch</h3>
+        <p>View online or download the DNR's biannual publication of safe eating guidelines <a class="link" target="_blank" href="https://widnr.widen.net/s/lxhdnp5jtn/choosewisely">'Choose Wisely'</a> or pickup during your next visit from the Park's brochure holders.</p>
+        <p class="text-center">
+            <a href="https://widnr.widen.net/s/lxhdnp5jtn/choosewisely" class="btn-download" target="_blank">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+                    <g>
+                        <path d="M446.844,208.875C447.625,203.313,448,197.656,448,192c0-70.563-57.406-128-128-128
+                            c-40.938,0-78.531,19.344-102.344,51.063C209.25,113.031,200.688,112,192,112c-61.75,0-112,50.25-112,112
+                            c0,1.563,0.031,3.094,0.094,4.625C33.813,242.375,0,285.313,0,336c0,61.75,50.25,112,112,112h272c70.594,0,128-57.406,128-128
+                            C512,273.344,486.344,231.188,446.844,208.875z M384,416H112c-44.188,0-80-35.813-80-80s35.813-80,80-80
+                            c2.438,0,4.75,0.5,7.125,0.719c-4.5-10-7.125-21.031-7.125-32.719c0-44.188,35.813-80,80-80c14.438,0,27.813,4.125,39.5,10.813
+                            C246,120.25,280.156,96,320,96c53.031,0,96,42.969,96,96c0,12.625-2.594,24.625-7.031,35.688C449.813,238.75,480,275.688,480,320
+                            C480,373.031,437.031,416,384,416z"></path>
+                        <polygon points="288,192 224,192 224,288 160,288 256,384 352,288 288,288 	"></polygon>
+                    </g>
+                </svg>download safe eating guidelines
+            </a>
+        </p>
+    </div>
+    <div class="tab-pane" id="marina" role="tabpanel" aria-labelledby="marina-tab">
+        <h2>Marina</h2>
+        <h3>Boater Information</h3>
+        <p>Lakeshore State Park is a popular place to dock your boat, especially during festival season. Transient boating is available for up to 4 consecutive days, and docking fees include electricity. Docks are available May 15th through October 31st.</p>
+
+        <h3>Slips</h3>
+        <p>The Park offers 20 boat slips. Slips 1-6 are 60 feet in length, and slips 7-20 are 40 feet. Electricity at slips 1-7 and slip 20 are 30A and 50A plug-ins. Slips 8-19 are dual 30A plug-ins.
+            </br></br>
+            <a class="link" href="https://wisconsin.goingtocamp.com/" target="_blank">book a slip</a>
+        </p>
+        
+
+        <h3>Fees</h3>
+        <p>Current fees for overnight boating are $1.50 per foot, with a $30 minimum charge, plus $7.75 reservation fee. Hourly dockage is available at a rate of $3 per hour, with a $9 minimum during non-fully reserved weekends on slips 5, 6, 19 and 20. The marina is often fully reserved during festival dates.</p>
+
+        <h3>Check-in</h3>
+        <p>Check-in begins at 3pm, and check-out is at 1pm. There is no need to call upon arrival.</p>
+
+        <h3>Boater Policies</h3>
+        <p>During the evenings of fireworks events, trail access to the marina is closed during the required fireworks safety zone closure. This occurs 1hr prior to firework discharge through approximately 1hr after to complete safety walkthroughs of the property. Please plan accordingly to either remain on the docks or beyond the closure zone during the fireworks closure. Signs are placed a minimum of 24 hours in advance of the fireworks shows to indicate closure times at each park entrance.</p>
+
+        <h3>Reservations</h3>
+        <p>Reservations can be made up to 11 months in advance. Marina reservations can be made up to 11 months in advance. Reservations can be made online at <a class="link" href="www.wisconsin.goingtocamp.com" target="_blank">www.wisconsin.goingtocamp.com</a> (select the tab for 'marina' on the right) or by calling <a class="link" href="tel:+18889472757">1-888-947-2757</a>.</p>
+
+        <p>For any other questions, please call the park manager at <a class="link" href="tel:4142744281">414-274-4281</a>.</p>
+    </div>
+    <div class="tab-pane" id="discover" role="tabpanel" aria-labelledby="discover-tab">
         <div class="site-history">
             <h2>Natural History</h2>
             <h3>300,000 years ago:</h3>
@@ -232,92 +319,5 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="tab-pane" id="marina" role="tabpanel" aria-labelledby="marina-tab">
-        <h2>Marina</h2>
-        <h3>Boater Information</h3>
-        <p>Lakeshore State Park is a popular place to dock your boat, especially during festival season. Transient boating is available for up to 4 consecutive days, and docking fees include electricity. Docks are available May 15th through October 31st.</p>
-
-        <h3>Slips</h3>
-        <p>The Park offers 20 boat slips. Slips 1-6 are 60 feet in length, and slips 7-20 are 40 feet. Electricity at slips 1-7 and slip 20 are 30A and 50A plug-ins. Slips 8-19 are dual 30A plug-ins.
-            </br></br>
-            <a class="link" href="https://wisconsin.goingtocamp.com/" target="_blank">book a slip</a>
-        </p>
-        
-
-        <h3>Fees</h3>
-        <p>Current fees for overnight boating are $1.50 per foot, with a $30 minimum charge, plus $7.75 reservation fee. Hourly dockage is available at a rate of $3 per hour, with a $9 minimum during non-fully reserved weekends on slips 5, 6, 19 and 20. The marina is often fully reserved during festival dates.</p>
-
-        <h3>Check-in</h3>
-        <p>Check-in begins at 3pm, and check-out is at 1pm. There is no need to call upon arrival.</p>
-
-        <h3>Boater Policies</h3>
-        <p>During the evenings of fireworks events, trail access to the marina is closed during the required fireworks safety zone closure. This occurs 1hr prior to firework discharge through approximately 1hr after to complete safety walkthroughs of the property. Please plan accordingly to either remain on the docks or beyond the closure zone during the fireworks closure. Signs are placed a minimum of 24 hours in advance of the fireworks shows to indicate closure times at each park entrance.</p>
-
-        <h3>Reservations</h3>
-        <p>Reservations can be made up to 11 months in advance. Marina reservations can be made up to 11 months in advance. Reservations can be made online at <a class="link" href="www.wisconsin.goingtocamp.com" target="_blank">www.wisconsin.goingtocamp.com</a> (select the tab for 'marina' on the right) or by calling <a class="link" href="tel:+18889472757">1-888-947-2757</a>.</p>
-
-        <p>For any other questions, please call the park manager at <a class="link" href="tel:4142744281">414-274-4281</a>.</p>
-    </div>
-    <div class="tab-pane" id="fishing" role="tabpanel" aria-labelledby="fishing-tab">
-        <h2>Fishing</h2>
-        <p>Lakeshore State Park is home to some of the most accessible fishing spots in Milwaukee. With multiple fishing areas, it is connected to Lake Michigan and is host to the same species of fish as found in the coastal areas of the Lake. Rock, Smallmouth and Largemouth Bass are common in the lagoon, as are Bluegills, Sunfish and Northern Pike. During fall months, Trout and Salmon species are seen jumping through the water as they prepare to spawn. Many fishermen even brave the shoreline winds in winter, and once the ice is thick enough, ice fish for Northern Pike and Trout in the lagoon!
-            The Park is open 24hours/day for fishing purposes. State of Wisconsin licensing and regulations apply. Some species found in Lake Michigan require an additional permit. For more information or to obtain a license, please see the DNR's fishing information at:dnr.wi.gov/topic/fishing/
-        </p>
-        <h3>Wheelchair-Accessible Fishing Locations</h3>
-        <p>We are committed to fair and equal treatment for all.</p>
-        <ul>
-            <li> South Entrance-Paved trail and railing area to fish right off the Milwaukee Harbor, and the south end of the lagoon
-            </li>
-            <li> North Entrance-Paved trail and railing at the 'bump out' south of Discovery World.
-            </li>
-            <li> Fishing Dock-Located along the western path about half-way through the park
-            </li>
-            <li> Other Fishing Locations
-            </li>
-            <li> Lakeshore's Shoreline
-            </li>
-            <li> Rock Blocks-located at the south entrance and north of the fishing dock
-            </li>
-            <li> Below the Park's pedestrian bridge
-            </li>
-        </ul>
-        <h3>Invasive Species</h3>
-        <p>Most lakes and streams in Wisconsin have invasive species. Lake Michigan is home to invasive species such as the Round Goby, Zebra/Quagga Mussels, and Rusty Crayfish. The invasive species rule (Wis. Adm. Code ch. NR 40) makes it illegal to possess, transport, transfer, or introduce certain invasive species in Wisconsin without a permit. If an invasive is inadvertently caught while fishing, please dispose of it on land rather than putting it back into the water. In any case, do not keep it for any purposes, especially for use as bait! To help prevent the spread of aquatic invasive species (AIS), the DNR has several recommendations including:</p>
-        <ul>
-            <li> Inspecting and cleaning all equipment immediately after it's removed from the water
-            </li>
-            <li> Remove all attached aquatic plants on-site to prevent spread to another water body
-            </li>
-            <li> Do not use prohibited invasive fish or crayfish as bait
-            </li>
-            <li> Do not introduce any non-native aquatic plant, algae or cyanobacteria into any water body
-            </li>
-            <li> Drain all water from any vehicle before entering and immediately after leaving a water body
-            </li>
-            <li> These practices are also consistent with the Viral Hemorrhagic Septicemia (VHS) prevention guidelines. For more information on VHS, see the DNR site for history and guidelines.
-            </li>
-        </ul>
-        <h3>Monofilament Fishing Line Deposit Bins</h3>
-        <p>Located at the fishing dock and along the south entrance railing, you will see plastic PVC tubes with a sticker requesting your disposal of used fishing line. The monofilaments line can be recycled and proper placement into these bins prevents the line from endangering the bird species at the Park. Please do your part and place any excess/used fishing line into these for proper disposal. Please do not place ordinary trash or hooks into these, as this only complicates the recycling process. For other waste, use the trash cans located at the north and south entrances of the Park.</p>
-
-        <h3>Eating Your Catch</h3>
-        <p>View online or download the DNR's biannual publication of safe eating guidelines <a class="link" target="_blank" href="https://widnr.widen.net/s/lxhdnp5jtn/choosewisely">'Choose Wisely'</a> or pickup during your next visit from the Park's brochure holders.</p>
-        <p class="text-center">
-            <a href="https://widnr.widen.net/s/lxhdnp5jtn/choosewisely" class="btn-download" target="_blank">
-                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
-                    <g>
-                        <path d="M446.844,208.875C447.625,203.313,448,197.656,448,192c0-70.563-57.406-128-128-128
-                            c-40.938,0-78.531,19.344-102.344,51.063C209.25,113.031,200.688,112,192,112c-61.75,0-112,50.25-112,112
-                            c0,1.563,0.031,3.094,0.094,4.625C33.813,242.375,0,285.313,0,336c0,61.75,50.25,112,112,112h272c70.594,0,128-57.406,128-128
-                            C512,273.344,486.344,231.188,446.844,208.875z M384,416H112c-44.188,0-80-35.813-80-80s35.813-80,80-80
-                            c2.438,0,4.75,0.5,7.125,0.719c-4.5-10-7.125-21.031-7.125-32.719c0-44.188,35.813-80,80-80c14.438,0,27.813,4.125,39.5,10.813
-                            C246,120.25,280.156,96,320,96c53.031,0,96,42.969,96,96c0,12.625-2.594,24.625-7.031,35.688C449.813,238.75,480,275.688,480,320
-                            C480,373.031,437.031,416,384,416z"></path>
-                        <polygon points="288,192 224,192 224,288 160,288 256,384 352,288 288,288 	"></polygon>
-                    </g>
-                </svg>download safe eating guidelines
-            </a>
-        </p>
     </div>
 </div>

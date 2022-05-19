@@ -5,7 +5,6 @@ $teal: #158990;
 $green: #3C8C66;
 $darkgreen: #284232; 
 
-/* Primary Brand Color w Opacity Tint */
 $lime-100: #80C34F; // 100% opacity rgba(128, 195, 79, 1)
 $lime-75: #9fd27b; // 75% #80c34fbf (hex w opacity)
 $lime-50: #bfe1a7; // 50% #80c34f80
@@ -63,9 +62,9 @@ $gradient-darkgreen-transparent: linear-gradient(to bottom, $darkgreen, rgba(40,
 $gradient-darkbrown-transparent: linear-gradient(to bottom, $darkbrown, rgba(119, 85, 71, 0.5));
 
 /* Two Color Radial Gradients */
-$radial-lime-green: radial-gradient(ellipse at top, $lime, transparent), radial-gradient(ellipse at bottom, $green, transparent);
+$radial-lime-green: radial-gradient(ellipse at top, $lime, $green), radial-gradient(ellipse at bottom, $green, transparent);
 $radial-teal-blue: radial-gradient(ellipse at top, $teal, transparent), radial-gradient(ellipse at bottom, $blue, transparent);
-$radial-darkbrown-darkgreen: radial-gradient(ellipse at top, $darkbrown, transparent), radial-gradient(ellipse at bottom, $darkgreen, transparent);
+$radial-darkbrown-darkgreen: radial-gradient(ellipse at top, $green, $darkgreen), radial-gradient(ellipse at bottom, $darkgreen, $darkbrown);
 
 /* One Color Linear Gradients */
 $gradient-teal: linear-gradient(to bottom, $teal-100, $teal-25);

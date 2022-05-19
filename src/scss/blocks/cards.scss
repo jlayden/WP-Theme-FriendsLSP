@@ -262,3 +262,71 @@ $main-blue-rgb-015: rgba(70, 191, 202, 0.1) !default;
         background-image: linear-gradient(80deg, $main-blue-rgb-015, transparent 50%);
     }
 }
+
+/* Background Image | Used on Homepage */
+.card {
+    &.bg-image {
+        position: relative;
+        min-height: 32rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        border: 0;
+        color: $darkgreen;
+        @include respond-below(md) {
+            margin-bottom: 6rem;
+        }
+        &::after,
+        &::before {
+            content: "";
+            position: absolute;
+            display: block;
+            left: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+        }
+        &::before {
+            top: 0;
+            background: linear-gradient(to top, $blue-25 25%, transparent 100%);
+        }
+        &::after {
+            bottom: 0;
+            background: linear-gradient(to bottom, $blue-75 0%, transparent 100%);
+        }
+        .card-img-top,
+        .card-body,
+        .card-footer {
+            z-index: 1;
+            border: 0;
+            background: transparent;
+            a {
+                &:hover {
+                    filter: brightness(.8);
+                }
+            }
+        }
+        .card-img-top {
+            text-align: center;
+            border-radius: 50%;
+            background-color: $teal;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -250%);
+            height: 8rem;
+            width: 8rem;
+            box-shadow: 3px 3px 10px $teal;
+        }
+        .card-body {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 0 2rem 1rem;
+        }
+        .card-footer {
+            padding: 1rem 2rem 2rem;
+            text-align: center;
+        }
+    }
+}
