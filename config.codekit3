@@ -1881,6 +1881,22 @@
       "oAP" : "\/dist\/template-parts\/atoms\/social-bookmarks.php",
       "oF" : 0
     },
+    "\/template-parts\/banners\/banners-homepage.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/template-parts\/banners\/banners-homepage.php",
+      "oF" : 0
+    },
+    "\/template-parts\/banners\/banners-standard.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/template-parts\/banners\/banners-standard.php",
+      "oF" : 0
+    },
     "\/template-parts\/content-card.php" : {
       "cB" : 0,
       "ft" : 8192,

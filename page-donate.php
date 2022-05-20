@@ -8,7 +8,7 @@
  */
 
 get_header();
-get_template_part('template-parts/sections/banner-standard' );
+get_template_part('template-parts/banners/banners-standard' );
 get_template_part('template-parts/nav/nav-jump' );
 ?>
 	<main id="primary" class="site-main <?php echo strtolower(get_the_title()); ?>">

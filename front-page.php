@@ -18,7 +18,7 @@ get_header();
 	<main id="primary" class="site-main homepage">
 
     <?php  
-        get_template_part('template-parts/sections/banner-frontpage' );
+        get_template_part('template-parts/banners/banners-homepage' );
         get_template_part('template-parts/nav/alert-banner' );
         
     ?>
@@ -45,7 +45,7 @@ get_header();
             
             // get_template_part('template-parts/sections/section-feature', get_post_format() );
 
-            get_template_part('template-parts/sections/banner-standard' );
+            get_template_part('template-parts/banners/banners-standard' );
 
             get_template_part('template-parts/nav/nav-subnav' );
 
