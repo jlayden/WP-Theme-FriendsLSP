@@ -11,7 +11,7 @@
         background-repeat: no-repeat;
         margin: 0;
         @include tablet {
-            flex-direction: column-reverse;
+            flex-direction: column;
         }
         .image-wrapper {
             width: 50%;
@@ -101,7 +101,7 @@
     &.reversed {
         flex-direction: row-reverse;
         @include tablet {
-            flex-direction: column-reverse;
+            flex-direction: column;
         }
     }
     &.image {

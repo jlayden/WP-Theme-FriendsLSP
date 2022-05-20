@@ -1,11 +1,11 @@
 {
-    "key": "group_61df5f1976449",
-    "title": "Callout Bar Footer",
+    "key": "group_6287cf1506fe7",
+    "title": "Callout Bar Standard",
     "fields": [
         {
-            "key": "field_61df600f1e421",
+            "key": "field_6287cf150b58b",
             "label": "Display Options",
-            "name": "callout_footer_display",
+            "name": "callout_section_display",
             "type": "select",
             "instructions": "Calloutbar module will only be shown if 'Visible' is selected from the dropdown menu",
             "required": 0,
@@ -31,9 +31,9 @@
             "placeholder": ""
         },
         {
-            "key": "field_6245dc8bc4505",
+            "key": "field_6287cf150b596",
             "label": "Background Color",
-            "name": "callout_footer_background_color",
+            "name": "callout_section_background_color",
             "type": "select",
             "instructions": "",
             "required": 0,
@@ -60,9 +60,9 @@
             "placeholder": ""
         },
         {
-            "key": "field_61eaedf5eeb69",
+            "key": "field_6287cf150b59d",
             "label": "Content",
-            "name": "callout_footer_overlay_content",
+            "name": "callout_section_overlay_content",
             "type": "wysiwyg",
             "instructions": "",
             "required": 0,
@@ -79,9 +79,9 @@
             "delay": 0
         },
         {
-            "key": "field_62453958806c3",
+            "key": "field_6287cf150b5a8",
             "label": "Button",
-            "name": "callout_footer_button",
+            "name": "callout_section_button",
             "type": "link",
             "instructions": "",
             "required": 0,
@@ -94,9 +94,9 @@
             "return_format": "array"
         },
         {
-            "key": "field_61df5f8938952",
+            "key": "field_6287cf150b5b0",
             "label": "Featured Image",
-            "name": "callout_footer_featured_image",
+            "name": "callout_section_featured_image",
             "type": "image",
             "instructions": "Use PNG format image",
             "required": 0,
@@ -118,9 +118,9 @@
             "mime_types": ""
         },
         {
-            "key": "field_61df5f3738951",
+            "key": "field_6287cf150b5b7",
             "label": "Background Image",
-            "name": "callout_footer_background_image",
+            "name": "callout_section_background_image",
             "type": "image",
             "instructions": "",
             "required": 0,
@@ -179,7 +179,7 @@
             }
         ]
     ],
-    "menu_order": 99,
+    "menu_order": 97,
     "position": "normal",
     "style": "default",
     "label_placement": "top",
@@ -188,5 +188,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1653067513
+    "modified": 1653067907
 }
