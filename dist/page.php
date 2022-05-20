@@ -13,7 +13,7 @@
  */
 
 get_header();
-get_template_part('template-parts/banners/banners-standard' );
+get_template_part('template-parts/banners/banner-standard' );
 ?>
 	<main id="primary" class="site-main <?php echo strtolower(get_the_title()); ?>">
         <div class="container">
@@ -38,7 +38,7 @@ get_template_part('template-parts/banners/banners-standard' );
 
 	</main><!-- #main -->
 <?php
-get_template_part('template-parts/sections/section-calloutbar' );
+get_template_part('template-parts/calloutbars/calloutbar-standard' );
 get_template_part('template-parts/sections/section-richtext' );
-get_template_part('template-parts/sections/footer-calloutbar' );
+get_template_part('template-parts/calloutbars/calloutbar-footer' );
 get_footer();

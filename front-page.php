@@ -18,7 +18,7 @@ get_header();
 	<main id="primary" class="site-main homepage">
 
     <?php  
-        get_template_part('template-parts/banners/banners-homepage' );
+        get_template_part('template-parts/banners/banner-homepage' );
         get_template_part('template-parts/nav/alert-banner' );
         
     ?>
@@ -39,22 +39,16 @@ get_header();
         </section>
 
         <?php 
-            get_template_part('template-parts/sections/section-cardblock', get_post_format() );
-            
             // get_template_part('template-parts/sections/section-testimonial', get_post_format() );
-            
             // get_template_part('template-parts/sections/section-feature', get_post_format() );
-
-            get_template_part('template-parts/banners/banners-standard' );
-
+            get_template_part('template-parts/sections/section-cardblock', get_post_format() );
+            get_template_part('template-parts/banners/banner-standard' );
             get_template_part('template-parts/nav/nav-subnav' );
-
-            get_template_part('template-parts/sections/footer-calloutbar', get_post_format() );
-            
+            get_template_part('template-parts/sections/section-richtext', get_post_format() );
         ?>
-
 
 	</main><!-- #main -->
 <?php
+get_template_part('template-parts/calloutbars/calloutbar-footer', get_post_format() );
 get_template_part('template-parts/atoms/social-bookmarks' );
 get_footer();

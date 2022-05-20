@@ -1881,20 +1881,44 @@
       "oAP" : "\/dist\/template-parts\/atoms\/social-bookmarks.php",
       "oF" : 0
     },
-    "\/template-parts\/banners\/banners-homepage.php" : {
+    "\/template-parts\/banners\/banner-homepage.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/template-parts\/banners\/banners-homepage.php",
+      "oAP" : "\/dist\/template-parts\/banners\/banner-homepage.php",
       "oF" : 0
     },
-    "\/template-parts\/banners\/banners-standard.php" : {
+    "\/template-parts\/banners\/banner-simple.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/template-parts\/banners\/banners-standard.php",
+      "oAP" : "\/dist\/template-parts\/banners\/banner-simple.php",
+      "oF" : 0
+    },
+    "\/template-parts\/banners\/banner-standard.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/template-parts\/banners\/banner-standard.php",
+      "oF" : 0
+    },
+    "\/template-parts\/calloutbars\/calloutbar-footer.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/template-parts\/calloutbars\/calloutbar-footer.php",
+      "oF" : 0
+    },
+    "\/template-parts\/calloutbars\/calloutbar-standard.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/template-parts\/calloutbars\/calloutbar-standard.php",
       "oF" : 0
     },
     "\/template-parts\/content-card.php" : {

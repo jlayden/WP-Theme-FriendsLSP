@@ -8,7 +8,7 @@
  */
 
 get_header();
-get_template_part('template-parts/banners/banners-standard' );
+get_template_part('template-parts/banners/banner-standard' );
 get_template_part('template-parts/nav/nav-jump' );
 ?>
 	<main id="primary" class="site-main <?php echo strtolower(get_the_title()); ?>">
@@ -34,5 +34,7 @@ get_template_part('template-parts/nav/nav-jump' );
 
 	</main><!-- #main -->
 <?php
-get_template_part('template-parts/sections/footer-calloutbar' );
+get_template_part('template-parts/calloutbars/calloutbar-standard' );
+get_template_part('template-parts/sections/section-richtext' );
+get_template_part('template-parts/calloutbars/calloutbar-footer' );
 get_footer();
