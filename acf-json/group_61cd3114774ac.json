@@ -5,7 +5,7 @@
         {
             "key": "field_61cd3142d0817",
             "label": "Background Image",
-            "name": "background_image",
+            "name": "homepage_banner_background_image",
             "type": "image",
             "instructions": "Upload full width banner image",
             "required": 1,
@@ -29,7 +29,7 @@
         {
             "key": "field_61cd3186d0818",
             "label": "Featured Image",
-            "name": "featured_image",
+            "name": "homepage_banner_featured_image",
             "type": "image",
             "instructions": "",
             "required": 0,
@@ -53,7 +53,7 @@
         {
             "key": "field_61cd319ad0819",
             "label": "Wordmark Image",
-            "name": "wordmark_image",
+            "name": "homepage_banner_wordmark_image",
             "type": "image",
             "instructions": "",
             "required": 0,
@@ -77,7 +77,7 @@
         {
             "key": "field_61cd31a8d081a",
             "label": "Headline",
-            "name": "headline",
+            "name": "homepage_banner_headline",
             "type": "text",
             "instructions": "",
             "required": 0,
@@ -96,7 +96,7 @@
         {
             "key": "field_61cd31c7d081b",
             "label": "Paragraph",
-            "name": "paragraph",
+            "name": "homepage_banner_paragraph",
             "type": "text",
             "instructions": "Limit to one introductory sentence",
             "required": 0,
@@ -115,7 +115,7 @@
         {
             "key": "field_61cd31f3d081c",
             "label": "Button",
-            "name": "button",
+            "name": "homepage_banner_button",
             "type": "group",
             "instructions": "",
             "required": 0,
@@ -186,5 +186,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1652758345
+    "modified": 1652936427
 }

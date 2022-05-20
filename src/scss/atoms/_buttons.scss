@@ -22,10 +22,11 @@ button,
     text-align: center;
     padding: 1rem 0.875rem 1.125rem;
     color: $white;
-    background-color: $gray;
+    background-color: $teal;
     // height: 3rem;
     &:hover {
-        filter: brightness(1.1);
+        background-color: $green;
+        filter: brightness(0.9);
     }
     &:active {
         color: $white;
@@ -50,15 +51,15 @@ button,
 .btn-primary {
     color: $white;
     background-color: $darkgreen;
-    // &:hover{
-    //     background-color: $darkgreen-75;
-    // }
+    &:hover{
+        background-color: $darkbrown;
+    }
     &.teal {
-        color: $white;
+        // color: $white;
         background-color: $teal;
-        &:hover{
-            background-color: $teal-75;
-        }
+        // &:hover{
+        //     background-color: $green;
+        // }
         &.reversed {
             color: $teal;
             background-color: $white;
@@ -68,38 +69,40 @@ button,
         }
     }
     &.green {
-        color: $white;
+        // color: $white;
         background-color: $green;
         // &:hover{
-        //     background-color: $green-75;
+        //     background-color: $teal;
         // }
     }
     &.blue {
-        color: $white;
+        // color: $white;
         background-color: $blue;
         // &:hover{
-        //     background-color: $blue-75;
+        //     background-color: $teal;
         // }
     }
     &.darkbrown {
-        color: $white;
+        // color: $white;
         background-color: $darkbrown;
         // &:hover{
-        //     background-color: $darkbrown;
+        //     background-color: $darkgreen;
         // }
     }
     &.lightbrown {
-        color: $white;
+        // color: $white;
         background-color: $lightbrown;
         // &:hover{
-        //     background-color: $lightbrown;
+        //     background-color: $lime;
         // }
     }
     &.reversed {
         color: $teal;
         background-color: $white;
-        &:hover{
-            filter: brightness(.9);
+        &:hover {
+            color: $green;
+            // background-color: $blue-25;
+            // filter: brightness(.9);
         }
     }
 }
@@ -121,6 +124,7 @@ button,
 }
 
 .link {
+    position: relative;
     color: $teal;
     text-transform: uppercase;
     letter-spacing: 1.2px;
@@ -128,13 +132,43 @@ button,
     border-bottom: 2px solid transparent;
     transition-property: background-color,border-color,color,box-shadow,filter;
     &:hover{
-        border-bottom: 2px solid $teal;
-        filter: brightness(1.1);
+        color: $darkgreen;
+        border-bottom: 2px solid $darkgreen;
+        // filter: brightness(1.1);
     }
     &.reversed {
         color: $white;
         &:hover{
-            border-bottom: 2px solid $white;
+            color: $blue-25 !important;
+            border-bottom: 2px solid $blue-25 !important;
+            // filter: none !important;
+        }
+    }
+    &.lime {
+        color: $lime !important;
+        border-color: $lime !important;
+        &:hover{
+            color: $green !important;
+            border-color: $green !important;
+            // filter: none !important;
+        }
+    }
+    &.blue {
+        color: $blue !important;
+        border-color: $blue !important;
+        &:hover{
+            color: $teal !important;
+            border-color: $teal !important;
+            // filter: none !important;
+        }
+    }
+    &.green {
+        color: $green !important;
+        border-color: $green !important;
+        &:hover{
+            color: $darkgreen !important;
+            border-color: $darkgreen !important;
+            // filter: none !important;
         }
     }
 }

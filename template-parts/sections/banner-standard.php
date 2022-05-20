@@ -3,7 +3,7 @@
 $post_id = false;
 
 if ( is_home() ) {
-	$post_id = 13; // specif ID of home page
+	$post_id = 32; // specif ID of home page
     $display = get_field('hero_display', $post_id); // dropdown
     $color = get_field('hero_color', $post_id); // image ID 
     $hero_content = get_field('hero_content', $post_id); // image ID 
@@ -15,7 +15,7 @@ if ( is_home() ) {
     $hero_overlay_size = "full"; // (thumbnail, medium, large, full or custom size)
     $hero_overlay_img = wp_get_attachment_image_src( $hero_overlay_graphic, $hero_overlay_size );
 } else {
-	$post_id = 13; // specif ID of home page
+	$post_id = 32; // specif ID of home page
     $display = get_field('hero_display'); // dropdown
     $color = get_field('hero_color'); // image ID 
     $hero_content = get_field('hero_content'); // image ID 
@@ -31,9 +31,9 @@ if ( is_home() ) {
 
 <section class="banner standard <?php echo $display; ?> <?php echo $color; ?>" 
 <?php if ($display !== 'solid') { ?> style="background-image: url(<?php echo $hero_img[0]; ?>);" <?php } ?>>
-    <a class="logo-link" href="/" title="FLSP | Home">
-        <img src="http://friendslsp.org/wp-content/uploads/2022/01/FLSP_Logo_White_Border_No_Wordmark.jpg" alt="FLSP Logo"/>
-    </a>
+        <!-- <div class="logo-link">
+            <img src="<?php echo $hero_overlay_img[0]; ?>" alt="wordmark"/>
+        </div> -->
     <div class="banner-overlay"></div>
     <?php if ($hero_overlay_graphic && $display == 'image') { ?>
         <div class="image-overlay in-right <?php echo $color; ?>" style="background-image: url(<?php echo $hero_overlay_img[0]; ?>);"></div>

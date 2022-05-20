@@ -1,0 +1,54 @@
+{
+    "key": "group_6286522746e3b",
+    "title": "Sub Navigation",
+    "fields": [
+        {
+            "key": "field_628652309b908",
+            "label": "Background Color",
+            "name": "subnav_background_color",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "blue": "Blue",
+                "lime": "Lime",
+                "teal": "Teal",
+                "green": "Green",
+                "darkgreen": "Dark Green",
+                "brown": "Brown"
+            },
+            "default_value": "blue",
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1652970101
+}

@@ -32,7 +32,7 @@ get_template_part('template-parts/sections/banner-standard' );
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-lg-12 blog-subfooter">
                         <?php get_sidebar(); ?>
                 </div>
             </div>

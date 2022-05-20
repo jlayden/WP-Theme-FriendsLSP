@@ -53,6 +53,7 @@ document.links[current].className = 'active';
  * Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon
  *  */
  const header = document.querySelector('.site-header');
+//  const logo = document.querySelector('.logo-link');
  const navOverlay = document.querySelector('.nav-overlay');
  const primaryMenu = document.querySelector('#primary-menu');
  const btnHamburger = document.querySelector('#menu-toggle');
@@ -88,12 +89,14 @@ document.links[current].className = 'active';
  */
 function stickyHeader() {
     if (window.pageYOffset == 0) {
+        // logo.classList.add('fade-in')
         header.classList.remove('sticky');
         header.classList.add('transparent');
     }
-    else if (window.pageYOffset > 95 && window.pageYOffset < 200) {
+    else if (window.pageYOffset > 120 && window.pageYOffset < 200) {
         header.classList.remove('transparent');
-    } else if (window.pageYOffset >= 200) {
+    } else if (window.pageYOffset >= 120) {
+        // logo.classList.add('fade-out')
         header.classList.remove('transparent');
         header.classList.add('sticky');
     }
@@ -105,13 +108,12 @@ function stickyHeader() {
  * Toggle "sticky" class to the header when the user scrolls beyond its position. 
  * Toggle "transparent" class when the user scrolls to the top of the page.
  */
-const socialIconBar = document.querySelector('.social-icon-bar');
+// const socialIconBar = document.querySelector('.social-icon-bar');
 function handleSocialIconBar() {
     if (window.pageYOffset > 200) {
-        socialIconBar.classList.add('in-left');
+        // socialIconBar.classList.add('in-left');
     } 
 }
-// Add On Scroll Event Listener to DOM
 document.addEventListener('scroll', function(e) {
     e.preventDefault();
     stickyHeader();
@@ -127,22 +129,62 @@ document.addEventListener('scroll', function(e) {
 }
 getCopyrightYear();
 
-/*
-$(function() {
-    //caches a jQuery object containing the header element
-    var header = $(".clearHeader");
-    $(window).scroll(function() {
-        var scroll = $(window).scrollTop();
+/**
+ * Smooth Scroll To Effect for Jump Nav on Donate Page
+ */
+let anchorMembership = document.getElementById("membership");
+let anchorVolunteer = document.getElementById("volunteer");
+let anchorDonate = document.getElementById("donate");
+function scrollTo(element, to, duration) {
+    if (duration <= 0) return;
+    var difference = to - element.scrollTop;
+    var perTick = difference / duration * 10;
 
-        if (scroll >= 500) {
-            header.removeClass('clearHeader').addClass("darkHeader");
-        } else {
-            header.removeClass("darkHeader").addClass('clearHeader');
+    setTimeout(function() {
+        element.scrollTop = element.scrollTop + perTick;
+        if (element.scrollTop === to) return;
+        scrollTo(element, to, duration - 10);
+    }, 10);
+}
+if (anchorMembership) scrollTo(document.body, anchorMembership.offsetTop, 600);
+if (anchorVolunteer) scrollTo(document.body, anchorVolunteer.offsetTop, 600);
+if (anchorDonate) scrollTo(document.body, anchorDonate.offsetTop, 600);
+
+/**
+ * Remove Flicker on Load
+ */
+window.onload = () => {
+    document.body.classList.remove("load");
+};
+
+
+/**
+ * HomePage Bg Cards | Fade In Bottom Animation
+ */
+ const observerOptions = {
+    root: null,
+    threshold: 0,
+    rootMargin: '0 0 -50px 0'
+};
+
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('in-view');
+            observer.unobserve(entry.target);
         }
     });
-});
-*/
+}, observerOptions);
 
+window.addEventListener('DOMContentLoaded', () => { 
+
+    const cards = Array.from(document.querySelectorAll('card'));
+    
+    for (let card of cards) {
+      observer.observe(card);
+    }
+    
+});
 
 /**
  * Tabs

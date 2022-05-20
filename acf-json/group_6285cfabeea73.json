@@ -1,0 +1,89 @@
+{
+    "key": "group_6285cfabeea73",
+    "title": "Frontpage Alert Message",
+    "fields": [
+        {
+            "key": "field_6285cfabf2b0a",
+            "label": "Headline",
+            "name": "homepage_alert_headline",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "SIGN UP FOR OUR NEWSLETTER!",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_6285cff6c5b7e",
+            "label": "Link",
+            "name": "homepage_alert_link",
+            "type": "url",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "https:\/\/friendslsp.us18.list-manage.com\/subscribe?u=f750bd55cd4cf3761a32db78c&id=5e57947361",
+            "placeholder": ""
+        },
+        {
+            "key": "field_6285d0f315f50",
+            "label": "Background Color",
+            "name": "homepage_alert_background_color",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "lime": "Lime",
+                "blue": "Blue",
+                "teal": "Teal",
+                "green": "Green",
+                "brown": "Brown",
+                "darkgreen": "Dark Green"
+            },
+            "default_value": "teal",
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_type",
+                "operator": "==",
+                "value": "front_page"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1652937021
+}

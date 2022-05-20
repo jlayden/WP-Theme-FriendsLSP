@@ -47,6 +47,17 @@
         @include respond-below(md) {
             width: auto;
         }
+        .logo-link {
+            visibility: visible;
+            opacity: 1;
+            position: absolute;
+            top: 2rem;
+            left: 2rem;
+            z-index: 1;
+            img {
+                max-width: 8rem;
+            }
+        }
         .custom-logo-link {
             display: none;
             // max-width: 30rem;
@@ -274,6 +285,10 @@
         &.open {
             background: $teal;
         }
+        // .logo-link {
+        //     visibility: visible;
+        //     opacity: 1;
+        // }
         .main-navigation {
             #menu-toggle {
                 span {
@@ -290,6 +305,10 @@
         height: 5rem;
         max-height: 5rem;
         transition: 1s top ease;
+        .logo-link {
+            visibility: hidden;
+            opacity: 0;
+        }
         .custom-logo-link {
             // display: inline-block;
             display: inline-flex;

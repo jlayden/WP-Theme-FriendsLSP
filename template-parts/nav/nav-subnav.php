@@ -1,4 +1,7 @@
-<section class="nav-visit">
+<?php 
+    $background_color = get_field('subnav_background_color'); // choice 
+?>
+<section class="nav-subnav <?php echo $background_color;?>">
     <ul>
         <li>
             <img class="icon icon__hours" src="http://friendslsp.org/wp-content/uploads/2022/05/icon-trails.png" alt="icon">

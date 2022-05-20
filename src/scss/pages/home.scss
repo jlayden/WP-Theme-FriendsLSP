@@ -2,7 +2,19 @@
 @import "../atoms/colors";
 
 .homepage {
-    .banner {
+    .standard {
+        height: unset;
+        padding: 4rem;
+        margin: 0 auto;
+        .content-wrapper {
+            padding: 0;
+            margin: 0 auto;
+            * {
+                color: $white;
+            }
+        }
+    }
+    .hero {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -30,6 +42,7 @@
         }
     }
     .intro {
+        margin-top: 4rem;
         p {
             color: $darkgray;
         }

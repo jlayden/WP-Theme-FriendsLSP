@@ -1,24 +1,25 @@
 <?php
 /**
- * The template for displaying all single posts
+ * Template Name: Donate
  *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
  * @package flsp_custom
  */
 
 get_header();
 get_template_part('template-parts/sections/banner-standard' );
+get_template_part('template-parts/nav/nav-jump' );
 ?>
-	<main id="primary" class="site-main">
+	<main id="primary" class="site-main <?php echo strtolower(get_the_title()); ?>">
         <div class="container">
             <div class="row">
-                <div class="col-lg-10 offset-lg-1">
+                <div class="col-lg-10 offset-lg-1 col-md-12">
                 <?php
                     while ( have_posts() ) :
                         the_post();
 
-                        get_template_part( 'template-parts/content', 'post' );
+                        get_template_part( 'template-parts/content', 'page' );
 
                         // If comments are open or we have at least one comment, load up the comment template.
                         if ( comments_open() || get_comments_number() ) :
@@ -27,13 +28,6 @@ get_template_part('template-parts/sections/banner-standard' );
 
                     endwhile; // End of the loop.
                 ?>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 blog-subfooter">
-                        <?php get_sidebar(); ?>
                 </div>
             </div>
         </div>

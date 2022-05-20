@@ -1,8 +1,8 @@
-<?php $background_image = get_field('background_image'); // image ID ?>
-<?php $wordmark_image = get_field('wordmark_image'); // image ID ?>
-<?php $headline = get_field('headline'); // text ?>
-<?php $paragraph = get_field('paragraph'); // text ?>
-<?php $button = get_field('button'); // group ?>
+<?php $background_image = get_field('homepage_banner_background_image'); // image ID ?>
+<?php $wordmark_image = get_field('homepage_banner_wordmark_image'); // image ID ?>
+<?php $headline = get_field('homepage_banner_headline'); // text ?>
+<?php $paragraph = get_field('homepage_banner_paragraph'); // text ?>
+<?php $button = get_field('homepage_banner_button'); // group ?>
 <?php 
 	$header_size = "full"; // (thumbnail, medium, large, full or custom size)
 	$header_img = wp_get_attachment_image_src( $background_image, $header_size );
@@ -10,7 +10,7 @@
 	$wordmark_img = wp_get_attachment_image_src( $wordmark_image, $wordmark_size );
 ?>
 <?php if ($background_image) { ?>	
-<section class="banner standard">
+<section class="banner standard hero">
     <div class="banner-image" style="background-image: url('<?php echo $header_img[0]; ?>');"></div>
     <div class="container">
         <div class="row">
@@ -19,7 +19,7 @@
                 <h1 class="title"><?php echo $headline; ?></h1>
                 <p class="large"><?php echo $paragraph; ?></p>
                 <div class="cta">
-                    <a href="<?php echo $button['link']; ?>" class="btn btn-primary"><?php echo $button['text']; ?></a>
+                    <a href="<?php echo $button['link']; ?>" class="btn btn-primary blue"><?php echo $button['text']; ?></a>
                 </div>
             </div>
         </div>

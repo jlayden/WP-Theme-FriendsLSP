@@ -44,6 +44,9 @@ get_header();
             // get_template_part('template-parts/sections/section-testimonial', get_post_format() );
             
             // get_template_part('template-parts/sections/section-feature', get_post_format() );
+
+            get_template_part('template-parts/sections/banner-standard' );
+
             get_template_part('template-parts/nav/nav-subnav' );
 
             get_template_part('template-parts/sections/footer-calloutbar', get_post_format() );

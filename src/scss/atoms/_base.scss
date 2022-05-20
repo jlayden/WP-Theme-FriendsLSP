@@ -63,6 +63,17 @@ body {
     }
 }
 
+#page {
+    overflow: hidden;
+}
+
+.load * {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -ms-transition: none !important;
+    -o-transition: none !important;
+}
+
 section {
     display: block;
     margin: 3rem 0;

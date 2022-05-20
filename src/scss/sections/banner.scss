@@ -114,6 +114,8 @@
         }
         &.teal {
             background-color: $lime;
+            background-size: cover;
+            background-position: left;
             .banner-overlay {
                 background: $gradient-teal-transparent;
             }
@@ -126,6 +128,8 @@
         }
         &.blue {
             background-color: $radial-teal-blue;
+            background-size: cover;
+            background-position: left;
             .banner-overlay {
                 background: $gradient-blue-transparent;
             }
@@ -143,6 +147,8 @@
         }
         &.lime {
             background: $radial-lime-green;
+            background-size: cover;
+            background-position: left;
             .banner-overlay {
                 background: $gradient-lime-transparent;
             }
@@ -155,6 +161,8 @@
         }
         &.green {
             background-color: $blue;
+            background-size: cover;
+            background-position: left;
             .banner-overlay {
                 background: $gradient-green-transparent;
             }
@@ -167,6 +175,8 @@
         }
         &.darkbrown {
             background: $radial-darkbrown-darkgreen;
+            background-size: cover;
+            background-position: left;
             .banner-overlay {
                 background: $gradient-darkbrown-transparent;
             }
@@ -179,6 +189,8 @@
         }
         &.darkgreen {
             background-color: $darkgreen;
+            background-size: cover;
+            background-position: left;
             .banner-overlay {
                 background: $gradient-darkgreen-transparent;
             }

@@ -15,6 +15,18 @@
     @include tablet {
         background-image: linear-gradient(to bottom, $teal, $darkgreen);
     }
+    .footer-nav {
+        .menu {
+            ul {
+                display: flex;
+                flex-wrap: wrap;
+                li {
+                    width: 33%;
+                    margin-bottom: 1rem;
+                }
+            }
+        }
+    } 
     .form-wrapper { 
         height: 100%;
         width: 100%;

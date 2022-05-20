@@ -114,11 +114,58 @@
 .site-alert-banner {
     display: block;
     position: relative;
-    background-color: $lime;
     text-decoration: none;
     padding: 0.75rem 0;
     z-index: 1;
     transition: background-color 0.15s ease-in-out;
+    &.lime {
+        background-color: $lime;
+        &:hover {
+            h2 {
+                color: $lime-25;
+            }
+        }
+    }
+    &.teal {
+        background-color: $teal;
+        &:hover {
+            h2 {
+                color: $teal-25;
+            }
+        }
+    }
+    &.green {
+        background-color: $green;
+        &:hover {
+            h2 {
+                color: $green-25;
+            }
+        }
+    }
+    &.blue {
+        background-color: $blue;
+        &:hover {
+            h2 {
+                color: $blue-25;
+            }
+        }
+    }
+    &.brown {
+        background-color: $darkbrown;
+        &:hover {
+            h2 {
+                color: $darkbrown-25;
+            }
+        }
+    }
+    &.darkgreen {
+        background-color: $darkgreen;
+        &:hover {
+            h2 {
+                color: $darkgreen-25;
+            }
+        }
+    }
     .arrow-icon {
         content: '';
         width: 0.5rem;
@@ -139,8 +186,8 @@
         font-size: 1.5rem;
         padding-right: 4rem;
         margin-bottom: 0;
-        transition: background-position 0.25s ease-in-out;
-        
+        // transition: background-position 0.25s ease-in-out;
+        transition: color 0.15s ease-in-out;
     }
 }
 
@@ -188,13 +235,28 @@
 }
 
 /* 
- * Nav Visit
+ * Sub Nav
  */
-.nav-visit {
+.nav-subnav {
     background: $blue-25;
     padding: 3rem 0;
     margin: 0 auto;
     text-align: center;
+    &.lime {
+        background: $lime-25;
+    }
+    &.teal {
+        background: $teal-25;
+    }
+    &.green {
+        background: $green-25;
+    }
+    &.darkgreen {
+        background: $darkgreen-25;
+    }
+    &.brown {
+        background: $darkbrown-25;
+    }
     ul {
         display: flex;
         flex-direction: row;
@@ -224,11 +286,39 @@
                 margin-bottom: 1rem;
             }
             .icon {
-                max-width: 10rem;
-                width: 100%;
+                max-width: 100%;
+                width: 8rem;
                 height: auto;
             }
         }
     }
-    
+}
+
+/* 
+ * Jump Nav
+ */
+.nav-jump {
+    padding: 0.5rem 0;
+    margin: 0 auto 3rem;
+    text-align: center;
+    background-color: $teal;
+    ul {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        li {
+            margin: 0 2rem;
+            a {
+                color: $white;
+                // border: 0;
+                &:hover {
+                    color: $blue-25;
+                    border-color: $blue-25;
+                }
+            }
+        }
+    }
 }

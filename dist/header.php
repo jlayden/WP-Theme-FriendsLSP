@@ -17,11 +17,13 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
-
+    
+    <link rel="preload" href="<?php echo esc_url( get_template_directory_uri() . '/fonts/Avenir Next LT W02 Regular.woff2' ); ?>" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="<?php echo esc_url( get_template_directory_uri() . '/fonts/FuturaLT.woff2' ); ?>" as="font" type="font/woff2" crossorigin>
 	<?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php body_class( 'load' ); ?>>
 <?php wp_body_open(); ?>
 <div id="page" class="site <?php echo strtolower(get_the_title($post->ID)); ?>">
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'flsp_custom' ); ?></a>
@@ -29,6 +31,9 @@
 	<header id="masthead" class="site-header transparent">
         <div class="nav-overlay"></div>
 		<div class="site-branding">
+            <a href="/" class="logo-link">
+                <img src="http://friendslsp.org/wp-content/uploads/2022/01/FLSP_Logo_White_Border_No_Wordmark.jpg" alt="wordmark"/>
+            </a>
 			<?php
 			the_custom_logo();
 			if ( is_front_page() && is_home() ) :

@@ -40,5 +40,6 @@ get_template_part('template-parts/sections/banner-standard' );
 <?php
 get_template_part('template-parts/nav/nav-subnav' );
 get_template_part('template-parts/nav/nav-map' );
+get_template_part('template-parts/atoms/accordion-faq' );
 get_template_part('template-parts/sections/footer-calloutbar' );
 get_footer();
