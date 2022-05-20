@@ -31,7 +31,7 @@ get_template_part('template-parts/banners/banner-standard' );
             ?>
             </div>
 
-            <?php get_template_part('template-parts/atoms/accordion' ); ?>
+            <?php // get_template_part('template-parts/atoms/accordion' ); ?>
 
 
         </section>

@@ -26,7 +26,7 @@
     &.standard {
         position: relative;
         padding: 5rem 0 0;
-        margin-bottom: 2.5rem;
+        // margin-bottom: 2.5rem;
         min-height: 22rem;
         z-index: -1;
         @include tablet {
@@ -136,11 +136,11 @@
             .image-overlay {
                 border: 0.5rem solid $teal;
             }
-            .content-wrapper {
-                * {
-                    color: $darkgreen;
-                }
-            }
+            // .content-wrapper {
+            //     * {
+            //         color: $darkgreen;
+            //     }
+            // }
             &.image {
                 border-bottom: 0.75rem solid $teal;
             }
@@ -174,7 +174,8 @@
             }
         }
         &.darkbrown {
-            background: $radial-darkbrown-darkgreen;
+            // background: $radial-darkbrown-darkgreen;
+            background: $radial-brown-blue;
             background-size: cover;
             background-position: left;
             .banner-overlay {

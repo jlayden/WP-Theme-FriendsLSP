@@ -8,8 +8,8 @@
  */
 
 ?>
-
-<article class="postcard light blue">
+<!-- light or dark versions  -->
+<article class="postcard dark blue">
     <a class="postcard__img_link" href="<?php the_permalink() ?>">
         <img class="postcard__img" src="<?php echo get_the_post_thumbnail_url( get_the_ID(), 'medium' ); ?>" alt="<?php the_title_attribute(); ?>" />
     </a>

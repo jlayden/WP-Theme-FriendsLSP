@@ -53,14 +53,16 @@
             .content-wrapper {
                 background: $teal;
                 .btn {
-                    color: $darkgreen;
-                    background: $lime;
+                    background: $blue;
                 }
             }
         }
         &.green {
             .content-wrapper {
                 background: $green;
+                * {
+                    color: $lime-25;
+                }
                 .btn {
                     color: $darkgreen;
                     background: $lime;
@@ -70,18 +72,24 @@
         &.lime {
             .content-wrapper {
                 background: $lime;
+                * {
+                    color: $darkgreen;
+                }
                 .btn {
-                    color: $teal-25;
-                    background: $darkgreen;
+                    color: $white;
+                    background: $green;
                 }
             }
         }
         &.brown {
             .content-wrapper {
                 background: $darkbrown;
+                * {
+                    color: $blue-25;
+                }
                 .btn {
-                    color: $teal-25;
-                    background: $darkgreen;
+                    color: $darkbrown;
+                    background: $blue;
                 }
             }
         }
@@ -89,11 +97,11 @@
             .content-wrapper {
                 background: $darkgreen;
                 * {
-                    color: $lightbrown;
+                    color: $lime-25;
                 }
                 .btn {
-                    color: $lightbrown-25;
-                    background: $darkbrown;
+                    color: $darkgreen;
+                    background: $lime;
                 }
             }
         }

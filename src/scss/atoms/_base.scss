@@ -67,6 +67,17 @@ body {
     overflow: hidden;
 }
 
+#primary {
+    padding-top: 2.5rem;
+    background-color: $white;
+    &.light {
+        background-color: $blue-25;
+    }
+    &.dark {
+        background-color: $darkgreen;
+    }
+}
+
 .load * {
     -webkit-transition: none !important;
     -moz-transition: none !important;

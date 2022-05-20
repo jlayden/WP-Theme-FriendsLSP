@@ -24,11 +24,36 @@ $main-blue-rgb-015: rgba(70, 191, 202, 0.1) !default;
 
     &.dark {
         background-color: $darkgreen;
+        &:nth-child(odd){
+            &:before {
+                background: $gradient-green-darkgreen-card-odd;
+            }
+            .postcard__bar {
+                background-color: $blue;
+            }
+        }
+        &:nth-child(even):before {
+            background: $gradient-green-darkgreen-card-even;
+            
+        }
+        .postcard__bar {
+            background-color: $lime;
+        }
+        .t-dark {
+            color: $blue-25;
+        }
+        a {
+            color: $blue-25;
+            &:hover {
+                color: $white;
+                border-color: $white;
+            }
+        }
     }
     &.light {
-        background-color: $white;
+        background-color: $blue-25;
     }
-
+    
     .t-dark {
         color: $darkgreen;
     }
@@ -147,7 +172,7 @@ $main-blue-rgb-015: rgba(70, 191, 202, 0.1) !default;
             right: 0;
             bottom: 0;
             left: 0;
-            background-image: linear-gradient(80deg, $teal-50, $teal-25, transparent 60%) !important;
+            background-image: linear-gradient(80deg, $teal-50, $teal-25, transparent 60%);
             opacity: 1;
             border-radius: 10px;
         }
