@@ -13,3 +13,74 @@
         display: none;
     }
 }
+
+/* Error Page 404 */
+.system {
+    background-color: $blue-25;
+    #primary {
+        padding-top: 5.5rem;
+        h1 {
+            margin-bottom: 1.5rem;
+        }
+    }
+}
+
+/* Site Search */
+.search {
+    background-color: $blue-25;
+    #primary {
+        padding-top: 8.5rem;
+        h1 {
+            margin-bottom: 1.5rem;
+        }
+    }
+}
+
+form.search-form {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    @include tablet {
+        flex-direction: column;
+    }
+    input {
+        height: 3rem;
+        padding: 0.5rem;
+        margin-right: 1.5rem;
+        min-width: 30rem;
+        @include tablet {
+            min-width: 20rem;
+            margin-right: 0;
+            margin-bottom: 1.5rem;
+        }
+        @include tablet {
+            min-width: 16rem;
+        }
+    }
+    .search-submit {
+        font-family: $font-heading, $font-copy, Helvetica, Arial, sans-serif;
+        display: inline-block;
+        outline: none;
+        cursor: pointer;
+        font-size: 1.125rem;
+        line-height: 1;
+        transition-property: background-color,border-color,color,box-shadow,filter;
+        transition-duration: .2s;
+        border: 0;
+        letter-spacing: 1.2px;
+        min-width: 10rem;
+        text-transform: uppercase;
+        white-space: normal;
+        font-weight: 700;
+        text-align: center;
+        padding: 1rem 0.875rem 1.125rem;
+        color: $white;
+        background-color: $teal;
+        border-radius: 0.25rem;
+        &:hover {
+            filter: brightness(0.9);
+        }
+    }
+}
+

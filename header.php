@@ -23,9 +23,12 @@
 	<?php wp_head(); ?>
 </head>
 
+<?php $pageTitle = strtolower(get_the_title($post->ID));
+if (!$pageTitle) { $pageTitle = "system";} ?>
+
 <body <?php body_class( 'load' ); ?>>
 <?php wp_body_open(); ?>
-<div id="page" class="site <?php echo strtolower(get_the_title($post->ID)); ?>">
+<div id="page" class="site <?php echo $pageTitle; ?>">
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'flsp_custom' ); ?></a>
 
 	<header id="masthead" class="site-header transparent">

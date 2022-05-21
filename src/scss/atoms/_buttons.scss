@@ -51,9 +51,6 @@ button,
 .btn-primary {
     color: $white;
     background-color: $darkgreen;
-    &:hover{
-        background-color: $darkbrown;
-    }
     &.teal {
         background-color: $teal;
         &.reversed {

@@ -23,7 +23,7 @@
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
-	<?php flsp_custom_post_thumbnail(); ?>
+	<?php // flsp_custom_post_thumbnail(); ?>
 
 	<div class="entry-summary">
 		<?php the_excerpt(); ?>
