@@ -4,7 +4,7 @@
 .homepage {
     .standard {
         height: unset;
-        padding: 4rem;
+        padding: 0;
         margin: 0 auto;
         .content-wrapper {
             padding: 0;
@@ -24,9 +24,8 @@
         margin-bottom: 0;
         z-index: auto;
         @include mobile {
-            justify-content: flex-end;
             height: 50vh;
-            width: 100%;
+            justify-content: flex-end;
             padding: 0 0 4rem;
         }
         .banner-image {

@@ -53,7 +53,7 @@ document.links[current].className = 'active';
  * Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon
  *  */
  const header = document.querySelector('.site-header');
-//  const logo = document.querySelector('.logo-link');
+//  const logo = document.querySelector('.custom-logo-link');
  const navOverlay = document.querySelector('.nav-overlay');
  const primaryMenu = document.querySelector('#primary-menu');
  const btnHamburger = document.querySelector('#menu-toggle');
