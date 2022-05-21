@@ -141,6 +141,16 @@
                     padding: 0;
                     @include respond-above(sm) {
                         margin-right: 2rem;
+                        // &.menu-item-has-children {
+                        //     a:after{
+                        //         content: "\25bc" !important;
+                        //         display: inline-block;
+                        //         transform: rotate(-90deg);
+                        //         color: $darkgreen;
+                        //         position: relative;
+                        //         border: 0
+                        //     }
+                        // }
                     }
                     &:hover {
                         .sub-menu {
@@ -227,11 +237,12 @@
                         left: 0.5rem;
                         background: $teal;
                         z-index: -1;
-                        @include respond-below(sm){
+                        @include respond-below(md){
                             content: none;
                         }
                     }
                     @include respond-below(md) {
+                        display: none;
                         position: relative;
                         opacity: 1;
                         top: inherit;

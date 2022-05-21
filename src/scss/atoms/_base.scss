@@ -69,7 +69,10 @@ body {
 
 #primary {
     padding-top: 2.5rem;
-    // background-color: $white;
+    &.homepage,
+    &.programs {
+        padding: 0;
+    }
     &.light {
         background-color: $blue-25;
     }

@@ -20,9 +20,15 @@
             ul {
                 display: flex;
                 flex-wrap: wrap;
+                @include respond-above(sm){
+                    flex-direction: row;
+                }
                 li {
                     width: 33%;
                     margin-bottom: 1rem;
+                    @include respond-below(sm){
+                        width: 100%;
+                    }
                 }
             }
         }

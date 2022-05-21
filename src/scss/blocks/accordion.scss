@@ -18,6 +18,12 @@
             letter-spacing: 2px;
             border-right: 3rem solid $teal;
             box-shadow: none;
+            @include respond-below(sm){
+                line-height: 1.4;
+                letter-spacing: initial;
+                overflow-wrap: anywhere;
+                -webkit-overflow-wrap: break-word;
+            }
             &:not(.collapsed)::after,
             &::after {
                 background-image: url(../img/icon-accordion.svg);

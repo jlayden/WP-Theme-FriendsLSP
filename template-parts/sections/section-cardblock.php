@@ -7,7 +7,7 @@
                     <div class="card-body">
                         <div class="card-content">
                             <h2 class="card-title">Get Involved</h2>
-                            <h3 class="card-text">Join our mailing list to find out how you can get involved with the Friends and give back to the community.</h3>
+                            <h3 class="card-text">Join our mailing list and get involved with the Friends to give back to the community.</h3>
                         </div>
                     </div>
                     <div class="card-footer">
@@ -16,12 +16,12 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="card darkgreen bg-image fadeup" style="background-image: url(http://friendslsp.org/wp-content/uploads/2017/10/DSC_3534-300x250.jpg);">
+                <div class="card darkgreen bg-image fadeup" style="background-image: url(http://friendslsp.org/wp-content/uploads/2017/12/Snowy-Owl-250x250.jpg);">
                     <img class="card-img-top" src="http://friendslsp.org/wp-content/uploads/2022/05/icon-trails.png" alt="icon">
                     <div class="card-body">
                         <div class="card-content">
                             <h2 class="card-title">Visit the Park</h2>
-                            <h3 class="card-text">Explore the limitless outdoor recreation opportunities that await you.</h3>
+                            <h3 class="card-text">Explore the bountiful outdoor recreation opportunities that await you.</h3>
                         </div>
                     </div>
                     <div class="card-footer">

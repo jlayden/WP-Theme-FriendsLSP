@@ -23,7 +23,7 @@ button,
     padding: 1rem 0.875rem 1.125rem;
     color: $white;
     background-color: $teal;
-    // height: 3rem;
+    border-radius: 0.25rem;
     &:hover {
         background-color: $green;
         filter: brightness(0.9);
