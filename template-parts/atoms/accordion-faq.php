@@ -278,8 +278,6 @@
                             </svg>download informational brochure
                         </a>
                     </p>
-                    <br><br>
-                    <h3>Thanks for visiting!</h3>
                 </div>
             </div>
         </div>

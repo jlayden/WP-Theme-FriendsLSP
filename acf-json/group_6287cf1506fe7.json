@@ -145,44 +145,16 @@
     "location": [
         [
             {
-                "param": "page_template",
+                "param": "post_type",
                 "operator": "==",
-                "value": "default"
+                "value": "post"
             }
         ],
         [
             {
-                "param": "page_template",
+                "param": "post_type",
                 "operator": "==",
-                "value": "dist\/page-fullwidth.php"
-            }
-        ],
-        [
-            {
-                "param": "page_template",
-                "operator": "==",
-                "value": "dist\/home.php"
-            }
-        ],
-        [
-            {
-                "param": "page_type",
-                "operator": "==",
-                "value": "parent"
-            }
-        ],
-        [
-            {
-                "param": "page_type",
-                "operator": "==",
-                "value": "child"
-            }
-        ],
-        [
-            {
-                "param": "page_type",
-                "operator": "==",
-                "value": "top_level"
+                "value": "page"
             }
         ]
     ],
@@ -195,5 +167,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1653156836
+    "modified": 1653171142
 }

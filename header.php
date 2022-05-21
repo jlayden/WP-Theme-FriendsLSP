@@ -70,6 +70,6 @@
             </div>
 		</nav><!-- #site-navigation -->
         <div class="cta">
-            <a href="/donate" class="btn btn-primary reversed">Donate Now</a>
+            <a href="/volunteer" class="btn btn-primary reversed">Get Involved</a>
         </div>
 	</header><!-- #masthead -->
