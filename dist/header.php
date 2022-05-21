@@ -29,10 +29,14 @@
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'flsp_custom' ); ?></a>
 
 	<header id="masthead" class="site-header transparent">
-        <div class="nav-overlay"></div>
+        <div class="nav-overlay">
+            <a href="/" class="overlay-logo-link">
+                <img src="<?php echo esc_url( get_template_directory_uri() . '/src/img/FLSP_Logo_White_Border_No_Wordmark.jpg' ); ?>" alt="Friends of Lakeshore State Park Brand Symbol"/>
+            </a>
+        </div>
 		<div class="site-branding">
             <a href="/" class="logo-link">
-                <img src="http://friendslsp.org/wp-content/uploads/2022/01/FLSP_Logo_White_Border_No_Wordmark.jpg" alt="wordmark"/>
+                <img src="<?php echo esc_url( get_template_directory_uri() . '/src/img/FLSP_Logo_White_Border_No_Wordmark.jpg' ); ?>" alt="Friends of Lakeshore State Park Brand Symbol"/>
             </a>
 			<?php
 			the_custom_logo();

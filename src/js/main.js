@@ -161,30 +161,30 @@ window.onload = () => {
 /**
  * HomePage Bg Cards | Fade In Bottom Animation
  */
- const observerOptions = {
-    root: null,
-    threshold: 0,
-    rootMargin: '0 0 -50px 0'
-};
+//  const observerOptions = {
+//     root: null,
+//     threshold: 0,
+//     rootMargin: '0 0 -50px 0'
+// };
 
-const observer = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) {
-            entry.target.classList.add('in-view');
-            observer.unobserve(entry.target);
-        }
-    });
-}, observerOptions);
+// const observer = new IntersectionObserver(entries => {
+//     entries.forEach(entry => {
+//         if (entry.isIntersecting) {
+//             entry.target.classList.add('in-view');
+//             observer.unobserve(entry.target);
+//         }
+//     });
+// }, observerOptions);
 
-window.addEventListener('DOMContentLoaded', () => { 
+// window.addEventListener('DOMContentLoaded', () => { 
 
-    const cards = Array.from(document.querySelectorAll('card'));
+//     const cards = Array.from(document.querySelectorAll('card'));
     
-    for (let card of cards) {
-      observer.observe(card);
-    }
+//     for (let card of cards) {
+//       observer.observe(card);
+//     }
     
-});
+// });
 
 /**
  * Tabs

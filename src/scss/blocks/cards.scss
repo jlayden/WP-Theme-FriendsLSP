@@ -31,13 +31,16 @@ $main-blue-rgb-015: rgba(70, 191, 202, 0.1) !default;
             .postcard__bar {
                 background-color: $blue;
             }
+            .t-dark {
+                color: $blue-25;
+            }
         }
         &:nth-child(even):before {
             background: $gradient-green-darkgreen-card-even;
             
         }
         .postcard__bar {
-            background-color: $lime;
+            background-color: $blue;
         }
         .t-dark {
             color: $blue-25;
@@ -45,8 +48,8 @@ $main-blue-rgb-015: rgba(70, 191, 202, 0.1) !default;
         a {
             color: $blue-25;
             &:hover {
-                color: $white;
-                border-color: $white;
+                color: $blue;
+                border-color: $blue
             }
         }
     }

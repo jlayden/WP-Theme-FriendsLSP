@@ -1194,6 +1194,19 @@
       "oAP" : "\/dist\/single.php",
       "oF" : 0
     },
+    "\/src\/img\/FLSP_Logo_White_Border_No_Wordmark.jpg" : {
+      "ft" : 16384,
+      "iS" : 73421,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/FLSP_Logo_White_Border_No_Wordmark.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/src\/img\/icon-accordion.svg" : {
       "ft" : 2097152,
       "miP" : 0,

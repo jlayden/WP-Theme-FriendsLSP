@@ -15,14 +15,17 @@
         span:nth-child(1) {
             transform: rotate(45deg) translateY(11px);
             margin-bottom: 3px;
+            background-color: $white;
         }
         span:nth-child(2) {
             opacity: 0;
             width: 0;
+            background-color: $white;
         }
         span:nth-child(3) {
             transform: rotate(-45deg) translateY(-11px);
             width: 100%;
+            background-color: $white;
         }
     }
     span:nth-child(1) {

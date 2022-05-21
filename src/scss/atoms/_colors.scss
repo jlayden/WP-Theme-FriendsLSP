@@ -87,8 +87,8 @@ $gradient-blue-darkbrown: linear-gradient(to right, $blue, $darkbrown);
 /* Full Color Gradient */
 $gradient-all: linear-gradient(to right, $lime, $blue, $teal, $green, $darkgreen);
 
-$gradient-green-darkgreen-card-odd: linear-gradient(-80deg, $green, $darkgreen 60%);
-$gradient-green-darkgreen-card-even: linear-gradient(80deg, $green, $darkgreen 60%);
+$gradient-green-darkgreen-card-odd: linear-gradient(to left, $green, $darkgreen 60%);
+$gradient-green-darkgreen-card-even: linear-gradient(to right, $green, $darkgreen 60%);
 
 
 /* Accessible Color Combinations 
