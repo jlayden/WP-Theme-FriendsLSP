@@ -1082,6 +1082,14 @@
       "oAP" : "\/dist\/page-donate.php",
       "oF" : 0
     },
+    "\/page-education.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/page-education.php",
+      "oF" : 0
+    },
     "\/page-events.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1096,14 +1104,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/page-fullwidth.php",
-      "oF" : 0
-    },
-    "\/page-programs.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/page-programs.php",
       "oF" : 0
     },
     "\/page-visit.php" : {
@@ -1193,19 +1193,6 @@
       "oA" : 0,
       "oAP" : "\/dist\/single.php",
       "oF" : 0
-    },
-    "\/src\/img\/FLSP_Logo_White_Border_No_Wordmark.jpg" : {
-      "ft" : 16384,
-      "iS" : 73421,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/img\/FLSP_Logo_White_Border_No_Wordmark.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
     },
     "\/src\/img\/icon-accordion.svg" : {
       "ft" : 2097152,
@@ -1425,6 +1412,45 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/src\/img\/logo-symbol-border.jpg" : {
+      "ft" : 16384,
+      "iS" : 74399,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/logo-symbol-border.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/src\/img\/logo-symbol.jpg" : {
+      "ft" : 16384,
+      "iS" : 73421,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/logo-symbol.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/src\/img\/logo.png" : {
+      "ft" : 32768,
+      "iS" : 31544,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/logo.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -2081,20 +2107,12 @@
       "oAP" : "\/dist\/template-parts\/content.php",
       "oF" : 0
     },
-    "\/template-parts\/content\/calloutbar-outdoor-eduction.php" : {
+    "\/template-parts\/nav\/nav-alert.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/template-parts\/content\/calloutbar-outdoor-eduction.php",
-      "oF" : 0
-    },
-    "\/template-parts\/nav\/alert-banner.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/template-parts\/nav\/alert-banner.php",
+      "oAP" : "\/dist\/template-parts\/nav\/nav-alert.php",
       "oF" : 0
     },
     "\/template-parts\/nav\/nav-downloads.php" : {
@@ -2135,46 +2153,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/template-parts\/nav\/nav-tabs.php",
-      "oF" : 0
-    },
-    "\/template-parts\/sections\/__dnu-banner-frontpage.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/template-parts\/sections\/__dnu-banner-frontpage.php",
-      "oF" : 0
-    },
-    "\/template-parts\/sections\/__dnu-banner-simple.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/template-parts\/sections\/__dnu-banner-simple.php",
-      "oF" : 0
-    },
-    "\/template-parts\/sections\/__dnu-banner-standard.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/template-parts\/sections\/__dnu-banner-standard.php",
-      "oF" : 0
-    },
-    "\/template-parts\/sections\/__dnu-footer-calloutbar.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/template-parts\/sections\/__dnu-footer-calloutbar.php",
-      "oF" : 0
-    },
-    "\/template-parts\/sections\/__dnu-section-calloutbar.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/template-parts\/sections\/__dnu-section-calloutbar.php",
       "oF" : 0
     },
     "\/template-parts\/sections\/section-cardblock.php" : {

@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Programs
+ * Template Name: Education
  * 
  * The template for displaying educational programming
  *
@@ -11,7 +11,6 @@
 
 get_header();
 get_template_part('template-parts/banners/banner-standard' );
-
 ?>
 
 	<main id="primary" class="site-main programs">

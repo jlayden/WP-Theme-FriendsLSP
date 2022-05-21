@@ -25,9 +25,37 @@
     "location": [
         [
             {
-                "param": "page_template",
+                "param": "page_type",
                 "operator": "==",
-                "value": "default"
+                "value": "posts_page"
+            }
+        ],
+        [
+            {
+                "param": "page_type",
+                "operator": "==",
+                "value": "top_level"
+            }
+        ],
+        [
+            {
+                "param": "page_type",
+                "operator": "==",
+                "value": "parent"
+            }
+        ],
+        [
+            {
+                "param": "page_type",
+                "operator": "==",
+                "value": "child"
+            }
+        ],
+        [
+            {
+                "param": "page_type",
+                "operator": "==",
+                "value": "front_page"
             }
         ]
     ],
@@ -40,5 +68,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1653067533
+    "modified": 1653156888
 }

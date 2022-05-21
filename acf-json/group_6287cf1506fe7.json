@@ -177,6 +177,13 @@
                 "operator": "==",
                 "value": "child"
             }
+        ],
+        [
+            {
+                "param": "page_type",
+                "operator": "==",
+                "value": "top_level"
+            }
         ]
     ],
     "menu_order": 97,
@@ -188,5 +195,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1653067907
+    "modified": 1653156836
 }

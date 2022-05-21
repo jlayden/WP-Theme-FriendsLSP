@@ -1,7 +1,5 @@
 <?php $richtext = get_field('richtext'); // WYSIWIG rich text editor 
-
 if ($richtext){?>
-
 <section class="richtext">
     <div class="container">
         <div class="row">
@@ -12,5 +10,4 @@ if ($richtext){?>
         </div>
     </div>
 </section>
-
 <?php } ?>

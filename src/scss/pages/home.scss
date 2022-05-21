@@ -26,7 +26,8 @@
         @include mobile {
             justify-content: flex-end;
             height: 50vh;
-            width: 100%
+            width: 100%;
+            padding: 0 0 4rem;
         }
         .banner-image {
             @include tablet {

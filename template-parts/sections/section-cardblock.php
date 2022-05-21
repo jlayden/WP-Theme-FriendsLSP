@@ -1,7 +1,7 @@
 <section class="cardblock">
     <div class="container">
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-lg-4 col-sm-12">
                 <div class="card green bg-image fadeup" style="background-image: url(http://friendslsp.org/wp-content/uploads/2017/10/0091-300x250.jpg);">
                     <img class="card-img-top" src="http://friendslsp.org/wp-content/uploads/2022/05/icon-hourglass.png" alt="icon">
                     <div class="card-body">
@@ -15,7 +15,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-lg-4 col-sm-12">
                 <div class="card darkgreen bg-image fadeup" style="background-image: url(http://friendslsp.org/wp-content/uploads/2017/12/Snowy-Owl-250x250.jpg);">
                     <img class="card-img-top" src="http://friendslsp.org/wp-content/uploads/2022/05/icon-trails.png" alt="icon">
                     <div class="card-body">
@@ -29,7 +29,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-lg-4 col-sm-12">
                 <div class="card teal bg-image fadeup" style="background-image: url(http://friendslsp.org/wp-content/uploads/2017/10/14125653_10154217141545067_3517950485090663847_o.jpg);">
                     <img class="card-img-top" src="http://friendslsp.org/wp-content/uploads/2022/05/icon-binoculars.png" alt="icon">
                     <div class="card-body">
@@ -50,7 +50,7 @@
 <section class="cardblock">
     <div class="container">
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-lg-4 col-sm-12">
                 <div class="card bg-image" style="background-image: url(http://friendslsp.org/wp-content/uploads/2017/10/0091-300x250.jpg);">
                     <img class="card-img-top" src="http://friendslsp.org/wp-content/uploads/2022/05/icon-hourglass.png" alt="icon">
                     <div class="card-body">
@@ -64,7 +64,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-lg-4 col-sm-12">
                 <div class="card lime bg-image" style="background-image: url(http://friendslsp.org/wp-content/uploads/2017/10/DSC_3534-300x250.jpg);">
                     <img class="card-img-top" src="http://friendslsp.org/wp-content/uploads/2022/05/icon-trails.png" alt="icon">
                     <div class="card-body">
@@ -78,7 +78,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-lg-4 col-sm-12">
                 <div class="card brown bg-image" style="background-image: url(http://friendslsp.org/wp-content/uploads/2017/10/DSC_3259-300x250.jpg);">
                     <img class="card-img-top" src="http://friendslsp.org/wp-content/uploads/2022/05/icon-binoculars.png" alt="icon">
                     <div class="card-body">

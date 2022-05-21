@@ -19,7 +19,7 @@ get_header();
 
     <?php  
         get_template_part('template-parts/banners/banner-homepage' );
-        get_template_part('template-parts/nav/alert-banner' );
+        get_template_part('template-parts/nav/nav-alert' );
         
     ?>
 

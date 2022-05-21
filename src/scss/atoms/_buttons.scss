@@ -55,54 +55,29 @@ button,
         background-color: $darkbrown;
     }
     &.teal {
-        // color: $white;
         background-color: $teal;
-        // &:hover{
-        //     background-color: $green;
-        // }
         &.reversed {
             color: $teal;
             background-color: $white;
-            // &:hover{
-            //     background-color: $gray;
-            // }
         }
     }
     &.green {
-        // color: $white;
         background-color: $green;
-        // &:hover{
-        //     background-color: $teal;
-        // }
     }
     &.blue {
-        // color: $white;
         background-color: $blue;
-        // &:hover{
-        //     background-color: $teal;
-        // }
     }
     &.darkbrown {
-        // color: $white;
         background-color: $darkbrown;
-        // &:hover{
-        //     background-color: $darkgreen;
-        // }
     }
     &.lightbrown {
-        // color: $white;
         background-color: $lightbrown;
-        // &:hover{
-        //     background-color: $lime;
-        // }
     }
     &.reversed {
         color: $teal;
         background-color: $white;
         &:hover {
             color: $green;
-            // background-color: $blue-25;
-            // filter: brightness(.9);
         }
     }
 }

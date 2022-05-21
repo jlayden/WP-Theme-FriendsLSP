@@ -200,14 +200,14 @@
             {
                 "param": "page_template",
                 "operator": "==",
-                "value": "page-programs.php"
+                "value": "default"
             }
         ],
         [
             {
                 "param": "page_template",
                 "operator": "==",
-                "value": "page-programs.php"
+                "value": "dist\/page-education.php"
             }
         ]
     ],
@@ -220,5 +220,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1653067464
+    "modified": 1653156806
 }
