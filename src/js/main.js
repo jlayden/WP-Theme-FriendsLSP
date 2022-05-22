@@ -82,6 +82,30 @@ document.links[current].className = 'active';
     }
 });
 
+navOverlay.addEventListener('click', function(e){
+    e.preventDefault();
+    if (header.classList.contains('open')) { // Close Hamburger Menu
+        document.body.classList.remove('modal-open');
+        btnHamburger.classList.remove('open');
+        header.classList.remove('open');
+        navOverlay.classList.remove('fade-in');
+        navOverlay.classList.add('fade-out');
+        primaryMenu.classList.remove('fade-in');
+        primaryMenu.classList.add('fade-out');
+        primaryMenu.style.display = "none";
+
+    } else { // Open Hamburger Menu
+        document.body.classList.add('modal-open');
+        btnHamburger.classList.add('open');
+        header.classList.add('open');
+        navOverlay.classList.remove('fade-out');
+        navOverlay.classList.add('fade-in');
+        primaryMenu.classList.remove('fade-out');
+        primaryMenu.classList.add('fade-in');
+        primaryMenu.style.display = "block";
+    }
+});
+
 /**
  * Header - toggle between transparent header and fixed positioning
  * Toggle "sticky" class to the header when the user scrolls beyond its position. 
