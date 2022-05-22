@@ -99,7 +99,7 @@
         <p>During the evenings of fireworks events, trail access to the marina is closed during the required fireworks safety zone closure. This occurs 1hr prior to firework discharge through approximately 1hr after to complete safety walkthroughs of the property. Please plan accordingly to either remain on the docks or beyond the closure zone during the fireworks closure. Signs are placed a minimum of 24 hours in advance of the fireworks shows to indicate closure times at each park entrance.</p>
 
         <h3>Reservations</h3>
-        <p>Reservations can be made up to 11 months in advance. Marina reservations can be made up to 11 months in advance. Reservations can be made online at <a class="link" href="www.wisconsin.goingtocamp.com" target="_blank">www.wisconsin.goingtocamp.com</a> (select the tab for 'marina' on the right) or by calling <a class="link" href="tel:+18889472757">1-888-947-2757</a>.</p>
+        <p>Reservations can be made up to 11 months in advance. Marina reservations can be made up to 11 months in advance. Reservations can be made online at <a class="link" href="https://wisconsin.goingtocamp.com" target="_blank">wisconsin.goingtocamp.com</a> (select the tab for 'marina' on the right) or by calling <a class="link" href="tel:+18889472757">1-888-947-2757</a>.</p>
 
         <p>For any other questions, please call the park manager at <a class="link" href="tel:4142744281">414-274-4281</a>.</p>
     </div>

@@ -41,7 +41,7 @@ if ( is_home() ) {
     <?php if ($hero_content) { ?>
     <div class="content-wrapper in-left">
         <div class="content container">
-            <div class="content-area col-lg-8 offset-lg-2 col-md-12 text-<?php echo $hero_overlay_align ?>">
+            <div class="content-area col-lg-10 offset-lg-1 col-md-10 col-sm-12 text-<?php echo $hero_overlay_align ?>">
                 <?php echo $hero_content; ?>
             </div>
         </div>

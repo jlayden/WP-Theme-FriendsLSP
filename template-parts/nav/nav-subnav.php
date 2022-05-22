@@ -6,22 +6,22 @@
         <li>
             <img class="icon icon__hours" src="http://friendslsp.org/wp-content/uploads/2022/05/icon-trails.png" alt="icon">
             <h3>Hours</h3>
-            <a href="/hours/" target="" class="link">When to Visit</a>
+            <a href="/visit" target="" class="link">When to Visit</a>
         </li>
         <li>
             <img class="icon icon__directions" src="http://friendslsp.org/wp-content/uploads/2022/05/icon-trails.png" alt="icon">
             <h3>Directions</h3>
-            <a href="https://goo.gl/maps/" target="_blank" class="link">Getting Here</a>
+            <a href="https://www.google.com/maps/place/Lakeshore+State+Park/@43.0336327,-87.8955177,15z/data=!4m5!3m4!1s0x0:0xb7723c46246b7a57!8m2!3d43.0336327!4d-87.8955177" target="_blank" class="link">Getting Here</a>
         </li>
         <li>
             <img class="icon icon__maps" src="http://friendslsp.org/wp-content/uploads/2022/05/icon-trails.png" alt="icon">
             <h3>Maps</h3>
-            <a href="/maps/" target="" class="link">Getting Around</a>
+            <a href="http://friendslsp.org/wp-content/uploads/2019/11/Lakeshore-State-Park-Map-Without-Distances-e1574630278415.jpg" target="_blank" class="link">Getting Around</a>
         </li>
         <li>
             <img class="icon icon__events" src="http://friendslsp.org/wp-content/uploads/2022/05/icon-trails.png" alt="icon">
-            <h3>Reservations</h3>
-            <a href="/reserve/" target="" class="link">Book an Event</a>
+            <h3>Fishing</h3>
+            <a href="/education" target="" class="link">Cast a Hook</a>
         </li>
     </ul>
 </section>
