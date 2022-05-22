@@ -57,7 +57,7 @@ get_template_part('template-parts/banners/banner-simple' );
 
     <section class="container">
         <div class="row">
-            <div class="col-lg-6 offset-lg-3">
+            <div class="col-xl-6 offset-xl-3 col-lg-10 offset-lg-1 col-md-12">
                 <?php get_sidebar(); ?>
             </div>
         </div>

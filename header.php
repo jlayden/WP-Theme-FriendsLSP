@@ -9,7 +9,8 @@
  * @package flsp_custom
  */
 
-
+$pageTitle = strtolower(get_the_title($post->ID));
+if (!$pageTitle) { $pageTitle = "system";}
 ?>
 <!doctype html>
 <html <?php language_attributes(); ?>>
@@ -17,14 +18,10 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
-    
-    <link rel="preload" href="<?php echo esc_url( get_template_directory_uri() . '/fonts/Avenir Next LT W02 Regular.woff2' ); ?>" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="<?php echo esc_url( get_template_directory_uri() . '/fonts/FuturaLT.woff2' ); ?>" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="<?php echo esc_url( get_template_directory_uri() . '/fonts/Avenir Next LT W02 Regular.woff2' ); ?>" as="font" type="font/woff2" crossorigin>
 	<?php wp_head(); ?>
 </head>
-
-<?php $pageTitle = strtolower(get_the_title($post->ID));
-if (!$pageTitle) { $pageTitle = "system";} ?>
 
 <body <?php body_class( 'load' ); ?>>
 <?php wp_body_open(); ?>

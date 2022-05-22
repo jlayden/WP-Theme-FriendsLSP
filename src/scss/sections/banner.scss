@@ -35,6 +35,7 @@
         }
         @include mobile {
             padding: 0 0 1.5rem;
+            min-height: 16rem;
         }
         .banner-overlay {
             position: absolute;

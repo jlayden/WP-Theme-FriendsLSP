@@ -16,7 +16,7 @@
         <div class="row">
             <div class="col-xl-6 col-lg-8 col-md-10 col-sm-12 in-left">
             <img src="<?php echo $wordmark_img[0]; ?>" class="d-block mx-lg-auto img-fluid" alt="<?php echo $headline; ?>">
-                <h1 class="title"><?php echo $headline; ?></h1>
+                <h1 class="title visuallyhidden" aria-label="<?php echo $headline; ?>"><?php echo $headline; ?></h1>
                 <p class="large"><?php echo $paragraph; ?></p>
                 <div class="cta">
                     <a href="<?php echo $button['link']; ?>" class="btn btn-primary blue"><?php echo $button['text']; ?></a>

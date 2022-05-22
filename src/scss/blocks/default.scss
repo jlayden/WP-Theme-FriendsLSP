@@ -184,18 +184,21 @@ form.wp-block-search {
     justify-content: flex-start;
     flex-direction: column;
     width: 100%;
-    input {
-        height: 3rem;
-        padding: 0.5rem;
-        margin-right: 1.5rem;
-        min-width: 30rem;
-        @include tablet {
-            min-width: 20rem;
-            margin-right: 0;
-            margin-bottom: 1.5rem;
-        }
-        @include tablet {
-            min-width: 16rem;
+    .wp-block-search__inside-wrapper {
+        align-self: flex-start;
+        input {
+            height: 3rem;
+            padding: 0.5rem;
+            margin-right: 1.5rem;
+            min-width: 30rem;
+            @include tablet {
+                min-width: 20rem;
+                margin-right: 0;
+                margin-bottom: 1.5rem;
+            }
+            @include tablet {
+                min-width: 16rem;
+            }
         }
     }
     .wp-block-search__button {

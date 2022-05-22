@@ -2,49 +2,55 @@
 @import "../atoms/colors";
 
 .homepage {
-    .standard {
-        height: unset;
-        padding: 0;
-        margin: 0 auto;
-        .content-wrapper {
+    .banner {
+        &.standard {
+            padding: 4rem 0;
+            @include mobile {
+                padding: 3rem 0;
+            }
+            .content-wrapper {
+                padding: 0;
+                margin: 0 auto;
+                * {
+                    color: $white;
+                }
+            }
+        }
+        &.hero {
+            height: unset;
             padding: 0;
             margin: 0 auto;
-            * {
-                color: $white;
-            }
-        }
-    }
-    .hero {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        background: linear-gradient(125deg,  rgba(0,148,158, .9), rgba(0,148,158, .8), rgba(0,148,158, .5), rgba(129,196,84,.3));
-        height: 100vh;
-        margin-bottom: 0;
-        z-index: auto;
-        @include mobile {
-            height: 50vh;
-            justify-content: flex-end;
-            padding: 0 0 4rem;
-        }
-        .banner-image {
-            @include tablet {
-                position: absolute;
-                margin: 0 auto;
-                height: auto;
-                width: 100%
-            }
-        }
-        .cta {
             display: flex;
+            align-items: center;
             justify-content: center;
+            flex-direction: column;
+            background: linear-gradient(125deg,  rgba(0,148,158, .9), rgba(0,148,158, .8), rgba(0,148,158, .5), rgba(129,196,84,.3));
+            height: 100vh;
+            margin-bottom: 0;
+            z-index: auto;
+            @include mobile {
+                height: 60vh;
+                justify-content: flex-end;
+                padding: 0 0 4rem;
+            }
+            .banner-image {
+                @include tablet {
+                    position: absolute;
+                    margin: 0 auto;
+                    height: auto;
+                    width: 100%
+                }
+            }
+            .cta {
+                display: flex;
+                justify-content: center;
+            }
         }
-    }
-    .intro {
-        margin-top: 4rem;
-        p {
-            color: $darkgray;
+        .intro {
+            margin-top: 4rem;
+            p {
+                color: $darkgray;
+            }
         }
     }
 }
