@@ -348,7 +348,12 @@ $main-blue-rgb-015: rgba(70, 191, 202, 0.1) !default;
             height: 8rem;
             width: 8rem;
             box-shadow: 3px 3px 10px $teal;
-            padding: 0.25rem;
+            padding: 1.75rem;
+            .icon {
+                position: relative;
+                width: 100%;
+                height: auto;
+            }
         }
         .card-body {
             position: relative;
