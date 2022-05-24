@@ -53,16 +53,21 @@ button,
     background-color: $darkgreen;
     &.teal {
         background-color: $teal;
-        &.reversed {
-            color: $teal;
-            background-color: $white;
-        }
+        // &.reversed {
+        //     color: $teal;
+        //     background-color: $white;
+        // }
     }
     &.green {
         background-color: $green;
     }
     &.blue {
+        // color: $darkgreen;
         background-color: $blue;
+    }
+    &.lime {
+        color: $darkgreen;
+        background-color: $lime;
     }
     &.darkbrown {
         background-color: $darkbrown;

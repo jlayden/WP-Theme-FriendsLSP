@@ -4,13 +4,13 @@
             <div class="col-lg-12">
                 <ul>
                     <li>
-                        <a id="navDonate" class="link" href="#donate">donate</a>
+                        <a id="navMembership" class="link" href="#membership">join</a>
                     </li>
                     <li>
                         <a id="navVolunteer" class="link" href="#volunteer">volunteer</a>
                     </li>
                     <li>
-                        <a id="navMembership" class="link" href="#membership">membership</a>
+                        <a id="navDonate" class="link" href="#donate">donate</a>
                     </li>
                 </ul>
             </div>
