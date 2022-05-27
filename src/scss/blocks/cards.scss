@@ -1,7 +1,5 @@
 // Utility Variables
-@import "../atoms/variables";
 @import "../atoms/colors";
-@import "../atoms/fonts";
 @import "../atoms/mixins";
 
 /* Blog Listing Cards */
@@ -257,11 +255,12 @@ $main-blue-rgb-015: rgba(70, 191, 202, 0.1) !default;
 
     .postcard.dark {
         .postcard__text:before {
-            background: $darkgreen;
+            background: $green;
         }
     }
     .postcard.light {
         .postcard__text:before {
+            // background: $white;
             background: $blue-25;
         }
     }

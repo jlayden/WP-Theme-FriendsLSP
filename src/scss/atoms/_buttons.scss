@@ -1,6 +1,5 @@
 // Utility Variables
 @import "../atoms/colors";
-@import "../atoms/fonts";
 @import "../atoms/mixins";
 
 button,
@@ -25,7 +24,7 @@ button,
     background-color: $teal;
     border-radius: 0.25rem;
     &:hover {
-        background-color: $green;
+        background-color: $teal;
         filter: brightness(0.9);
     }
     &:active {
@@ -53,10 +52,6 @@ button,
     background-color: $darkgreen;
     &.teal {
         background-color: $teal;
-        // &.reversed {
-        //     color: $teal;
-        //     background-color: $white;
-        // }
     }
     &.green {
         background-color: $green;

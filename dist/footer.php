@@ -15,7 +15,17 @@
         <div class="footer-nav container">
             <div class="row">
                 <div class="col-lg-8">
-                    <?php wp_nav_menu( array( 'theme_location' => 'secondary' ) )?>
+                    <?php // wp_nav_menu( array( 'theme_location' => 'secondary navigation' ) )
+                    wp_nav_menu(
+                        array(
+                            'theme_location' => 'menu-2',
+                            'menu_id'        => 'secondary-menu',
+                            // 'container_class' => 'menu-main-navigation-container', // changes outer <div> class
+                        )
+                    );
+                    
+                    ?>
+                    
                 </div>
                 <div class="col-lg-4">
                     <?php get_template_part('template-parts/atoms/form-newsletter' ) ?>

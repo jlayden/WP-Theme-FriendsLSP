@@ -3,7 +3,9 @@
 @import "../atoms/mixins";
 
 .form-wrapper {
-    
+    &.contact {
+        padding: 0 !important;
+    }
     form {
         background: rgba(255,255,255,.5);
         padding: 2rem;

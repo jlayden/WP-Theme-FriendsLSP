@@ -47,7 +47,7 @@ $lightbrown-25: #f1e0d9;
 
 /* Utility Colors */
 $white: #FFFFFF;
-$bg-gray: #E5E5E5;
+$gray-bg: #E5E5E5;
 $gray: #777777;
 $darkgray: #121212;
 $black: #000000;
@@ -83,8 +83,8 @@ $gradient-blue-darkbrown: linear-gradient(to right, $blue, $darkbrown);
 /* Full Color Gradient */
 $gradient-all: linear-gradient(to right, $lime, $blue, $teal, $green, $darkgreen);
 
-$gradient-green-darkgreen-card-odd: linear-gradient(to left, $green, $darkgreen 60%);
-$gradient-green-darkgreen-card-even: linear-gradient(to right, $green, $darkgreen 60%);
+$gradient-green-darkgreen-card-odd: linear-gradient(to left, $darkgreen, $green 62.5%);
+$gradient-green-darkgreen-card-even: linear-gradient(to right, $darkgreen, $green 62.5%);
 
 
 /* Accessible Color Combinations 

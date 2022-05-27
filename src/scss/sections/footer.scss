@@ -16,10 +16,11 @@
         background-image: linear-gradient(to bottom, $teal, $darkgreen);
     }
     .footer-nav {
-        .menu {
-            ul {
+        .menu-secondary-navigation-container {
+            .menu { // ul
                 display: flex;
                 flex-wrap: wrap;
+                list-style-type: none;
                 @include respond-above(sm){
                     flex-direction: row;
                 }
@@ -28,6 +29,14 @@
                     margin-bottom: 1rem;
                     @include respond-below(sm){
                         width: 100%;
+                    }
+                    a {
+                        color: $white;
+                        text-transform: uppercase;
+                        text-decoration: none;
+                        &:hover {
+                            color: $blue-25;
+                        }
                     }
                 }
             }

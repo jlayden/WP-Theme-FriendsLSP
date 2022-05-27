@@ -88,32 +88,37 @@ body {
     -o-transition: none !important;
 }
 
-section {
+section,
+.section {
     display: block;
-    margin: 3rem 0;
+    padding: 3rem 0;
     &.gray {
         background-color: $gray;
     }
     &.white {
         background-color: $white;
     }
-    &.lime {
-        color: $white;
-        background-color: $lime;
-    }
-}
-
-.section {
-    margin: 2rem 0;
+    // &.lime {
+    //     color: $white;
+    //     background-color: $lime-25;
+    // }
+    // &.blue {
+    //     color: $white;
+    //     background-color: $blue-25;
+    // }
+    // &.green {
+    //     color: $white;
+    //     background-color: $green-25;
+    // }
 }
 
 .container {
     @include mobile {
-        padding-right: 30px;
-        padding-left: 30px;
+        padding-right: 2rem;
+        padding-left: 2rem;
         .container {
-            padding-right: 15px;
-            padding-left: 15px;
+            padding-right: 1rem;
+            padding-left: 1rem;
         }
     }
 }
