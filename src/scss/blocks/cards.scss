@@ -110,7 +110,7 @@ $main-blue-rgb-015: rgba(70, 191, 202, 0.1) !default;
     .postcard__preview-txt {
         overflow: hidden;
         text-overflow: ellipsis;
-        text-align: justify;
+        // text-align: justify;
         height: 100%;
     }
     .postcard__tagbox {
@@ -160,7 +160,8 @@ $main-blue-rgb-015: rgba(70, 191, 202, 0.1) !default;
             right: 0;
             bottom: 0;
             left: 0;
-            background-image: linear-gradient(-80deg, $white, $blue-25, transparent 60%);
+            // background-image: linear-gradient(-80deg, $white, $blue-25, transparent 60%);
+            background: $blue-25;
             opacity: 1;
             border-radius: 10px;
         }

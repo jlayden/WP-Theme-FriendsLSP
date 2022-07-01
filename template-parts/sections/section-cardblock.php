@@ -31,7 +31,7 @@
                         </div>
                     </div>
                     <div class="card-footer">
-                        <a href="/visit" class="link reversed">plan a trip</a>
+                        <a href="/visit-us" class="link reversed">plan a trip</a>
                     </div>
                 </div>
             </div>
@@ -43,7 +43,7 @@
                     <div class="card-body">
                         <div class="card-content">
                             <h2 class="card-title">Find an Event</h2>
-                            <h3 class="card-text">From bonfires to beach parties, check out our all inclusive events.</h3>
+                            <h3 class="card-text">From nature walks to bonfire beach parties, check out our inclusive events for everyone.</h3>
                         </div>
                     </div>
                     <div class="card-footer">

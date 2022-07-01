@@ -261,104 +261,7 @@
         .content-wrapper {
             padding-bottom: 0;
         }
-    }
-    // &.standard {
-    //     position: relative;
-    //     padding: 5rem 0 0;
-    //     margin-bottom: 5rem;
-    //     // min-height: 30rem;
-    //     @include mobile {
-    //         padding: 0 0 3rem;
-    //     }
-    //     .banner-overlay {
-    //         // background-image: $gradient-hero;
-    //         // background: #eb01a5;
-    //         // background-image: url("IMAGE_URL"); /* fallback */
-    //         // background-image: url("IMAGE_URL"), linear-gradient(#eb01a5, #d13531); /* W3C */
-    //         position: absolute;
-    //         top: 0;
-    //         left: 0;
-    //         right: 0;
-    //         bottom: 0;
-    //         z-index: 0;
-    //         @include mobile {
-    //             // position: relative;
-    //             // position: static;
-    //             width: 100%;
-    //             height: 16rem;
-    //             margin-bottom: 2rem;
-    //         }
-    //     }
-    //     .banner-image {
-    //         position: absolute;
-    //         top: 0;
-    //         left: 0;
-    //         right: 0;
-    //         bottom: 0;
-    //         background-size: cover;
-    //         background-position: center center;
-    //         background-repeat: no-repeat;
-    //         z-index: -1;
-    //         @include mobile {
-    //             // position: relative;
-    //             position: static;
-    //             width: 100%;
-    //             height: 16rem;
-    //             margin-bottom: 2rem;
-    //         }
-    //     }
-    //     .content-wrapper {
-    //         display: flex;
-    //         flex-direction: column;
-    //         position: relative;
-    //         margin-bottom: 1rem;
-    //         width: 100%;
-    //         h1 {
-    //             @include heading(1);
-    //             color: $white;
-    //             @include tablet {
-    //                 color: $darkgreen;
-    //             }
-    //         }
-    //         p {
-    //             color: $white;
-    //             margin-top: 0;
-    //             @include tablet {
-    //                 font-size: 1.125rem;
-    //                 line-height: 1.2;
-    //                 color: $darkgreen;
-    //             }
-    //             @include mobile {
-    //                 font-size: 1rem;
-    //             }
-    //         }
-    //     }
-
-    // }
-    /*
-    &.solid {
-        &.darkgreen {
-            background-color: $darkgreen;
-        }
-        &.darkbrown {
-            background-color: $darkbrown;
-        }
-        &.lime {
-            background-color: $lime;
-        }
-        &.teal {
-            background-color: $teal;
-        }
-        &.blue {
-            background-color: $blue;
-            h1 {
-                color: $darkgreen;
-            }
-        }
-        &.green {
-            background-color: $green;
-        }
-    }*/
+    }    
     &.wave {
         position: relative;
         background-color: $teal;
@@ -368,6 +271,15 @@
         align-items: flex-start;
         padding: 8rem 0 4rem;
         z-index: 0;
+        @include tablet {
+            padding: 6rem 0 4rem;
+        }
+        .content-wrapper {
+            padding: 3rem 0 6rem;
+            @include tablet {
+                padding: 0 0 6rem;
+            }
+        }
         .title {
             color: $white;
         }
@@ -398,7 +310,7 @@
                 }
             }
             &.accent {
-                transform: rotate(180deg) translate(0%, 0%);
+                transform: rotate(180deg) translate(0%, 0%) scaleX(-1);
                 z-index: 0;
                 svg {
                     .shape-fill {
@@ -407,54 +319,20 @@
                 }
             }
         }
-        &.blue {
+        &.blue,
+        &.green,
+        &.darkbrown,
+        &.darkgreen,
+        &.lime,
+        &.teal {
             .wave-divider {
-                svg {
-                    .shape-fill {
-                        fill: $blue;
-                    }
-                }
+                display: none;
                 &.accent {
+                    display: block;
                     svg {
                         .shape-fill {
-                            fill: $radial-lime-green;
+                            fill: $white;
                         }
-                    }
-                }
-            }
-        }
-        &.teal-blue {
-            .wave-divider {
-                svg {
-                    .shape-fill {
-                        fill: $blue;
-                    }
-                }
-                &.accent {
-                    svg {
-                        .shape-fill {
-                            fill: $green;
-                        }
-                    }
-                }
-            }
-        }
-        &.lime-green {
-            .wave-divider {
-                svg {
-                    fill: $darkbrown;
-                    &.accent {
-                        fill: $darkgreen;
-                    }
-                }
-            }
-        }
-        &.darkgreen {
-            .wave-divider {
-                svg {
-                    fill: $darkbrown;
-                    &.accent {
-                        fill: $lime;
                     }
                 }
             }

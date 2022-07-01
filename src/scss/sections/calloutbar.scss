@@ -3,6 +3,9 @@
 @import "../atoms/mixins";
 
 .calloutbar {
+    &.hidden {
+        display: none !important;
+    }
     &.standard,
     &.reversed {
         display: flex;
@@ -50,6 +53,14 @@
             .btn {
                 background-color: $teal;
                 margin-top: 1.5rem;
+            }
+        }
+        &.blue {
+            .content-wrapper {
+                .btn {
+                    color: $white;
+                    // background-color: $blue-25;
+                }
             }
         }
         &.teal {
@@ -159,6 +170,13 @@
         .cta {
             margin-top: 1.5rem;
         }
+        &.blue {
+            .cta {
+                a:hover {
+                    background-color: $green;
+                }
+            }
+        }
         &.green {
             background: linear-gradient(to right, $green, $teal) !important;
         }
@@ -167,6 +185,14 @@
         }
         &.lime {
             background: linear-gradient(to right, $green, $lime) !important;
+            .content * {
+                color: $darkgreen;
+            }
+            .cta {
+                a {
+                    background-color: $darkgreen;
+                }
+            }
         }
         &.darkgreen {
             background: linear-gradient(to right, $darkgreen, $green) !important;

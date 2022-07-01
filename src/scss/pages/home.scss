@@ -1,7 +1,7 @@
 // Utility Variables
 @import "../atoms/colors";
 
-.homepage {
+.home {
     .banner {
         &.standard {
             padding: 4rem 0;
@@ -24,14 +24,14 @@
             align-items: center;
             justify-content: center;
             flex-direction: column;
-            background: linear-gradient(125deg,  rgba(0,148,158, .9), rgba(0,148,158, .8), rgba(0,148,158, .5), rgba(129,196,84,.3));
+            background: linear-gradient(160deg,  $teal, rgba(0,148,158, .9), rgba(0,148,158, .8), rgba(129,196,84,.8));
             height: 100vh;
             margin-bottom: 0;
             z-index: auto;
             @include mobile {
-                height: 60vh;
-                justify-content: flex-end;
-                padding: 0 0 4rem;
+                height: 100vh;
+                justify-content: center;
+                // padding: 0 0 4rem;
             }
             .banner-image {
                 @include tablet {
@@ -45,6 +45,9 @@
                 display: flex;
                 justify-content: center;
             }
+            .wordmark {
+                margin-top: 4rem;
+            }
         }
         .intro {
             margin-top: 4rem;
@@ -53,4 +56,7 @@
             }
         }
     }
+    // .calloutbar.image:after {
+    //     background: linear-gradient(180deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, 0.8), $white);
+    // }
 }

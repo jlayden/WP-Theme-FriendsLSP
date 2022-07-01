@@ -2307,6 +2307,14 @@
       "oAP" : "\/dist\/template-parts\/banners\/banner-homepage.php",
       "oF" : 0
     },
+    "\/template-parts\/banners\/banner-insights.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/template-parts\/banners\/banner-insights.php",
+      "oF" : 0
+    },
     "\/template-parts\/banners\/banner-simple.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -2488,7 +2496,7 @@
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-cafe",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 674865427.51450706
+    "lastBuiltDate" : 678403220.01172805
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,

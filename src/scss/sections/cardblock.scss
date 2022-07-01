@@ -1,4 +1,8 @@
 .cardblock {
     padding-top: 4rem;
     margin-bottom: 5rem;
+    @include mobile {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
 }

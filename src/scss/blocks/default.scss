@@ -76,7 +76,11 @@
         height: auto;
         border-radius: 0.25rem !important;
         margin-bottom: 1.5rem;
-        // border: 0.0625rem solid $darkgreen;
+    }
+    &.size-thumbnail {
+        img {
+            width: auto;
+        }
     }
 }
 
@@ -225,4 +229,3 @@ form.wp-block-search {
         }
     }
 }
-

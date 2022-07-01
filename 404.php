@@ -18,12 +18,12 @@ get_template_part('template-parts/banners/banner-simple' );
                 <div class="col-lg-10 offset-lg-1">
 
 			<header class="page-header">
-				<h1 class="page-title"><?php esc_html_e( 'This page is gone!', 'flsp_custom' ); ?></h1>
+				<h1 class="page-title"><?php esc_html_e( 'Page not found', 'flsp_custom' ); ?></h1>
                 <a href="/" class="btn btn-primary">Back to Home</a>
 			</header><!-- .page-header -->
 
 			<div class="page-content">
-				<p><?php esc_html_e( 'Search our site or use the sitemap below:', 'flsp_custom' ); ?></p>
+				<p><?php esc_html_e( 'Uh oh, we can’t seem to find the page you’re looking for. Try going back to the previous page or to the homepage.', 'flsp_custom' ); ?></p>
 
 					<?php
 					get_search_form();

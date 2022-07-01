@@ -132,10 +132,10 @@ function stickyHeader() {
  * Toggle "sticky" class to the header when the user scrolls beyond its position. 
  * Toggle "transparent" class when the user scrolls to the top of the page.
  */
-// const socialIconBar = document.querySelector('.social-icon-bar');
+const socialIconBar = document.querySelector('.social-icon-bar');
 function handleSocialIconBar() {
     if (window.pageYOffset > 200) {
-        // socialIconBar.classList.add('in-left');
+        socialIconBar.classList.add('in-left');
     } 
 }
 document.addEventListener('scroll', function(e) {

@@ -16,7 +16,7 @@
         <li>
             <img class="icon icon__maps" src="<?php echo esc_url( get_template_directory_uri() . '/src/ico/compass.svg' ); ?>" alt="icon">
             <h3>Maps</h3>
-            <a href="http://friendslsp.org/wp-content/uploads/2019/11/Lakeshore-State-Park-Map-Without-Distances-e1574630278415.jpg" target="_blank" class="link">Getting Around</a>
+            <a href="https://friendslsp.org/wp-content/uploads/2019/11/Lakeshore-State-Park-Map-Without-Distances-e1574630278415.jpg" target="_blank" class="link">Getting Around</a>
         </li>
         <li>
             <img class="icon icon__events" src="<?php echo esc_url( get_template_directory_uri() . '/src/ico/fish.svg' ); ?>" alt="icon">

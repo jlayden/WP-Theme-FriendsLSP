@@ -30,8 +30,9 @@
             </li>
             <li> Fishing Dock-Located along the western path about half-way through the park
             </li>
-            <li> Other Fishing Locations
-            </li>
+        </ul>
+        <h3> Other Fishing Locations</h3>
+        <ul>
             <li> Lakeshore's Shoreline
             </li>
             <li> Rock Blocks-located at the south entrance and north of the fishing dock

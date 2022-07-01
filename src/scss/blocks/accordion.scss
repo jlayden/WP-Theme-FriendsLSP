@@ -16,7 +16,8 @@
             background-color: $blue;
             font-size: 1.25rem;
             line-height: 1;
-            letter-spacing: 2px;
+            text-transform: none;
+            letter-spacing: normal; // 2px;
             border-right: 3rem solid $teal;
             box-shadow: none;
             @include respond-below(sm){

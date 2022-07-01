@@ -20,3 +20,24 @@ article.post {
         justify-content: center;
     }
 }
+
+
+/* PAGINATION */
+.pagination {
+    justify-content: center;
+    text-transform: uppercase;
+    letter-spacing: 1.25px;
+    margin: 3rem 0;
+    @include mobile {
+        margin: 2rem 0;
+    }
+    .prev {
+        margin-right: 1rem;
+    }
+    .next {
+        margin-left: 1rem;
+    }
+    .current {
+        font-size: 1.125rem;
+    }
+}

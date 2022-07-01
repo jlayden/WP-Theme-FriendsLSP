@@ -31,6 +31,12 @@ get_template_part('template-parts/banners/banner-standard' );
                         endif;
 
                     endwhile; // End of the loop.
+
+                    the_posts_pagination( array(
+                        'mid_size' => 2,
+                        'prev_text' => __( 'Prev', 'textdomain' ),
+                        'next_text' => __( 'Next', 'textdomain' ),
+                    ) );
                 ?>
                 </div>
             </div>

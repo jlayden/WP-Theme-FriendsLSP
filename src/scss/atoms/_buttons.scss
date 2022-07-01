@@ -60,9 +60,16 @@ button,
         // color: $darkgreen;
         background-color: $blue;
     }
+    &.blue-25 {
+        color: $teal;
+        background-color: $blue-25;
+    }
     &.lime {
         color: $darkgreen;
         background-color: $lime;
+        &:hover {
+            filter: brightness(1.1);
+        }
     }
     &.darkbrown {
         background-color: $darkbrown;
@@ -74,9 +81,14 @@ button,
         color: $teal;
         background-color: $white;
         &:hover {
-            color: $green;
+            color: $darkgreen;
+            filter: brightness(1);
         }
     }
+}
+
+.btn-wide {
+    padding: 1rem 2.5rem 1.125rem;
 }
 
 // TODO - add arrow for external links
