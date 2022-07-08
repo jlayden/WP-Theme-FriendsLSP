@@ -1,7 +1,7 @@
 <?php 
 $post_id = false;
 if ( is_home() ) {
-	$post_id = 32; // ID of blog page (LOCAL 32 & LIVE 1162)
+	$post_id = 1162; // ID of blog page (LOCAL 32 & LIVE 1162)
     $display = get_field('hero_display', $post_id); // dropdown
     $color = get_field('hero_color', $post_id); // image ID 
     $hero_content = get_field('hero_content', $post_id); // image ID 

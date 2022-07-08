@@ -44,5 +44,7 @@ get_template_part('template-parts/banners/banner-standard' );
 
 	</main><!-- #main -->
 <?php
-get_template_part('template-parts/calloutbars/calloutbar-footer' );
+// get_template_part('template-parts/calloutbars/calloutbar-standard' );
+// get_template_part('template-parts/sections/section-richtext' );
+// get_template_part('template-parts/calloutbars/calloutbar-footer' );
 get_footer();

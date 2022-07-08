@@ -42,7 +42,8 @@ get_header();
             // get_template_part('template-parts/sections/section-testimonial', get_post_format() );
             // get_template_part('template-parts/sections/section-feature', get_post_format() );
             get_template_part('template-parts/sections/section-cardblock', get_post_format() );
-            get_template_part('template-parts/banners/banner-standard' );
+            get_template_part('template-parts/calloutbars/calloutbar-standard' );
+            // get_template_part('template-parts/banners/banner-standard' );
             get_template_part('template-parts/nav/nav-subnav' );
             get_template_part('template-parts/sections/section-richtext', get_post_format() );
         ?>

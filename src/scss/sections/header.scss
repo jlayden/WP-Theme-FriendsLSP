@@ -240,22 +240,6 @@
                             content: none;
                         }
                     }
-                    // &:before {
-                    //     content: '';
-                    //     width: 0px;
-                    //     height: 0px;
-                    //     border-style: solid;
-                    //     border-width: 1rem 1rem 0px 1rem;
-                    //     border-color: $white transparent transparent transparent;
-                    //     display: inline-block;
-                    //     vertical-align: middle;
-                    //     position: absolute;
-                    //     top: -4px;
-                    //     left: 0;
-                    //     right: 0;
-                    //     margin: 0 auto;
-                    //     transform: rotate(180deg);
-                    // }
                     @include respond-below(md) {
                         display: none;
                         position: relative;
@@ -276,6 +260,34 @@
                         }
                         &:first-child {
                             border-radius: 0.25rem 0.25rem 0 0;
+                            // &:after,
+                            // &:before {
+                            //     bottom: 90%;
+                            //     border: solid transparent;
+                            //     content: " ";
+                            //     height: 0;
+                            //     width: 0;
+                            //     position: absolute;
+                            //     pointer-events: none;
+                            //     transition: border-color .2s ease-in-out;
+                            // }
+
+                            // &:after {
+                            //     border-color: rgba(255, 255, 255, 0);
+                            //     border-bottom-color: $white;
+                            //     border-width: 20px;
+                            //     left: 50%;
+                            //     margin-left: -20px;
+                            // }
+                            // &:hover {
+                            //     &:after {
+                            //         border-color: rgba(255, 255, 255, 0);
+                            //         border-bottom-color: $blue-25;
+                            //         border-width: 20px;
+                            //         left: 50%;
+                            //         margin-left: -20px;
+                            //     }
+                            // }
                         }
                         &:last-child {
                             border-radius: 0 0 0.25rem 0.25rem;;
