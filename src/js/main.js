@@ -159,6 +159,7 @@ getCopyrightYear();
 let anchorMembership = document.getElementById("membership");
 let anchorVolunteer = document.getElementById("volunteer");
 let anchorDonate = document.getElementById("donate");
+let anchorHomepageSectionTwo = document.getElementById("section2");
 function scrollTo(element, to, duration) {
     if (duration <= 0) return;
     var difference = to - element.scrollTop;
@@ -173,6 +174,7 @@ function scrollTo(element, to, duration) {
 if (anchorMembership) scrollTo(document.body, anchorMembership.offsetTop, 600);
 if (anchorVolunteer) scrollTo(document.body, anchorVolunteer.offsetTop, 600);
 if (anchorDonate) scrollTo(document.body, anchorDonate.offsetTop, 600);
+if (anchorHomepageSectionTwo) scrollTo(document.body, anchorHomepageSectionTwo.offsetTop, 600);
 
 /**
  * Remove Flicker on Load

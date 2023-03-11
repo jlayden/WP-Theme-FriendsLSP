@@ -27,7 +27,7 @@ else {
 }
 ?>
 
-<section class="banner standard <?php echo $display; ?> <?php echo $color; ?>" <?php if ($display !== 'solid') { ?> style="background-image: url(<?php echo $hero_img[0]; ?>);" <?php } ?>>
+<section class="banner standard <?php echo $display; ?> <?php echo $color; ?>" <?php if ($hero_img[0]) { ?> style="background-image: url(<?php echo $hero_img[0]; ?>);" <?php } ?>>
     <div class="banner-overlay"></div>
     <?php if ($hero_overlay_graphic && $display == 'image') { ?>
         <div class="image-overlay in-right <?php echo $color; ?>" style="background-image: url(<?php echo $hero_overlay_img[0]; ?>);"></div>

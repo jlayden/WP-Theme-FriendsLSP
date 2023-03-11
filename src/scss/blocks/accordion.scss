@@ -1,9 +1,10 @@
 .accordion {
     &__faq {
+        padding-top: 0;
         // background-color: $teal-25;
-        h2 {
-            margin: 3rem 0;
-        }
+        // h2 {
+        //     margin: 3rem 0;
+        // }
     }
     .accordion-item {
         position: relative;

@@ -39,17 +39,18 @@ get_header();
         </section>
 
         <?php 
-            // get_template_part('template-parts/sections/section-testimonial', get_post_format() );
             // get_template_part('template-parts/sections/section-feature', get_post_format() );
             get_template_part('template-parts/sections/section-cardblock', get_post_format() );
             get_template_part('template-parts/calloutbars/calloutbar-standard' );
-            // get_template_part('template-parts/banners/banner-standard' );
+            get_template_part('template-parts/calloutbars/calloutbar-footer', get_post_format() );
+            get_template_part('template-parts/sections/section-richtext' );
+            get_template_part('template-parts/banners/banner-standard' );
+            get_template_part('template-parts/sections/section-testimonial', get_post_format() );
+            get_template_part('template-parts/nav/nav-map' );
             get_template_part('template-parts/nav/nav-subnav' );
-            get_template_part('template-parts/sections/section-richtext', get_post_format() );
         ?>
 
 	</main><!-- #main -->
 <?php
-get_template_part('template-parts/calloutbars/calloutbar-footer', get_post_format() );
 get_template_part('template-parts/atoms/social-bookmarks' );
 get_footer();

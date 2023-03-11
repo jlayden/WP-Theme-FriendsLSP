@@ -8,9 +8,15 @@
             @include mobile {
                 padding: 3rem 0;
             }
+            // &.blue .banner-overlay {
+            //     background: transparent;
+            // }
             .content-wrapper {
                 padding: 0;
                 margin: 0 auto;
+                // background: linear-gradient(to bottom, #158990, rgba(21, 137, 144, 0.2)),linear-gradient(to right, #46BFCA, rgba(70, 191, 202, 0.1));
+                // padding: 4rem;
+                // border-radius: 0.25rem;
                 * {
                     color: $white;
                 }
@@ -24,7 +30,7 @@
             align-items: center;
             justify-content: center;
             flex-direction: column;
-            background: linear-gradient(160deg,  $teal, rgba(0,148,158, .9), rgba(0,148,158, .8), rgba(129,196,84,.8));
+            background: linear-gradient(160deg,  $teal, rgba(0,148,158, .9), rgba(0,148,158, .3), rgba(129,196,84,.1));
             height: 100vh;
             margin-bottom: 0;
             z-index: auto;
@@ -55,6 +61,22 @@
                 color: $darkgray;
             }
         }
+    }
+    .scroll-down {
+        position: absolute;
+        bottom: 0.5rem;
+        opacity: .75;
+        transition: .3s ease-in-out;
+        &:hover {
+            opacity: 1;
+        }
+        img {
+            height: 2.5rem;
+            width: auto;
+        }
+       @include tablet {
+            display: none;
+       }
     }
     // .calloutbar.image:after {
     //     background: linear-gradient(180deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, 0.8), $white);

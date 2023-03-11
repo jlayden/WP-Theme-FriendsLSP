@@ -1,7 +1,7 @@
 <section id="faq" class="section accordion accordion__faq">
     <div class="container">
         <div class="col-lg-10 offset-lg-1">
-            <h2>Frequently Asked Questions</h2>
+            <!-- <h2>Frequently Asked Questions</h2> -->
             <div class="accordion" id="accordion">
                 <div class="accordion-item">
                     <h4 class="accordion-header" id="accordionHeaderOne">
@@ -97,7 +97,7 @@
                     <div id="accordionBodyFive" class="accordion-collapse collapse"
                         aria-labelledby="accordionHeaderFive">
                         <div class="accordion-body">
-                            <p>Grilling and campfires are not allowed in Lakeshore State Park without a permit.</p>
+                            <p>Grilling is strictly prohibited and campfires are not allowed in Lakeshore State Park. Campfires as part of a special event may be requested and approved at the discretion of the park manager. Additional fees will be charged for supplies and staffing requirements.</p>
                         </div>
                     </div>
                 </div>
@@ -160,10 +160,7 @@
                     </h4>
                     <div id="accordionBody7" class="accordion-collapse collapse" aria-labelledby="accordionHeader7">
                         <div class="accordion-body">
-                            <p>As part of the State Park System, motorized vehicles of any kind are prohibited. This
-                                includes Segways, hoverboards, electric skateboards/scooters, and motorcycles, mopeds
-                                and electric bikes when the motor is engaged. ADA approved mobility devices are allowed
-                                to ensure accessibility to all visitors.</p>
+                            <p>Park patrons may not walk through the prairies and take photos. Walking in prairies is allowed on designated paths throughout the Park.</p>
                         </div>
                     </div>
                 </div>
@@ -194,7 +191,7 @@
                     </h4>
                     <div id="accordionBody9" class="accordion-collapse collapse" aria-labelledby="accordionHeader9">
                         <div class="accordion-body">
-                            <p>The consumption of alcohol is not allowed in Lakeshore State Park without a permit.</p>
+                            <p>The consumption of alcohol is not allowed in Lakeshore State Park. At the discretion of the park manager an alcohol permit may be added to a special event permit.</p>
                         </div>
                     </div>
                 </div>
@@ -360,7 +357,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <p class="text-center">
-                        <a href="http://friendslsp.org/wp-content/uploads/2017/10/LSP-Informational-Brochure-2017.pdf"
+                        <a href="https://friendslsp.org/wp-content/uploads/2023/01/Welcome-Information-2022.pdf"
                             class="btn-download" target="_blank">
                             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="512px" height="512px"

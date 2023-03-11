@@ -16,8 +16,7 @@
                 "id": ""
             },
             "choices": {
-                "solid": "Standard",
-                "transparent": "Background Image",
+                "transparent": "Standard",
                 "image": "Featured Image",
                 "wave": "Wave",
                 "contact": "Contact"
@@ -178,5 +177,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1653171040
+    "modified": 1661275291
 }

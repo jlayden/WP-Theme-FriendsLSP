@@ -24,5 +24,8 @@
             </div>
         </div>
     </div>
+    <a id="navMore" class="scroll-down" href="#section2">
+        <img src="<?php echo esc_url( get_template_directory_uri() . '/src/ico/chevron-down.svg' ); ?>" alt="scroll for more content" /> 
+    </a>
 </section>
 <?php } ?>

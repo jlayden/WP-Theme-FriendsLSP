@@ -1,4 +1,17 @@
-<section class="testimonial">
+<?php $richtextFooter = get_field('richtext-footer'); // WYSIWIG rich text editor 
+if ($richtextFooter){?>
+<section class="richtext">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 offset-lg-1 col-md-12">
+                <?php echo $richtextFooter; ?>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+<?php } ?>
+<!-- <section class="testimonial">
     <div class="container">
         <div class="row">
             <div class="col-lg-4">
@@ -45,4 +58,4 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->

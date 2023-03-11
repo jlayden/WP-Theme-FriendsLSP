@@ -26,9 +26,9 @@
     &.standard {
         position: relative;
         padding: 5rem 0 0;
-        // margin-bottom: 2.5rem;
+        background-position: left;
         min-height: 22rem;
-        z-index: -1;
+        // z-index: -1;
         @include tablet {
             padding: 3rem 0 0;
             justify-content: flex-end;
@@ -36,6 +36,8 @@
         @include mobile {
             padding: 0 0 1.5rem;
             min-height: 16rem;
+            // background-size: cover;
+            background-position: center;
         }
         .banner-overlay {
             position: absolute;
@@ -108,15 +110,15 @@
             p {
                 color: $white;
                 margin-top: 0;
-                @include tablet {
-                    margin: 0;
-                }
+                // @include tablet {
+                //     margin: 0;
+                // }
             }
         }
         &.teal {
             background-color: $lime;
-            background-size: cover;
-            background-position: left;
+            // background-size: cover;
+            // background-position: left;
             .banner-overlay {
                 background: $gradient-teal-transparent;
             }
@@ -129,8 +131,8 @@
         }
         &.blue {
             background-color: $radial-teal-blue;
-            background-size: cover;
-            background-position: left;
+            // background-size: cover;
+            // background-position: left;
             .banner-overlay {
                 background: $gradient-blue-transparent;
             }
@@ -148,8 +150,8 @@
         }
         &.lime {
             background: $radial-lime-green;
-            background-size: cover;
-            background-position: left;
+            // background-size: cover;
+            // background-position: left;
             .banner-overlay {
                 background: $gradient-lime-transparent;
             }
@@ -162,8 +164,8 @@
         }
         &.green {
             background-color: $blue;
-            background-size: cover;
-            background-position: left;
+            // background-size: cover;
+            // background-position: left;
             .banner-overlay {
                 background: $gradient-green-transparent;
             }
@@ -177,8 +179,8 @@
         &.darkbrown {
             // background: $radial-darkbrown-darkgreen;
             background: $radial-brown-blue;
-            background-size: cover;
-            background-position: left;
+            // background-size: cover;
+            // background-position: left;
             .banner-overlay {
                 background: $gradient-darkbrown-transparent;
             }
@@ -191,8 +193,8 @@
         }
         &.darkgreen {
             background-color: $darkgreen;
-            background-size: cover;
-            background-position: left;
+            // background-size: cover;
+            // background-position: left;
             .banner-overlay {
                 background: $gradient-darkgreen-transparent;
             }

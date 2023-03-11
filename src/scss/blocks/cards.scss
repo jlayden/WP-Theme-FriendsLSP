@@ -360,7 +360,7 @@ $main-blue-rgb-015: rgba(70, 191, 202, 0.1) !default;
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
-            padding: 0 2rem 3rem;
+            padding: 0 2rem 2rem;
             overflow: hidden;
             border-radius: 0.25rem 0.25rem 0 0;
             z-index: 0;
@@ -376,11 +376,12 @@ $main-blue-rgb-015: rgba(70, 191, 202, 0.1) !default;
             }
             &::before {
                 top: 0;
-                background: linear-gradient(to top, $blue-25 25%, transparent 100%);
+                background: linear-gradient(to top, $blue-50 25%, transparent 100%);
             }
             &::after {
                 bottom: 0;
-                background: linear-gradient(to bottom, $blue-50 0%, transparent 100%);
+                background: transparent;
+                // background: linear-gradient(to bottom, $blue-50 0%, transparent 100%);
             }
             .card-content {
                 z-index: 1;
@@ -420,7 +421,8 @@ $main-blue-rgb-015: rgba(70, 191, 202, 0.1) !default;
                 }
                 &::after {
                     bottom: 0;
-                    background: linear-gradient(to bottom, $lime 0%, transparent 100%);
+                    background: transparent;
+                    // background: linear-gradient(to bottom, $lime 0%, transparent 100%);
                 }
             }
             .card-footer {
@@ -435,11 +437,12 @@ $main-blue-rgb-015: rgba(70, 191, 202, 0.1) !default;
             .card-body {
                 &::before {
                     top: 0;
-                    background: linear-gradient(to top, $darkbrown-25 25%, transparent 100%);
+                    background: linear-gradient(to top, $darkbrown-50 25%, transparent 100%);
                 }
                 &::after {
                     bottom: 0;
-                    background: linear-gradient(to bottom, $darkbrown-50 0%, transparent 100%);
+                    background: transparent;
+                    // background: linear-gradient(to bottom, $darkbrown-50 0%, transparent 100%);
                 }
             }
             .card-footer {
@@ -461,7 +464,8 @@ $main-blue-rgb-015: rgba(70, 191, 202, 0.1) !default;
                 }
                 &::after {
                     bottom: 0;
-                    background: linear-gradient(to bottom, $lime 0%, transparent 100%);
+                    background: transparent;
+                    // background: linear-gradient(to bottom, $lime 0%, transparent 100%);
                 }
             }
             .card-footer {
@@ -483,7 +487,8 @@ $main-blue-rgb-015: rgba(70, 191, 202, 0.1) !default;
                 }
                 &::after {
                     bottom: 0;
-                    background: linear-gradient(to bottom, $blue 0%, transparent 100%);
+                    background: transparent;
+                    // background: linear-gradient(to bottom, $blue 0%, transparent 100%);
                 }
             }
             .card-footer {
@@ -505,7 +510,8 @@ $main-blue-rgb-015: rgba(70, 191, 202, 0.1) !default;
                 }
                 &::after {
                     bottom: 0;
-                    background: linear-gradient(to bottom, $green 0%, transparent 100%);
+                    background: transparent;
+                    // background: linear-gradient(to bottom, $green 0%, transparent 100%);
                 }
             }
             .card-footer {

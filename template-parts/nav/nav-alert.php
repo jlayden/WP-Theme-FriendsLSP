@@ -4,7 +4,7 @@
     $background_color = get_field('homepage_alert_background_color'); // choice 
     
 if ($headline) {?>
-<a class="site-alert-banner <?php echo $background_color; ?>" href="<?php echo $url ?>" target="_blank">
+<a id="section2" class="site-alert-banner <?php echo $background_color; ?>" href="<?php echo $url ?>" target="_blank">
     <div class="container text-center">
         <div class="row">
             <div class="col-lg-12">
