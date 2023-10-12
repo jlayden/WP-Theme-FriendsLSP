@@ -9,6 +9,14 @@
   ],
   "creatorBuild" : "34472",
   "files" : {
+    "\/.env" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/.env",
+      "oF" : 0
+    },
     "\/.eslintrc" : {
       "cB" : 0,
       "ft" : 8192,
@@ -27,6 +35,14 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/.gitignore" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/.gitignore",
+      "oF" : 0
     },
     "\/.stylelintrc.json" : {
       "ft" : 524288,
@@ -3889,7 +3905,7 @@
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-cafe",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 718840338.34079695
+    "lastBuiltDate" : 718841087.55224001
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
