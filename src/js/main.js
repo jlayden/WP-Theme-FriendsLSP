@@ -134,7 +134,7 @@ function stickyHeader() {
  */
 const socialIconBar = document.querySelector('.social-icon-bar');
 function handleSocialIconBar() {
-    if (window.pageYOffset > 200) {
+    if (window.pageYOffset > 200 && socialIconBar !== null) {
         socialIconBar.classList.add('in-left');
     } 
 }

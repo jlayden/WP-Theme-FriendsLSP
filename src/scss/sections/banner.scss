@@ -234,8 +234,12 @@
        
     }
     &.image {
+        padding-bottom: 2rem;
         @include mobile {
             padding: 0 0 4rem;
+        }
+        .featured-image img {
+            max-width: 100%;
         }
         .image-overlay {
             display: block;

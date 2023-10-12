@@ -9,7 +9,9 @@
         margin-bottom: 0;
     }
     .nav-tabs {
+        position: relative;
         margin-top: -5.75rem;
+        z-index: 999;
         @include tablet {
             margin-top: -4.5rem;
         }

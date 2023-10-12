@@ -26,12 +26,40 @@ else {
     $hero_overlay_img = wp_get_attachment_image_src( $hero_overlay_graphic, $hero_overlay_size );
 }
 ?>
+<?php if ($hero_overlay_graphic && $display == 'image') { ?>
 
+<section class="banner standard <?php echo $display; ?> <?php echo $color; ?>" style="background-image: url(<?php echo $hero_img[0]; ?>);">
+    <div class="banner-overlay"></div>
+    <div class="content-wrapper container">
+        <div class="content row">
+            <div class="content-area col-lg-5 offset-lg-1 text-<?php echo $hero_overlay_align ?>">
+                <h1><?php echo get_the_title(); ?></h1>
+                <?php echo $hero_content; ?>
+            </div>
+            <?php if ($hero_overlay_graphic && $display == 'image') { ?>
+        <div class="featured-image col-lg-5">
+            <img src="<?php echo $hero_overlay_img[0]; ?>" alt="featured image"/>
+        </div>
+    <?php } ?>
+        </div>
+        
+    <?php if ($display === 'contact') { ?>
+        <div class="form-wrapper container">
+            <div class="form col-lg-4 offset-lg-4 col-md-6 offset-md-3 col-sm-12">
+                <?php get_template_part('/template-parts/atoms/form-volunteer' );?>
+            </div>
+        </div>
+    <?php } ?>
+    </div>
+</section>
+
+<?php } else { ?>
+    
 <section class="banner standard <?php echo $display; ?> <?php echo $color; ?>" <?php if ($hero_img[0]) { ?> style="background-image: url(<?php echo $hero_img[0]; ?>);" <?php } ?>>
     <div class="banner-overlay"></div>
-    <?php if ($hero_overlay_graphic && $display == 'image') { ?>
+    <!-- <?php if ($hero_overlay_graphic && $display == 'image') { ?>
         <div class="image-overlay in-right <?php echo $color; ?>" style="background-image: url(<?php echo $hero_overlay_img[0]; ?>);"></div>
-    <?php } ?>
+    <?php } ?> -->
     <?php if ($display === 'transparent' || $display === 'solid') { ?>
     <div class="content-wrapper in-left">
         <div class="content container">
@@ -63,3 +91,5 @@ else {
         </div>
     <?php } ?>
 </section>
+
+<?php } ?>
