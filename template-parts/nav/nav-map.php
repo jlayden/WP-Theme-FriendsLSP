@@ -7,7 +7,7 @@
         scrolling="no" 
         marginheight="0" 
         marginwidth="0"
-        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAOQYeugr7XizmiKRJktHGx3uc2tCc75zc&q=500%20N%20Harbor%20Dr,%20Milwaukee,%20WI%2053202+(Lakeshore%20State%20Park)"
+        src="https://www.google.com/maps/embed/v1/place?key=&q=500%20N%20Harbor%20Dr,%20Milwaukee,%20WI%2053202+(Lakeshore%20State%20Park)"
         referrerpolicy="no-referrer-when-downgrade"
     >
     </iframe>
